@@ -1,7 +1,7 @@
 from WebCrawlerApp.helpers.request.suburb_filter import *
 from helpers.request.header import *
 from WebCrawlerApp.helpers.request.url_manager import *
-from helpers.response.extractHtml import *
+from WebCrawlerApp.helpers.response.extractUrls import *
 import requests
 
 # -------------------------------------------------------
