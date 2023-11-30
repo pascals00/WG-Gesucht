@@ -27,15 +27,16 @@ for suburbs in suburbFilter.generate_random_suburb_subsets(testdistrict):
         headers = requestHeaders.init_headers()
         header_initialized = True
 
+    currentpage_num = 1
 
-    response = requests.get(FilterUrl, proxies=proxies)
-    max_page = extract_max_page(response.text)
-    extract_Ads_URL_endings(response.text)
-
-    if max_page > 1:
-        for currentpage_num in range(1, max_page):
-            nextpage_url = switch_page(FilterUrl, currentpage_num)
-            response = requests.get(nextpage_url, proxies=proxies)
+    while True:
+        nextpage_url = urlManager.switch_page(FilterUrl, currentpage_num)
+        response = requests.get(nextpage_url, proxies=proxies)
+        try:
+            response.raise_for_status()
             extract_Ads_URL_endings(response.text)
+            currentpage_num += 1
+        except requests.exceptions.HTTPError:
+            break
 
 

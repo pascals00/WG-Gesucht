@@ -1,19 +1,5 @@
 from bs4 import BeautifulSoup
 import csv
-
-def extract_max_page(responseHTML):
-    # Parse the HTML
-    soup = BeautifulSoup(responseHTML, 'html.parser')
-    # Find all the page-link elements
-    page_links = soup.find_all('a', class_='page-link')
-    # Extract the numbers from the page links and find the maximum
-    max_page = max(int(link.get_text()) for link in page_links if link.get_text().isdigit())
-
-    if max_page is not None:
-        return max_page
-    else:
-        max_page = 0 
-        return 
     
 def extract_Ads_URL_endings(responseHTML): 
     # Parse the HTML content using BeautifulSoup

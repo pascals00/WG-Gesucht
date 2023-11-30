@@ -17,11 +17,12 @@ class ProxyReader:
 
     def random_proxy(self):
         try:
+            self.filter_valid_proxies()
             return self.df.sample(n=1)
         except Exception as e:
             self.logger.error("Error occurred while selecting random proxy: %s", str(e))
 
-    def get_proxies_dict(self):
+    def get_proxies(self):
         try:
             row = self.random_proxy().iloc[0]
             proxies = {"http": row['http'], "https": row['https']}

@@ -1,7 +1,7 @@
 from time import sleep
 import random
 from .url_manager import *
-from .user_agents import USER_AGENTS
+from .constants import USER_AGENTS
 
 class RequestHeaders:
     def __init__(self):
