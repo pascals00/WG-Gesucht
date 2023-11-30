@@ -1,0 +1,4 @@
+# gitignore to ignore the following folder / files
+
+venv/
+data/archive/
