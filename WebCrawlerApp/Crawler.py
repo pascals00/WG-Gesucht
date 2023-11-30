@@ -1,6 +1,6 @@
 from WebCrawlerApp.helpers.request.suburb_filter import *
 from helpers.request.header import *
-from helpers.request.url import *
+from WebCrawlerApp.helpers.request.url_manager import *
 from helpers.response.extractHtml import *
 import requests
 
@@ -10,16 +10,17 @@ import requests
 
 suburbFilter = SuburbFilter()
 requestHeaders = RequestHeaders()
+urlManager = URLManager()
 
 districts = suburbFilter.get_all_districts()
 testdistrict = districts[11]
 
-BaseURL = set_BaseURL(filter_apartment=False, filter_wg=True)
+BaseURL = urlManager.set_base_url(filter_apartment=False, filter_wg=True)
 header_initialized = False
 currentpage_num = 0 
 
 for suburbs in suburbFilter.generate_random_suburb_subsets(testdistrict):
-    FilterUrl = set_suburbfilter(BaseURL, suburbs[0])#.encode('utf-8')
+    FilterUrl = urlManager.set_suburb_filter(BaseURL, suburbs[0])
     if header_initialized == False:
         proxies = 0 
         # Here get Proxies from list. proxies =

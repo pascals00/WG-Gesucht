@@ -1,6 +1,6 @@
 from time import sleep
 import random
-from .url import *
+from .url_manager import *
 from .user_agents import USER_AGENTS
 
 class RequestHeaders:
