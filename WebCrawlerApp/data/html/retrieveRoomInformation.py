@@ -113,20 +113,50 @@ class HTMLInfoExtractor:
         if gesucht_wird_section:
             gesucht_wird_list = gesucht_wird_section.find_next('ul')
             if gesucht_wird_list:
-                wg_details['gesucht_wird'] = [li.get_text(strip=True) for li in gesucht_wird_list.find_all('li')]
+                wg_details['gesucht_wird'] = [' '.join(li.get_text().replace('\n', ' ').split()) for li in gesucht_wird_list.find_all('li')]
+
+        wg_details = self.clean_wg_details(wg_details)
 
         return wg_details
 
+    def clean_wg_details(self, data):
+        new_data = {}
+        for key, values in data.items():
+            for value in values:
+                if ':' in value:
+                    # Splitting at the first colon to extract key-value pairs
+                    split_value = value.split(':', 1)
+                    new_data[split_value[0].strip()] = split_value[1].strip()
+                else:
+                    # Adding non-key-value data to 'details'
+                    if 'details' not in new_data:
+                        new_data['details'] = []
+                    new_data['details'].append(value)
+
+                    # Extracting the maximum number of people in the WG
+                    if 'WG' in value:
+                        wg_max_people = [int(s) for s in value.split() if s.isdigit()]
+                        if wg_max_people:
+                            # Assuming the first digit is the WG size
+                            new_data['WG_max_people'] = wg_max_people[0]
+
+        return new_data
+
     def extract_object_details(self):
         object_details = []
-        object_details_section = self.soup.find('h3', text='Angaben zum Objekt')
+        # Find the h3 tag with specific text
+        object_details_section = self.soup.find('h3', string=re.compile(r'\s*Angaben zum Objekt\s*', re.I))
 
         if object_details_section:
-            utility_icons = object_details_section.find_next_sibling('div').find_all('div', class_='text-center')
+            # Navigate to the parent and then to the next div
+            section_panel = object_details_section.find_parent('div', class_='section_panel')
+            if section_panel:
+                utility_icons = section_panel.find_all('div', class_='text-center')
 
-            for icon in utility_icons:
-                detail = icon.get_text(strip=True)
-                object_details.append(detail)
+                for icon in utility_icons:
+                    # Extract text and clean it up
+                    detail = icon.get_text(strip=True)
+                    object_details.append(detail)
 
         return object_details
 
