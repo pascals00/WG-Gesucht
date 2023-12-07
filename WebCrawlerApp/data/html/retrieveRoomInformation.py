@@ -1,10 +1,26 @@
 from bs4 import BeautifulSoup
 from datetime import datetime 
+import pandas as pd
 import re
+
+
+# Column names for the dataframe
+Column_Names = ['title', 'room_size', 'total_rent', 
+           'address', 'street', 'postcode', 'suburb', 'city', 
+           'avaiable_from', 'aviailable_until', 'online_since',
+           'rent', 'utilities', 'other_costs', 'deposit', 'transfer_agreement_cost',
+           'apartment_size', 'max_roommate', 'roommate_age', 'languages',
+           'wg_details1', 'wg_details2', 'wg_details3', 'wg_details4', 'wg_details5', 'wg_details6'
+           'object_details1', 'object_details2', 'object_details3', 'object_details4', 'object_details5', 'object_details6', 'object_details7', 'object_details8', 
+           'required_documents1', 'required_documents2', 'required_documents3']
+
+
 
 class HTMLInfoExtractor:
     def __init__(self, html_content):
         self.soup = BeautifulSoup(html_content, 'html.parser')
+        self.df = pd.DataFrame(columns=Column_Names)
+        self.apartment_info_dict = {key: None for key in Column_Names}
 
     def extract_rental_information(self):
         title = self.soup.find('h1', class_='headline').get_text(strip=True)
@@ -13,6 +29,8 @@ class HTMLInfoExtractor:
 
         room_size = details[0].get_text(strip=True) if len(details) > 0 else None 
         total_rent = details[1].get_text(strip=True) if len(details) > 1 else None 
+
+        #self.df([[title, room_size, total_rent]], columns=COLUMNS[:3])
 
         return title, room_size, total_rent
 
@@ -91,10 +109,11 @@ class HTMLInfoExtractor:
             elif re.search(r'\s*Kaution\s*', cost_text):
                 deposit = row.find_next('span', class_='section_panel_value').get_text(strip=True)
             elif re.search(r'\s*Ablösevereinbarung\s*', cost_text):
-                transfer_agreement = row.find_next('span', class_='section_panel_value').get_text(strip=True)
+                transfer_agreement_cost = row.find_next('span', class_='section_panel_value').get_text(strip=True)
 
-        return rent, utilities, other_costs, deposit, transfer_agreement
+        return rent, utilities, other_costs, deposit, transfer_agreement_cost
         
+
     def extract_wg_details(self):
         wg_details = {}
 
@@ -119,6 +138,7 @@ class HTMLInfoExtractor:
 
         return wg_details
 
+
     def clean_wg_details(self, data):
         new_data = {}
         for key, values in data.items():
@@ -133,14 +153,14 @@ class HTMLInfoExtractor:
                         new_data['details'] = []
                     new_data['details'].append(value)
 
-                    # Extracting the maximum number of people in the WG
-                    if 'WG' in value:
-                        wg_max_people = [int(s) for s in value.split() if s.isdigit()]
-                        if wg_max_people:
-                            # Assuming the first digit is the WG size
-                            new_data['WG_max_people'] = wg_max_people[0]
+                # Extracting the maximum number of people in the WG
+                wg_max_people_match = re.search(r'(\d+)er WG', value)
+                if wg_max_people_match:
+                    # Extracting the number and converting it to an integer
+                    new_data['WG_max_people'] = int(wg_max_people_match.group(1))
 
         return new_data
+
 
     def extract_object_details(self):
         object_details = []
@@ -158,11 +178,17 @@ class HTMLInfoExtractor:
                     detail = icon.get_text(strip=True)
                     object_details.append(detail)
 
+        for i, object_detail in enumerate(object_details):
+            if re.search(r'\n', object_detail):
+                object_detail = ' '.join(object_detail.replace('\n', ' ').split())
+                object_details[i] = object_detail
+
         return object_details
+
 
     def extract_required_documents(self):
         required_documents = []
-        documents_section = self.soup.find('h3', text=lambda text: text and 'Benötigte Unterlagen' in text)
+        documents_section = self.soup.find('h3', string=lambda text: text and 'Benötigte Unterlagen' in text)
 
         if documents_section:
             utility_icons = documents_section.find_next('div', class_='utility_icons').find_all('div', class_='text-center')
@@ -188,6 +214,8 @@ print(extractor.extract_costs())
 print(extractor.extract_wg_details())
 print(extractor.extract_object_details())
 print(extractor.extract_required_documents())
+
+print(extractor.apartment_info_dict)
 
 
 
