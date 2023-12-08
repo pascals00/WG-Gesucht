@@ -1,5 +1,6 @@
 import pandas as pd
 import logging
+import requests
 from ..constants import VALID_PROXIE_LIST_PATH
 
 class ProxyReader:
@@ -26,7 +27,38 @@ class ProxyReader:
         try:
             row = self.random_proxy().iloc[0]
             proxies = {"http": row['http'], "https": row['https']}
+            self.test_proxies(proxies)
             self.logger.info("Proxies dictionary retrieved successfully.")
             return proxies
         except Exception as e:
             self.logger.error("Error occurred while getting proxies dictionary: %s", str(e))
+
+    def test_proxies(self, proxies):
+        try:
+            working_proxie = False
+            while working_proxie is False: 
+                try: 
+                    response = requests.get('https://www.wg-gesucht.de/', proxies=proxies)
+                except requests.exceptions.RequestException:
+                    proxies = self.get_proxies()
+                    continue 
+                response.raise_for_status()
+                self.logger.info("Proxies tested successfully.")
+        except Exception as e:
+            self.logger.error("Error occurred while testing proxies: %s", str(e))
+"""
+
+        try:
+            response = requests.get(ad_url, proxies=proxies)
+            response.raise_for_status()
+            HTMLInfoExtractor(html_content=response.text).extract_all()
+        except requests.exceptions.HTTPError:
+            # HTTP error (e.g., page not found), break the loop
+            break
+        except requests.exceptions.RequestException:
+            # Other request errors (e.g., proxy failure), try new proxy
+            proxies = findproxy.find_proxies_FreeProxy()
+            if not proxies:
+                break
+                
+                """

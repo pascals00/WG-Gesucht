@@ -1,6 +1,6 @@
-from ..constants import OUTPUT_FILEPATH
+#from helpers.constants import OUTPUT_FILEPATH
 from bs4 import BeautifulSoup
-from datetime import datetime 
+from datetime import datetime, timedelta 
 import csv
 import os   
 import re
@@ -15,6 +15,8 @@ COLUMN_NAMES = ['title', 'room_size', 'total_rent',
                 'wg_detail1', 'wg_detail2', 'wg_detail3', 'wg_detail4', 'wg_detail5', 'wg_detail6',
                 'object_detail1', 'object_detail2', 'object_detail3', 'object_detail4', 'object_detail5', 'object_detail6', 'object_detail7', 'object_detail8', 'object_detail9', 'object_detail10', 'object_detail11', 'object_detail12', 'object_detail13',
                 'required_document1', 'required_document2', 'required_document3']
+
+OUTPUT_FILEPATH = 'WebCrawlerApp/data/output/apartmentsBerlinData.csv'
 
 class HTMLInfoExtractor:
     def __init__(self, html_content):
@@ -84,13 +86,29 @@ class HTMLInfoExtractor:
         if online_status_section:
             online_status = online_status_section.find_next('b').get_text(strip=True)
 
-            # Check if the online status includes 'minute' or 'Minuten' (depending on the language)
+            # Check if the online status includes 'minute' or 'Minuten' (German for minutes)
             if re.search(r'\bminuten?\b', online_status, re.IGNORECASE):
                 # If in minutes, return today's date
-                online_status = datetime.now().strftime("%Y-%m-%d")
+                formatted_date = datetime.now().strftime("%Y-%m-%d")
+            # Check if the online status includes 'Stunde' or 'Stunden' (German for hour/hours)
+            elif re.search(r'\bstunden?\b', online_status, re.IGNORECASE):
+                # If in hours, return today's date
+                formatted_date = datetime.now().strftime("%Y-%m-%d")
+            # Check if the online status includes 'Tag' or 'Tage' (German for day/days)
+            elif re.search(r'\btag(e)?\b', online_status, re.IGNORECASE):
+                # Extract the number of days from the status
+                days = int(re.search(r'\d+', online_status).group())
+                # Subtract that number of days from today's date
+                formatted_date = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
+            # If the status already has a date, just use that
+            elif re.match(r'\d{2}\.\d{2}\.\d{4}', online_status):
+                # Convert the date from 'dd.mm.yyyy' to 'yyyy-mm-dd'
+                formatted_date = datetime.strptime(online_status, '%d.%m.%Y').strftime('%Y-%m-%d')
 
-            data = {'online_since': online_status}
-            self.update_apartment_data(data)
+            # Only update if a date was able to be parsed
+            if formatted_date:
+                data = {'online_since': formatted_date}
+                self.update_apartment_data(data)
         else:
             return None
         
@@ -106,6 +124,7 @@ class HTMLInfoExtractor:
             frei_ab_section = container.find('span', class_='section_panel_detail', string=re.compile(r'\s*frei ab\s*'))
             frei_ab = frei_ab_section.find_next('span').get_text(strip=True) if frei_ab_section else None
             # Find 'frei bis' date
+            container = container.find_next('div', class_='row')
             frei_bis_section = container.find('span', class_='section_panel_detail', string=re.compile(r'\s*frei bis\s*'))
             frei_bis = frei_bis_section.find_next('span').get_text(strip=True) if frei_bis_section else None
         else:
@@ -296,10 +315,9 @@ class HTMLInfoExtractor:
             print(f"An error occurred: {e}")
 
 # Usage example
-html_content_path = "WebCrawlerApp/data/html/ad/roomAD3.html"
+html_content_path = "WebCrawlerApp/data/html/ad/roomAD4.html"
 with open(html_content_path, "r", encoding="utf-8") as file:
     html_content = file.read()
 
 extractor = HTMLInfoExtractor(html_content)
-extractor.extract_all()  
-extractor.write_to_csv()
+extractor.extract_all()
