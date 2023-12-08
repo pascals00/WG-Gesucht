@@ -1,6 +1,6 @@
 import pandas as pd
 import logging
-from constants import VALID_PROXIE_LIST_PATH
+from helpers.request.constants import VALID_PROXIE_LIST_PATH
 
 class ProxyReader:
     def __init__(self):
