@@ -1,5 +1,5 @@
 from .suburb_filter import *
-from .constants import *
+from ..constants import *
 
 class URLManager:
     BASE_URL = BASE_URL

@@ -17,7 +17,6 @@ urlManager = URLManager()
 proxyReader = ProxyReader()
 findproxy = ProxyManager()
 adsExtractor = AdsExtractor()
-infoextractor = HTMLInfoExtractor()
 
 
 districts = suburbFilter.get_all_districts()
@@ -35,6 +34,24 @@ for suburbs in suburbFilter.generate_random_suburb_subsets(testdistrict):
         header_initialized = True
         runningproxie = False
 
+    ad_urls_list = adsExtractor.read_url_endings()
+
+    for ad_url in ad_urls_list:
+        try:
+            response = requests.get(ad_url, proxies=proxies)
+            response.raise_for_status()
+            HTMLInfoExtractor(html_content=response.text).extract_all()
+        except requests.exceptions.HTTPError:
+            # HTTP error (e.g., page not found), break the loop
+            break
+        except requests.exceptions.RequestException:
+            # Other request errors (e.g., proxy failure), try new proxy
+            proxies = findproxy.find_proxies_FreeProxy()
+            if not proxies:
+                break
+
+
+"""
     while True:
         try:
             page_url = urlManager.switch_page(FilterUrl, currentpage_num)
@@ -50,21 +67,4 @@ for suburbs in suburbFilter.generate_random_suburb_subsets(testdistrict):
             proxies = findproxy.find_proxies_FreeProxy()
             if not proxies:
                 break  # No more proxies available, break the loop
-
-    ad_urls_list = adsExtractor.read_url_endings()
-
-    for ad_url in ad_urls_list:
-        try:
-            response = requests.get(ad_url, proxies=proxies)
-            response.raise_for_status()
-            infoextractor.extract_all
-        except requests.exceptions.HTTPError:
-            # HTTP error (e.g., page not found), break the loop
-            break
-        except requests.exceptions.RequestException:
-            # Other request errors (e.g., proxy failure), try new proxy
-            proxies = findproxy.find_proxies_FreeProxy()
-            if not proxies:
-                break
-
-
+"""

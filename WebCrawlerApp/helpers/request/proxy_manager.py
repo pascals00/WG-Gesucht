@@ -1,5 +1,5 @@
 from fp.fp import FreeProxy
-from helpers.request.constants import *
+from ..constants import *
 import pandas as pd
 import concurrent.futures
 import csv

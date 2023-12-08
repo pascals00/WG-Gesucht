@@ -1,3 +1,4 @@
+from ..constants import OUTPUT_FILEPATH
 from bs4 import BeautifulSoup
 from datetime import datetime 
 import csv
@@ -14,8 +15,6 @@ COLUMN_NAMES = ['title', 'room_size', 'total_rent',
                 'wg_detail1', 'wg_detail2', 'wg_detail3', 'wg_detail4', 'wg_detail5', 'wg_detail6',
                 'object_detail1', 'object_detail2', 'object_detail3', 'object_detail4', 'object_detail5', 'object_detail6', 'object_detail7', 'object_detail8', 'object_detail9', 'object_detail10', 'object_detail11', 'object_detail12', 'object_detail13',
                 'required_document1', 'required_document2', 'required_document3']
-
-OUTPUT_FILEPATH = 'WebCrawlerApp/data/output/apartmentsBerlinData.csv'
 
 class HTMLInfoExtractor:
     def __init__(self, html_content):
@@ -294,6 +293,7 @@ class HTMLInfoExtractor:
             self.extract_wg_details()
             self.extract_object_details()
             self.extract_required_documents()
+            self.write_to_csv()
         except Exception as e:
             print(f"An error occurred: {e}")
 

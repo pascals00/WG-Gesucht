@@ -1,4 +1,4 @@
-from helpers.request.constants import * 
+from ..constants import * 
 import random
 import openpyxl
 
