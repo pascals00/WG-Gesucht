@@ -1,12 +1,20 @@
 
+NUMBER_OF_PROXIES_TO_TEST = 100
+
 # ------------------------------- URLs ------------------------------------
 
 BASE_URL = "https://www.wg-gesucht.de"
+URLS = {
+    "WgGesucht" : "https://www.wg-gesucht.de", 
+    "Immobilienscout24" : "https://www.immobilienscout24.de"
+}
 
 # ------------------------------- PATHs -----------------------------------
 
 RELATION_SUBURBS_TO_DISTRICTS_PATH = "WebCrawlerApp/data/input/relationSuburbsToDistrict.xlsx"
 VALID_PROXIE_LIST_PATH = "WebCrawlerApp/data/input/proxieServerList.csv"
+PROXY_CSV_PATH = "WebCrawlerApp/data/input/proxieServerList.csv"
+ADS_URL_LIST_PATH = "WebCrawlerApp/data/output/ADsURLList.csv"
 
 # --------------------------- File Variables -------------------------------
 
