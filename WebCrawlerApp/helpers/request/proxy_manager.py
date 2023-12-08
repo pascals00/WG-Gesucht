@@ -30,22 +30,15 @@ class ProxyManager:
 
     def find_proxies_FreeProxy(self):
         try:
-            with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
-                # Create a list to hold future objects
-                futures = []
-                for _ in range(NUMBER_OF_PROXIES_TO_TEST):
-                    proxy = self.get_random_proxy()
-                    if proxy:
-                        proxies = {'http': proxy, 'https': proxy}
-                        # Submit tasks to the executor
-                        futures.append(executor.submit(self.test_proxy, proxy, proxies))
-                        return proxies
-
-                # Process completed tasks
-                for future in concurrent.futures.as_completed(futures):
-                    if future.result():
+            for _ in range(NUMBER_OF_PROXIES_TO_TEST):
+                proxy = self.get_random_proxy()
+                if proxy:
+                    proxies = {'http': proxy, 'https': proxy}
+                    wg_gesucht_found, _ = self.test_proxy(proxy, proxies)
+                    if wg_gesucht_found:
+                        # Found a working proxy, store it and return
                         self.store_working_ip_address_in_csv(self.proxies_df)
-                        return future.result()
+                        return proxies
 
             logging.info("Failed to find a working proxy after several attempts")
             return None
@@ -92,7 +85,7 @@ class ProxyManager:
                 else:
                     self.proxies_df.loc[0, key] = 0
 
-            return wg_gesucht_found
+            return wg_gesucht_found, proxies
         except Exception as e:
             logging.error(f"Error in test_proxy: {e}")
             logging.error(traceback.format_exc())

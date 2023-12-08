@@ -1,5 +1,5 @@
 
-NUMBER_OF_PROXIES_TO_TEST = 100
+NUMBER_OF_PROXIES_TO_TEST = 10000
 
 # ------------------------------- URLs ------------------------------------
 
