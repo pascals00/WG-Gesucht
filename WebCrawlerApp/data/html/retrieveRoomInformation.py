@@ -11,7 +11,7 @@ COLUMN_NAMES = ['title', 'room_size', 'total_rent',
                 'address', 'street', 'postcode', 'suburb', 'city', 
                 'available_from', 'available_until', 'online_since',
                 'rent', 'utilities', 'other_costs', 'deposit', 'transfer_agreement_cost',
-                'apartment_size', 'max_roommate', 'roommate_age', 'languages',
+                'apartment_size', 'max_roommate', 'roommate_age', 'languages', 'wg_type', 'smoking_policy', 
                 'wg_detail1', 'wg_detail2', 'wg_detail3', 'wg_detail4', 'wg_detail5', 'wg_detail6',
                 'object_detail1', 'object_detail2', 'object_detail3', 'object_detail4', 'object_detail5', 'object_detail6', 'object_detail7', 'object_detail8', 'object_detail9', 'object_detail10', 'object_detail11', 'object_detail12', 'object_detail13',
                 'required_document1', 'required_document2', 'required_document3']
@@ -186,12 +186,21 @@ class HTMLInfoExtractor:
         wg_details = self.get_raw_wg_details()
         wg_details = self.clean_wg_details(wg_details)
 
+            # Define the list of possible WG-Art values
+        wg_art_values = [
+            '-WG', 'Wohnheim', 'WG mit Kindern', 'Verbindung', 'gemischte WG',
+            'Mehrgenerationen', 'Vegan', 'Wohnen für Hilfe', 'LGBTQ', 'Alleinerziehende'
+        ]
+
         # Initialize the target dictionary with default values
         data = {
             'apartment_size': None,
             'max_roommate': None,
             'roommate_age': None,
-            'languages': None
+            'languages': None, 
+            'wg_type': None,
+            'smoking_policy': None, 
+            'preferred_gender_age': None, 
         }
 
         # Update the data dictionary with values from wg_details
@@ -199,6 +208,24 @@ class HTMLInfoExtractor:
         data['max_roommate'] = wg_details.get('WG_max_people')
         data['roommate_age'] = wg_details.get('Bewohneralter')
         data['languages'] = wg_details.get('Sprache/n')
+
+        for wg_art in wg_art_values:
+            wg_art_found = False
+            for index, wg_detail in enumerate(wg_details['details']):
+                if wg_art in wg_detail: 
+                    data['wg_type'] = wg_detail
+                    wg_art_found = True
+                    # Remove the matched wg_detail from the list
+                    del wg_details['details'][index]
+                    break
+            if wg_art_found is True: 
+                break
+    
+        for index, wg_detail in enumerate(wg_details['details']):
+            if 'Rauchen' in wg_detail:
+                data['smoking_policy'] = wg_detail
+                del wg_details['details'][index]
+                break
 
         # Handling the 'details' list
         for i, detail in enumerate(wg_details.get('details', [])):
