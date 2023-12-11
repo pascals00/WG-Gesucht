@@ -11,11 +11,11 @@ URLS = {
 
 # ------------------------------- PATHs -----------------------------------
 
-RELATION_SUBURBS_TO_DISTRICTS_PATH = "./data/input/relationSuburbsToDistrict.xlsx"
-VALID_PROXIE_LIST_PATH = "./data/input/proxieServerList.csv"
-PROXY_CSV_PATH = "./data/input/proxieServerList.csv"
-ADS_URL_LIST_PATH = "./data/output/ADsURLList.csv"
-OUTPUT_FILEPATH = './data/output/apartmentsBerlinData.csv'
+RELATION_SUBURBS_TO_DISTRICTS_PATH = "./WebCrawlerApp/data/input/relationSuburbsToDistrict.xlsx"
+VALID_PROXIE_LIST_PATH = "./WebCrawlerApp/data/input/proxieServerList.csv"
+PROXY_CSV_PATH = "./WebCrawlerApp/data/input/proxieServerList.csv"
+ADS_URL_LIST_PATH = "./WebCrawlerApp/data/output/ADsURLList.csv"
+OUTPUT_FILEPATH = './WebCrawlerApp/data/output/apartmentsBerlinData.csv'
 
 # --------------------------- File Variables -------------------------------
 

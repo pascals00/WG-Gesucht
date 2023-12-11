@@ -30,18 +30,18 @@ currentpage_num = 1
 for suburbs in suburbFilter.generate_random_suburb_subsets(testdistrict):
     FilterUrl = urlManager.set_suburb_filter(BaseURL, suburbs[0])
     if header_initialized == False:
-        proxies = findproxy.find_proxies_FreeProxy()
+        #proxies = findproxy.find_proxies_FreeProxy()
         headers = requestHeaders.init_headers()
         header_initialized = True
         runningproxie = False
 
     ad_urls_list = adsExtractor.read_url_endings()
 
-    for key, value in ad_urls_list:
+    for id, url in ad_urls_list.items():
         try:
-            response = requests.get(value, proxies=proxies)
+            response = requests.get(url, proxies=proxies)
             response.raise_for_status()
-            HTMLInfoExtractor(html_content=response.text, apartmentID=key).extract_all()
+            HTMLInfoExtractor(html_content=response.text, apartmentID=id).extract_all()
         except requests.exceptions.HTTPError:
             # HTTP error (e.g., page not found), break the loop
             break
