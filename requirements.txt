@@ -6,3 +6,6 @@ azure-functions
 free-proxy
 requests
 pandas
+bs4
+openpyxl
+```
