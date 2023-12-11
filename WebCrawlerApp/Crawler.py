@@ -30,7 +30,7 @@ currentpage_num = 1
 for suburbs in suburbFilter.generate_random_suburb_subsets(testdistrict):
     FilterUrl = urlManager.set_suburb_filter(BaseURL, suburbs[0])
     if header_initialized == False:
-        #proxies = findproxy.find_proxies_FreeProxy()
+        proxies = findproxy.find_proxies_FreeProxy()
         headers = requestHeaders.init_headers()
         header_initialized = True
         runningproxie = False
