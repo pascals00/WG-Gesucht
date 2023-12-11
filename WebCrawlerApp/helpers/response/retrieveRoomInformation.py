@@ -1,6 +1,6 @@
 from ..constants import OUTPUT_FILEPATH
 from bs4 import BeautifulSoup
-from datetime import datetime 
+from datetime import datetime, timedelta
 import logging
 import traceback
 import csv
@@ -9,7 +9,7 @@ import re
 
 
 # Column names for the dataframe
-COLUMN_NAMES = ['title', 'room_size', 'total_rent', 
+COLUMN_NAMES = ['apartmentID', 'title', 'room_size', 'total_rent', 
                 'address', 'street', 'postcode', 'suburb', 'city', 
                 'available_from', 'available_until', 'online_since',
                 'rent', 'utilities', 'other_costs', 'deposit', 'transfer_agreement_cost',
@@ -18,13 +18,14 @@ COLUMN_NAMES = ['title', 'room_size', 'total_rent',
                 'required_document1', 'required_document2', 'required_document3']
 
 class HTMLInfoExtractor:
-    def __init__(self, html_content):
+    def __init__(self, html_content, apartmentID):
         # Initialize the HTMLInfoExtractor with HTML content.
         # :param html_content: HTML content to be parsed.
             self.soup = BeautifulSoup(html_content, 'html.parser')
+            self.apartmentID = apartmentID
             self.output_filepath = OUTPUT_FILEPATH
             self.apartment_data = {key: None for key in COLUMN_NAMES}
-            logging.basicConfig(level=logging.INFO)
+            logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
     def update_apartment_data(self, data):
         # Update the apartment data dictionary with new data.
@@ -33,7 +34,7 @@ class HTMLInfoExtractor:
             for key, value in data.items():
                 self.apartment_data[key] = value
         except Exception as e:
-            logging.error(f"Error in update_apartment_data: {e}")
+            logging.error(f"{self.apartmentID}: Error in update_apartment_data. Message: {e}")
             logging.error(traceback.format_exc())
 
     def extract_rental_information(self):
@@ -46,12 +47,13 @@ class HTMLInfoExtractor:
 
             room_size = details[0].get_text(strip=True) if len(details) > 0 else None 
             total_rent = details[1].get_text(strip=True) if len(details) > 1 else None 
+            apartmentID = self.apartmentID
 
-            data = {'title': title, 'room_size': room_size, 'total_rent': total_rent}
+            data = {'apartmentID' : apartmentID, 'title': title, 'room_size': room_size, 'total_rent': total_rent}
             self.update_apartment_data(data)
             return title, room_size, total_rent
         except Exception as e:
-            logging.error(f"Error in extract_rental_information: {e}")
+            logging.error(f"{self.apartmentID}: Error in extract_rental_information. Message: {e}")
             logging.error(traceback.format_exc())
 
     def extract_address(self):
@@ -83,7 +85,7 @@ class HTMLInfoExtractor:
                 self.update_apartment_data(data)  # This method should be defined elsewhere in your class to handle the data update.
                 return street, postcode, city, suburb
         except Exception as e:
-            logging.error(f"Error in extract_address: {e}")
+            logging.error(f"{self.apartmentID}: Error in extract_address. Message: {e}")
             logging.error(traceback.format_exc())
 
     def extract_online_status(self):
@@ -120,7 +122,7 @@ class HTMLInfoExtractor:
             else:
                 return None
         except Exception as e:
-            logging.error(f"Error in extract_online_status: {e}")
+            logging.error(f"{self.apartmentID}: Error in extract_online_status. Message: {e}")
             logging.error(traceback.format_exc())
             
     def extract_availability(self):
@@ -152,7 +154,7 @@ class HTMLInfoExtractor:
             self.update_apartment_data(data)
             return frei_ab, frei_bis
         except Exception as e:
-            logging.error(f"Error in extract_availability: {e}")
+            logging.error(f"{self.apartmentID}: Error in extract_availability. Message: {e}")
             logging.error(traceback.format_exc())
 
     def extract_costs(self):
@@ -177,7 +179,7 @@ class HTMLInfoExtractor:
             self.update_apartment_data(data)
             return rent, utilities, other_costs, deposit, transfer_agreement_cost
         except Exception as e:
-            logging.error(f"Error in extract_costs: {e}")
+            logging.error(f"{self.apartmentID}: Error in extract_costs. Message: {e}")
             logging.error(traceback.format_exc())
 
     def get_raw_wg_details(self):
@@ -202,7 +204,7 @@ class HTMLInfoExtractor:
                     wg_details['gesucht_wird'] = [' '.join(li.get_text().replace('\n', ' ').split()) for li in gesucht_wird_list.find_all('li')]
             return wg_details
         except Exception as e:
-            logging.error(f"Error in get_raw_wg_details: {e}")
+            logging.error(f"{self.apartmentID}: Error in get_raw_wg_details. Message: {e} ")
             logging.error(traceback.format_exc())
 
     def extract_wg_details(self):
@@ -268,7 +270,7 @@ class HTMLInfoExtractor:
                 self.update_apartment_data(data)
                 return data
         except Exception as e:
-            logging.error(f"Error in extract_wg_details: {e}")
+            logging.error(f"{self.apartmentID}: Error in extract_wg_details. Message: {e}")
             logging.error(traceback.format_exc())
 
     def clean_wg_details(self, data):
@@ -297,7 +299,7 @@ class HTMLInfoExtractor:
 
             return new_data
         except Exception as e:
-            logging.error(f"Error in clean_wg_details: {e}")
+            logging.error(f"{self.apartmentID}: Error in clean_wg_details. Message: {e}")
             logging.error(traceback.format_exc())
 
     def extract_object_details(self):
@@ -371,7 +373,7 @@ class HTMLInfoExtractor:
             self.update_apartment_data(data)
             return data
         except Exception as e:
-            logging.error(f"Error in extract_object_details: {e}")
+            logging.error(f"{self.apartmentID}: Error in extract_object_details. Message: {e}")
             logging.error(traceback.format_exc())
 
     def extract_required_documents(self):
@@ -391,7 +393,7 @@ class HTMLInfoExtractor:
             self.update_apartment_data(data)
             return data
         except Exception as e:
-            logging.error(f"Error in extract_required_documents: {e}")
+            logging.error(f"{self.apartmentID}: Error in extract_required_documents. Message: {e}")
             logging.error(traceback.format_exc())
 
     def write_to_csv(self):
@@ -417,7 +419,7 @@ class HTMLInfoExtractor:
 
                 writer.writerow(self.apartment_data)
         except Exception as e:
-            logging.error(f"Error in write_to_csv: {e}")
+            logging.error(f"{self.apartmentID}: Error in write_to_csv. Message: {e}")
             logging.error(traceback.format_exc())
 
     def extract_all(self):
@@ -432,6 +434,7 @@ class HTMLInfoExtractor:
             self.extract_object_details()
             self.extract_required_documents()
             self.write_to_csv()
+            logging.info(f"{self.apartmentID}: Apartment data extracted successfully.")
         except Exception as e:
             logging.error(f"Error in extract_all: {e}")
             logging.error(traceback.format_exc())

@@ -40,16 +40,15 @@ class AdsExtractor:
         logging.info("New ads URL endings saved to ADsURLList.csv.")
 
     def read_url_endings(self):
-        urls = []
+        urls = {}
         try:
             with open(self.csv_path, 'r') as csvfile:
                 reader = csv.reader(csvfile)
                 next(reader, None)  # Skip header
                 for row in reader:
                     full_url = self.base_url + row[1]
-                    urls.append(full_url)
+                    urls[row[0]] = full_url
             return urls
         except FileNotFoundError:
             logging.error(f"File {self.csv_path} not found.")
             return []
-

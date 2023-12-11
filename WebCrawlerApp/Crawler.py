@@ -26,6 +26,7 @@ BaseURL = urlManager.set_base_url(filter_apartment=False, filter_wg=True)
 header_initialized = False
 currentpage_num = 1
 
+
 for suburbs in suburbFilter.generate_random_suburb_subsets(testdistrict):
     FilterUrl = urlManager.set_suburb_filter(BaseURL, suburbs[0])
     if header_initialized == False:
@@ -36,11 +37,11 @@ for suburbs in suburbFilter.generate_random_suburb_subsets(testdistrict):
 
     ad_urls_list = adsExtractor.read_url_endings()
 
-    for ad_url in ad_urls_list:
+    for key, value in ad_urls_list:
         try:
-            response = requests.get(ad_url, proxies=proxies)
+            response = requests.get(value, proxies=proxies)
             response.raise_for_status()
-            HTMLInfoExtractor(html_content=response.text).extract_all()
+            HTMLInfoExtractor(html_content=response.text, apartmentID=key).extract_all()
         except requests.exceptions.HTTPError:
             # HTTP error (e.g., page not found), break the loop
             break
