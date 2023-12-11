@@ -439,6 +439,7 @@ class HTMLInfoExtractor:
             logging.error(f"Error in extract_all: {e}")
             logging.error(traceback.format_exc())
 
+"""
 # Usage example
 html_content_path = "WebCrawlerApp/data/html/ad/roomAD3.html"
 with open(html_content_path, "r", encoding="utf-8") as file:
@@ -447,3 +448,4 @@ with open(html_content_path, "r", encoding="utf-8") as file:
 extractor = HTMLInfoExtractor(html_content)
 extractor.extract_all()  
 extractor.write_to_csv()
+"""
