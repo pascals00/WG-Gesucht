@@ -1,3 +1,5 @@
+import os 
+
 
 NUMBER_OF_PROXIES_TO_TEST = 10000
 
@@ -10,12 +12,14 @@ URLS = {
 }
 
 # ------------------------------- PATHs -----------------------------------
+root_folder = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
-RELATION_SUBURBS_TO_DISTRICTS_PATH = "./WebCrawlerApp/data/input/relationSuburbsToDistrict.xlsx"
-VALID_PROXIE_LIST_PATH = "./WebCrawlerApp/data/input/proxieServerList.csv"
-PROXY_CSV_PATH = "./WebCrawlerApp/data/input/proxieServerList.csv"
-ADS_URL_LIST_PATH = "./WebCrawlerApp/data/output/ADsURLList.csv"
-OUTPUT_FILEPATH = './WebCrawlerApp/data/output/apartmentsBerlinData.csv'
+
+RELATION_SUBURBS_TO_DISTRICTS_PATH = os.path.join (root_folder, 'WebCrawlerApp', 'data', 'input', 'relationSuburbsToDistrict.xlsx')
+VALID_PROXIE_LIST_PATH = os.path.join (root_folder, 'WebCrawlerApp', 'data', 'input', 'proxieServerList.csv')
+PROXY_CSV_PATH = os.path.join (root_folder, 'WebCrawlerApp', 'data', 'input', 'proxieServerList.csv')
+ADS_URL_LIST_PATH = os.path.join (root_folder, 'WebCrawlerApp', 'data', 'output', 'ADsURLList.csv')
+OUTPUT_FILEPATH = os.path.join (root_folder, 'WebCrawlerApp', 'data', 'output', 'apartmentsBerlinData.csv')
 
 # --------------------------- File Variables -------------------------------
 
