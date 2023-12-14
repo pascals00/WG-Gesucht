@@ -6,6 +6,8 @@ from helpers.request.findproxy import *
 from helpers.response.extractUrls import *
 from helpers.response.retrieveRoomInformation import *
 import requests
+import time
+import random
 
 # -------------------------------------------------------
 # 1. Initial Request for District
@@ -26,7 +28,27 @@ BaseURL = urlManager.set_base_url(filter_apartment=False, filter_wg=True)
 header_initialized = False
 currentpage_num = 1
 
+proxies = findproxy.find_proxies_FreeProxy()
 
+ad_urls_list = adsExtractor.read_url_endings()
+
+for id, url in ad_urls_list.items():
+    try:
+        response = requests.get(url, proxies=proxies)
+        time.sleep(random.randint(1, 3))
+        response.raise_for_status()
+        HTMLInfoExtractor(html_content=response.text, apartmentID=id).extract_all()
+    except requests.exceptions.HTTPError:
+        # HTTP error (e.g., page not found), break the loop
+        break
+    except requests.exceptions.RequestException:
+        # Other request errors (e.g., proxy failure), try new proxy
+        proxies = findproxy.find_proxies_FreeProxy()
+        if not proxies:
+            break
+
+
+"""
 for suburbs in suburbFilter.generate_random_suburb_subsets(testdistrict):
     FilterUrl = urlManager.set_suburb_filter(BaseURL, suburbs[0])
     if header_initialized == False:
@@ -35,24 +57,6 @@ for suburbs in suburbFilter.generate_random_suburb_subsets(testdistrict):
         header_initialized = True
         runningproxie = False
 
-    ad_urls_list = adsExtractor.read_url_endings()
-
-    for id, url in ad_urls_list.items():
-        try:
-            response = requests.get(url, proxies=proxies)
-            response.raise_for_status()
-            HTMLInfoExtractor(html_content=response.text, apartmentID=id).extract_all()
-        except requests.exceptions.HTTPError:
-            # HTTP error (e.g., page not found), break the loop
-            break
-        except requests.exceptions.RequestException:
-            # Other request errors (e.g., proxy failure), try new proxy
-            proxies = findproxy.find_proxies_FreeProxy()
-            if not proxies:
-                break
-
-
-"""
     while True:
         try:
             page_url = urlManager.switch_page(FilterUrl, currentpage_num)
