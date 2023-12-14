@@ -457,7 +457,7 @@ class HTMLInfoExtractor:
             logging.error(traceback.format_exc())
 
 # Usage example
-html_content_path = "WebCrawlerApp/data/html/ad/roomAD5.html"
+html_content_path = "WebCrawlerApp/data/output/html_files/10692741.html"
 with open(html_content_path, "r", encoding="utf-8") as file:
     html_content = file.read()
 
