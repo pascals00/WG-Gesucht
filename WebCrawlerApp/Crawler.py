@@ -28,7 +28,7 @@ BaseURL = urlManager.set_base_url(filter_apartment=False, filter_wg=True)
 header_initialized = False
 currentpage_num = 1
 
-proxies = findproxy.find_proxies_FreeProxy()
+#proxies = findproxy.find_proxies_FreeProxy()
 
 ad_urls_list = adsExtractor.read_url_endings()
 
@@ -38,9 +38,6 @@ for id, url in ad_urls_list.items():
         time.sleep(random.randint(1, 3))
         response.raise_for_status()
         HTMLInfoExtractor(html_content=response.text, apartmentID=id).extract_all()
-    except requests.exceptions.HTTPError:
-        # HTTP error (e.g., page not found), break the loop
-        break
     except requests.exceptions.RequestException:
         # Other request errors (e.g., proxy failure), try new proxy
         proxies = findproxy.find_proxies_FreeProxy()
