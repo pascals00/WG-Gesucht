@@ -34,7 +34,7 @@ ad_urls_list = adsExtractor.read_url_endings()
 for id, url in ad_urls_list.items():
     try:
         response = requests.get(url, headers=headers, proxies=proxies)
-        with open(HTML_FILES_PATH + '/' + str(id) + '.html', 'w') as f:
+        with open(HTML_FILES_PATH + '/' + str(id) + '.html', 'w', encoding='utf-8') as f:
             f.write(response.text)
         response.raise_for_status()
         HTMLInfoExtractor(html_content=response.text, apartmentID=id).extract_all()
