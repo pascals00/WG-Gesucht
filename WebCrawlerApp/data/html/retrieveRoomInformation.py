@@ -39,6 +39,20 @@ class HTMLInfoExtractor:
             logging.error(f"Error in update_apartment_data: {e}")
             logging.error(traceback.format_exc())
 
+    def check_ad_is_active(self): 
+        # Checks if the ad is active or not.
+        # :return: True if the ad is active, False otherwise.
+        try: 
+            # Find the section with the title 'Anzeige ist deaktiviert'
+            ad_deactivated = re.compile(r'Anzeige.*deaktiviert', re.DOTALL)
+            if ad_deactivated.search(self.soup.text):
+                return False
+            else:
+                return True
+        except Exception as e:
+            logging.error(f"Error in check_ad_is_active: {e}")
+            logging.error(traceback.format_exc())
+
     def extract_rental_information(self):
         # Extracts basic rental information such as title, room size, and total rent.
         # :return: Tuple of title, room size, and total rent.
@@ -137,7 +151,7 @@ class HTMLInfoExtractor:
                 # Find 'frei ab' date
                 frei_ab_section = container.find('span', class_='section_panel_detail', string=re.compile(r'\s*frei ab\s*'))
                 frei_ab = frei_ab_section.find_next('span').get_text(strip=True) if frei_ab_section else None
-                if frei_ab:
+                if frei_ab and not re.compile(r'\s*n.a.\s*').search(frei_ab):
                     frei_ab = datetime.strptime(frei_ab, '%d.%m.%Y').strftime('%d.%m.%Y') 
                 else:
                     frei_ab = None
@@ -145,7 +159,7 @@ class HTMLInfoExtractor:
                 container = container.find_next('div', class_='row')
                 frei_bis_section = container.find('span', class_='section_panel_detail', string=re.compile(r'\s*frei bis\s*'))
                 frei_bis = frei_bis_section.find_next('span').get_text(strip=True) if frei_bis_section else None
-                if frei_bis:
+                if frei_bis and not re.compile(r'\s*n.a.\s*').search(frei_bis):
                     frei_bis = datetime.strptime(frei_bis, '%d.%m.%Y').strftime('%d.%m.%Y')
                 else: None
             else:
@@ -426,15 +440,18 @@ class HTMLInfoExtractor:
     def extract_all(self):
         # Main method to extract all information and handle exceptions.
         try:
-            self.extract_rental_information()
-            self.extract_address()
-            self.extract_availability()
-            self.extract_online_status()
-            self.extract_costs()
-            self.extract_wg_details()
-            self.extract_object_details()
-            self.extract_required_documents()
-            self.write_to_csv()
+            if self.check_ad_is_active() is True:
+                self.extract_rental_information()
+                self.extract_address()
+                self.extract_availability()
+                self.extract_online_status()
+                self.extract_costs()
+                self.extract_wg_details()
+                self.extract_object_details()
+                self.extract_required_documents()
+                self.write_to_csv()
+            else:
+                logging.info(" ... Ad is inactive.")
         except Exception as e:
             logging.error(f"Error in extract_all: {e}")
             logging.error(traceback.format_exc())

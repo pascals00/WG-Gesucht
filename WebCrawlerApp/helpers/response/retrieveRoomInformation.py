@@ -37,6 +37,20 @@ class HTMLInfoExtractor:
             logging.error(f"{self.apartmentID}: Error in update_apartment_data. Message: {e}")
             logging.error(traceback.format_exc())
 
+    def check_ad_is_active(self): 
+        # Checks if the ad is active or not.
+        # :return: True if the ad is active, False otherwise.
+        try: 
+            # Find the section with the title 'Anzeige ist deaktiviert'
+            ad_deactivated = re.compile(r'Anzeige.*deaktiviert', re.DOTALL)
+            if ad_deactivated.search(self.soup.text):
+                return False
+            else:
+                return True
+        except Exception as e:
+            logging.error(f"{self.apartmentID}: Error in check_ad_is_active. Message: {e}")
+            logging.error(traceback.format_exc())
+
     def extract_rental_information(self):
         # Extracts basic rental information such as title, room size, and total rent.
         # :return: Tuple of title, room size, and total rent.
@@ -425,16 +439,19 @@ class HTMLInfoExtractor:
     def extract_all(self):
         # Main method to extract all information and handle exceptions.
         try:
-            self.extract_rental_information()
-            self.extract_address()
-            self.extract_availability()
-            self.extract_online_status()
-            self.extract_costs()
-            self.extract_wg_details()
-            self.extract_object_details()
-            self.extract_required_documents()
-            self.write_to_csv()
-            logging.info(f"{self.apartmentID}: Apartment data extracted successfully.")
+            if self.check_ad_is_active() is True:
+                self.extract_rental_information()
+                self.extract_address()
+                self.extract_availability()
+                self.extract_online_status()
+                self.extract_costs()
+                self.extract_wg_details()
+                self.extract_object_details()
+                self.extract_required_documents()
+                self.write_to_csv()
+                logging.info(f"{self.apartmentID}: Apartment data extracted successfully.")
+            else:
+                logging.info(f"{self.apartmentID}: ... Ad is inactive.")
         except Exception as e:
             logging.error(f"Error in extract_all: {e}")
             logging.error(traceback.format_exc())
