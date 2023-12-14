@@ -28,7 +28,7 @@ BaseURL = urlManager.set_base_url(filter_apartment=False, filter_wg=True)
 header_initialized = False
 currentpage_num = 1
 
-#proxies = findproxy.find_proxies_FreeProxy()
+proxies = findproxy.find_proxies_FreeProxy()
 
 ad_urls_list = adsExtractor.read_url_endings()
 
