@@ -9,7 +9,7 @@ import requests
 
 # -------------------------------------------------------
 # 1. Initial Request for District
-# -------------------------------------------------------
+# ------------------------------------------------------
 
 # 1.1. Initialize all the helper classes
 suburbFilter = SuburbFilter()

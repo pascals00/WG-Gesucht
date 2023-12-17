@@ -28,6 +28,7 @@ class AdsExtractor:
 
     def store_ads_url_endings_in_csv(self, url_dict):
         file_exists = os.path.isfile(self.csv_path)
+        stored_urls = self.read_url_endings()
 
         with open(self.csv_path, 'a', newline='') as csvfile:
             writer = csv.writer(csvfile)
@@ -35,7 +36,8 @@ class AdsExtractor:
                 writer.writerow(['Ad ID', 'URL Ending'])  # Adding header if file doesn't exist
 
             for ad_id, url_ending in url_dict.items():
-                writer.writerow([ad_id, url_ending])
+                if ad_id not in stored_urls:
+                    writer.writerow([ad_id, url_ending])
 
         logging.info("New ads URL endings saved to ADsURLList.csv.")
 
