@@ -55,14 +55,27 @@ class HTMLInfoExtractor:
         # Extracts basic rental information such as title, room size, and total rent.
         # :return: Tuple of title, room size, and total rent.
         try: 
-            title = self.soup.find('h1', class_='headline').get_text(strip=True)
+            # Extract title
+            title_element = self.soup.find('h1', class_='headline')
+            if title_element:
+                title = title_element.get_text(strip=True)
+
+            # Extract details
             footer_details = self.soup.find('div', class_='section_footer_dark')
-            details = footer_details.find_all('b', class_='key_fact_value')
+            if footer_details:
+                details = footer_details.find_all('b', class_='key_fact_value')
 
-            room_size = details[0].get_text(strip=True) if len(details) > 0 else None 
-            total_rent = details[1].get_text(strip=True) if len(details) > 1 else None 
+                if len(details) > 0:
+                    room_size_element = details[0]
+                    if room_size_element:
+                        room_size = room_size_element.get_text(strip=True)
+                
+                if len(details) > 1:
+                    total_rent_element = details[1]
+                    if total_rent_element:
+                        total_rent = total_rent_element.get_text(strip=True)
+            
             apartmentID = self.apartmentID
-
             data = {'apartmentID' : apartmentID, 'title': title, 'room_size': room_size, 'total_rent': total_rent}
             self.update_apartment_data(data)
             return title, room_size, total_rent
@@ -175,6 +188,7 @@ class HTMLInfoExtractor:
         # Extracts cost-related information such as rent, utilities, etc.
         # :return: Tuple of rent, utilities, other costs, deposit, transfer agreement cost.
         try:
+            rent = utilities = other_costs = deposit = transfer_agreement_cost = None
             sections = self.soup.find_all('span', class_='section_panel_detail')
             for row in sections:
                 cost_text = row.get_text()

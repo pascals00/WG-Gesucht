@@ -28,6 +28,7 @@ BaseURL = urlManager.set_base_url(filter_apartment=False, filter_wg=True)
 header_initialized = False
 currentpage_num = 1
 
+"""
 # 1.4. Request through pages of the district and extract the ads url endings
 for district in districts:
     for suburbs in suburbFilter.generate_random_suburb_subsets(district):
@@ -53,14 +54,13 @@ for district in districts:
                 proxies = findproxy.find_proxies_FreeProxy()
                 if not proxies:
                     break  # No more proxies available, break the loop
-
+"""
 # -------------------------------------------------------
 # 2. Request for Apartment
 # -------------------------------------------------------
 
 # 2.1. Read the ads url endings from the file 
 ad_url_list = adsExtractor.read_url_endings()
-headers_initialized = False
 
 # 2.2. Find proxie and create header for request
 proxies = findproxy.find_proxies_FreeProxy()
