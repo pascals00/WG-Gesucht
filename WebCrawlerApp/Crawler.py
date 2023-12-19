@@ -65,18 +65,29 @@ ad_url_list = adsExtractor.read_url_endings()
 # 2.2. Find proxie and create header for request
 proxies = findproxy.find_proxies_FreeProxy()
 headers = requestHeaders.init_headers()
+with open(OUTPUT_FILEPATH, 'r', encoding='utf-8') as csvfile:
+    reader = csv.DictReader(csvfile)
 
 # 2.3. Requests for the apartment and extract the information
 for id, url in ad_url_list.items():
-    try:
-        response = requests.get(url, headers=headers, proxies=proxies)
-        # Save the html file test purpose
-        with open(HTML_FILES_PATH + '/' + str(id) + '.html', 'w', encoding='utf-8') as f: 
-            f.write(response.text)
-        response.raise_for_status()
-        HTMLInfoExtractor(html_content=response.text, apartmentID=id).extract_all()
-    except requests.exceptions.RequestException:
-        # Other request errors (e.g., proxy failure), try new proxy
-        proxies = findproxy.find_proxies_FreeProxy()
-        if not proxies:
+    should_continue = False  # Flag to indicate if outer loop should continue
+    for row in reader:
+        if row['apartmentID'] == id:
+            # Do something if apartmentID matches id
+            should_continue = True  # Set flag to true and break inner loop
             break
+        else:
+            try:
+                response = requests.get(url, headers=headers, proxies=proxies)
+                # Save the html file for test purposes
+                with open(HTML_FILES_PATH + '/' + str(id) + '.html', 'w', encoding='utf-8') as f: 
+                    f.write(response.text)
+                response.raise_for_status()
+                HTMLInfoExtractor(html_content=response.text, apartmentID=id).extract_all()
+            except requests.exceptions.RequestException:
+                # Other request errors (e.g., proxy failure), try new proxy
+                proxies = findproxy.find_proxies_FreeProxy()
+                if not proxies:
+                    break
+    if should_continue:
+        continue  # Skip to the next iteration of the outer loop
