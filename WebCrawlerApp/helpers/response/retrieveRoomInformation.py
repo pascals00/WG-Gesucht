@@ -51,6 +51,21 @@ class HTMLInfoExtractor:
             logging.error(f"{self.apartmentID}: Error in check_ad_is_active. Message: {e}")
             logging.error(traceback.format_exc())
 
+    def check_id_is_stored(self):
+        # Checks if the apartment ID is already stored in the CSV file.
+        # :return: True if the apartment ID is already stored, False otherwise.
+        try: 
+            # Find the section with the title 'Anzeige ist deaktiviert'
+            with open(self.output_filepath, 'r', encoding='utf-8') as csvfile:
+                reader = csv.DictReader(csvfile)
+                for row in reader:
+                    if row['apartmentID'] == self.apartmentID:
+                        return True
+                return False
+        except Exception as e:
+            logging.error(f"{self.apartmentID}: Error in check_id_is_stored. Message: {e}")
+            logging.error(traceback.format_exc())
+
     def extract_rental_information(self):
         # Extracts basic rental information such as title, room size, and total rent.
         # :return: Tuple of title, room size, and total rent.
@@ -454,16 +469,19 @@ class HTMLInfoExtractor:
         # Main method to extract all information and handle exceptions.
         try:
             if self.check_ad_is_active() is True:
-                self.extract_rental_information()
-                self.extract_address()
-                self.extract_availability()
-                self.extract_online_status()
-                self.extract_costs()
-                self.extract_wg_details()
-                self.extract_object_details()
-                self.extract_required_documents()
-                self.write_to_csv()
-                logging.info(f"{self.apartmentID}: Apartment data extracted successfully.")
+                if self.check_id_is_stored() is False:
+                    self.extract_rental_information()
+                    self.extract_address()
+                    self.extract_availability()
+                    self.extract_online_status()
+                    self.extract_costs()
+                    self.extract_wg_details()
+                    self.extract_object_details()
+                    self.extract_required_documents()
+                    self.write_to_csv()
+                    logging.info(f"{self.apartmentID}: Apartment data extracted successfully.")
+                else: 
+                    logging.info(f"{self.apartmentID}: Apartment ID is already stored.")
             else:
                 logging.info(f"{self.apartmentID}: ... Ad is inactive.")
         except Exception as e:
