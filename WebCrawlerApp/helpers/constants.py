@@ -19,7 +19,8 @@ RELATION_SUBURBS_TO_DISTRICTS_PATH = os.path.join (root_folder, 'WebCrawlerApp',
 VALID_PROXIE_LIST_PATH = os.path.join (root_folder, 'WebCrawlerApp', 'data', 'input', 'proxieServerList.csv')
 PROXY_CSV_PATH = os.path.join (root_folder, 'WebCrawlerApp', 'data', 'input', 'proxieServerList.csv')
 ADS_URL_LIST_PATH = os.path.join (root_folder, 'WebCrawlerApp', 'data', 'output', 'ADsURLList.csv')
-OUTPUT_FILEPATH = os.path.join (root_folder, 'WebCrawlerApp', 'data', 'output', 'apartmentsBerlinData.csv')
+MAX_RESULTS_SUBURBS_PATH = os.path.join (root_folder, 'WebCrawlerApp', 'data', 'output', 'maxResultsSuburbs.csv')
+ROOMINFO_PATH = os.path.join (root_folder, 'WebCrawlerApp', 'data', 'output', 'apartmentsBerlinData.csv')
 HTML_FILES_PATH = os.path.join (root_folder, 'WebCrawlerApp', 'data', 'output', 'html_files')
 
 # --------------------------- File Variables -------------------------------

@@ -46,19 +46,3 @@ class ProxyReader:
                 self.logger.info("Proxies tested successfully.")
         except Exception as e:
             self.logger.error("Error occurred while testing proxies: %s", str(e))
-"""
-
-        try:
-            response = requests.get(ad_url, proxies=proxies)
-            response.raise_for_status()
-            HTMLInfoExtractor(html_content=response.text).extract_all()
-        except requests.exceptions.HTTPError:
-            # HTTP error (e.g., page not found), break the loop
-            break
-        except requests.exceptions.RequestException:
-            # Other request errors (e.g., proxy failure), try new proxy
-            proxies = findproxy.find_proxies_FreeProxy()
-            if not proxies:
-                break
-                
-                """
