@@ -1,7 +1,6 @@
 from fp.fp import FreeProxy
 from ..constants import *
 import pandas as pd
-import concurrent.futures
 import csv
 import requests
 import random
@@ -14,7 +13,7 @@ class ProxyManager:
     def __init__(self):
         self.proxy_path = PROXY_CSV_PATH
         self.proxies_df = self.init_proxie_df()
-        logging.basicConfig(level=logging.INFO)
+        logging.basicConfig(filename=LOG_PATH, filemode='w', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
     def init_proxie_df(self): 

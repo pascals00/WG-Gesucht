@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 class AdsExtractor:
     def __init__(self):
         self.base_url = BASE_URL
-        logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+        logging.basicConfig(filename=LOG_PATH, filemode='w', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
     def extract_ads_url_endings(self, responseHTML):
         # Find all the ads and extract their IDs and URL endings

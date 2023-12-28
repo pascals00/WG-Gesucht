@@ -1,4 +1,4 @@
-from ..constants import ROOMINFO_PATH
+from ..constants import ROOMINFO_PATH, LOG_PATH
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 import logging
@@ -25,7 +25,7 @@ class HTMLInfoExtractor:
             self.apartmentID = apartmentID
             self.output_filepath = ROOMINFO_PATH
             self.apartment_data = {key: None for key in COLUMN_NAMES}
-            logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+            logging.basicConfig(filename=LOG_PATH, filemode='w', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
     def update_apartment_data(self, data):
         # Update the apartment data dictionary with new data.

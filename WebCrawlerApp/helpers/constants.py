@@ -1,5 +1,5 @@
 import os 
-
+from datetime import datetime
 
 NUMBER_OF_PROXIES_TO_TEST = 10000
 
@@ -13,6 +13,7 @@ URLS = {
 
 # ------------------------------- PATHs -----------------------------------
 root_folder = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
 
 RELATION_SUBURBS_TO_DISTRICTS_PATH = os.path.join (root_folder, 'WebCrawlerApp', 'data', 'input', 'relationSuburbsToDistrict.xlsx')
@@ -21,7 +22,8 @@ PROXY_CSV_PATH = os.path.join (root_folder, 'WebCrawlerApp', 'data', 'input', 'p
 ADS_URL_LIST_PATH = os.path.join (root_folder, 'WebCrawlerApp', 'data', 'output', 'ADsURLList.csv')
 MAX_RESULTS_SUBURBS_PATH = os.path.join (root_folder, 'WebCrawlerApp', 'data', 'output', 'maxResultsSuburbs.csv')
 ROOMINFO_PATH = os.path.join (root_folder, 'WebCrawlerApp', 'data', 'output', 'apartmentsBerlinData.csv')
-HTML_FILES_PATH = os.path.join (root_folder, 'WebCrawlerApp', 'data', 'output', 'html_files')
+HTML_FILES_PATH = os.path.join (root_folder, 'WebCrawlerApp', 'data', 'output', 'apartment_files')
+LOG_PATH = os.path.join (root_folder, 'WebCrawlerApp', 'data', 'output', 'logs', f"log_{timestamp}.txt")
 
 # --------------------------- File Variables -------------------------------
 
