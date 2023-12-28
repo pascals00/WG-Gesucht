@@ -12,7 +12,12 @@ class RequestHeaders:
             'Host': 'www.wg-gesucht.de',
             'User-Agent': '',
             'X-Requested-With': 'XMLHttpRequest',
+            'Connection': 'keep-alive',
             'sec-ch-ua-platform': '',
+            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-User': '?1',
+            'Sec-Fetch-Dest': 'document',
         }
 
     @staticmethod
@@ -34,3 +39,9 @@ class RequestHeaders:
         self.headers['User-Agent'] = self.change_user_agent()
         self.headers['sec-ch-ua-platform'] = self.change_platform()
         return self.headers
+    
+    def change_headers(self):
+        self.headers['User-Agent'] = self.change_user_agent()
+        self.headers['sec-ch-ua-platform'] = self.change_platform()
+        return self.headers
+    
