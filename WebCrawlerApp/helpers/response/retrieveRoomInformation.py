@@ -1,4 +1,4 @@
-from ..constants import OUTPUT_FILEPATH
+from ..constants import ROOMINFO_PATH
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 import logging
@@ -9,7 +9,7 @@ import re
 
 
 # Column names for the dataframe
-COLUMN_NAMES = ['apartmentID', 'title', 'room_size', 'total_rent', 
+COLUMN_NAMES = ['apartmentID', 'title', 'room_size', 'total_rent', 'premiumstatus', 'user_name',
                 'address', 'street', 'postcode', 'suburb', 'city', 
                 'available_from', 'available_until', 'online_since',
                 'rent', 'utilities', 'other_costs', 'deposit', 'transfer_agreement_cost',
@@ -23,7 +23,7 @@ class HTMLInfoExtractor:
         # :param html_content: HTML content to be parsed.
             self.soup = BeautifulSoup(html_content, 'html.parser')
             self.apartmentID = apartmentID
-            self.output_filepath = OUTPUT_FILEPATH
+            self.output_filepath = ROOMINFO_PATH
             self.apartment_data = {key: None for key in COLUMN_NAMES}
             logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -56,14 +56,33 @@ class HTMLInfoExtractor:
         # :return: True if the apartment ID is already stored, False otherwise.
         try: 
             # Find the section with the title 'Anzeige ist deaktiviert'
-            with open(self.output_filepath, 'r', encoding='utf-8') as csvfile:
-                reader = csv.DictReader(csvfile)
+            with open(self.output_filepath, 'r') as csvfile:
+                reader = csv.reader(csvfile)
                 for row in reader:
                     if row['apartmentID'] == self.apartmentID:
                         return True
                 return False
         except Exception as e:
             logging.error(f"{self.apartmentID}: Error in check_id_is_stored. Message: {e}")
+            logging.error(traceback.format_exc())
+
+    def extract_user_information(self):
+        # Extracts user information such as name and premium status.
+        # :return: Tuple of premium status and user name.
+        try: 
+            premium_image = self.soup.find('img', {'src': '/img/wgg_premium_partner.png'})
+            premium_status = True if premium_image else False
+
+            name_tag = self.soup.find('p', {'class': 'text-dark-gray text-bold mb0 '})
+            name = name_tag.get_text().strip() if name_tag else None 
+
+            data = {'premiumstatus' : premium_status, 'user_name' : name}
+            self.update_apartment_data(data)
+            return premium_status, name
+        except Exception as e:
+            data = {'premiumstatus' : False, 'user_name' : 'Public Person'}
+            self.update_apartment_data(data)
+            logging.error(f"{self.apartmentID}: Error in extract_user_information. Message: {e}")
             logging.error(traceback.format_exc())
 
     def extract_rental_information(self):
@@ -471,6 +490,7 @@ class HTMLInfoExtractor:
             if self.check_ad_is_active() is True:
                 if self.check_id_is_stored() is False:
                     self.extract_rental_information()
+                    self.extract_user_information()
                     self.extract_address()
                     self.extract_availability()
                     self.extract_online_status()
@@ -487,14 +507,3 @@ class HTMLInfoExtractor:
         except Exception as e:
             logging.error(f"Error in extract_all: {e}")
             logging.error(traceback.format_exc())
-
-"""
-# Usage example
-html_content_path = "WebCrawlerApp/data/html/ad/roomAD3.html"
-with open(html_content_path, "r", encoding="utf-8") as file:
-    html_content = file.read()
-
-extractor = HTMLInfoExtractor(html_content)
-extractor.extract_all()  
-extractor.write_to_csv()
-"""
