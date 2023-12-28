@@ -8,7 +8,7 @@ from helpers.response.retrieveRoomInformation import *
 import requests
 
 # -------------------------------------------------------
-# 1. Initial Request for District
+# 1. Request to get all available rooms in Berlin 
 # ------------------------------------------------------
 
 # 1.1. Initialize all the helper classes
@@ -21,18 +21,16 @@ adsExtractor = AdsExtractor()
 
 # 1.2. Get all the districts
 districts = suburbFilter.get_all_districts()
-#testdistrict = districts[11]
 
 # 1.3 Initialize the variables for request through pages of the district
 BaseURL = urlManager.set_base_url(filter_apartment=False, filter_wg=True)
 header_initialized = False
 currentpage_num = 1
 
-"""
 # 1.4. Request through pages of the district and extract the ads url endings
 for district in districts:
     for suburbs in suburbFilter.generate_random_suburb_subsets(district):
-        FilterUrl = urlManager.set_suburb_filter(BaseURL, suburbs[0])
+        FilterUrl = urlManager.set_suburb_filter(BaseURL, suburbs[0]).encode('utf-8')
         if header_initialized == False:
             proxies = findproxy.find_proxies_FreeProxy()
             headers = requestHeaders.init_headers()
@@ -42,52 +40,44 @@ for district in districts:
         while True:
             try:
                 page_url = urlManager.switch_page(FilterUrl, currentpage_num)
+                # implement if statement to get the max resuklts on first page
                 response = requests.get(page_url, proxies=proxies, headers=headers)
                 response.raise_for_status()
+                if currentpage_num == 1:
+                    max_results = adsExtractor.extract_max_results(response.text)
+                    adsExtractor.store_max_results_in_csv(max_results, district, suburbs[0])
                 adsExtractor.extract_ads_url_endings(response.text)
                 currentpage_num += 1
             except requests.exceptions.HTTPError:
                 # HTTP error (e.g., page not found), break the loop
+                currentpage_num = 1
+                headers = requestHeaders.change_headers()
                 break
             except requests.exceptions.RequestException:
                 # Other request errors (e.g., proxy failure), try new proxy
                 proxies = findproxy.find_proxies_FreeProxy()
-                if not proxies:
-                    break  # No more proxies available, break the loop
-"""
+
 # -------------------------------------------------------
-# 2. Request for Apartment
+# 2. Request to extract the information of the apartments
 # -------------------------------------------------------
 
 # 2.1. Read the ads url endings from the file 
-ad_url_list = adsExtractor.read_url_endings()
+ad_url_list = adsExtractor.ads_roominfo_not_extracted()
 
 # 2.2. Find proxie and create header for request
 proxies = findproxy.find_proxies_FreeProxy()
 headers = requestHeaders.init_headers()
-with open(OUTPUT_FILEPATH, 'r', encoding='utf-8') as csvfile:
-    reader = csv.DictReader(csvfile)
 
 # 2.3. Requests for the apartment and extract the information
 for id, url in ad_url_list.items():
-    should_continue = False  # Flag to indicate if outer loop should continue
-    for row in reader:
-        if row['apartmentID'] == id:
-            # Do something if apartmentID matches id
-            should_continue = True  # Set flag to true and break inner loop
-            break
-        else:
-            try:
-                response = requests.get(url, headers=headers, proxies=proxies)
-                # Save the html file for test purposes
-                with open(HTML_FILES_PATH + '/' + str(id) + '.html', 'w', encoding='utf-8') as f: 
-                    f.write(response.text)
-                response.raise_for_status()
-                HTMLInfoExtractor(html_content=response.text, apartmentID=id).extract_all()
-            except requests.exceptions.RequestException:
-                # Other request errors (e.g., proxy failure), try new proxy
-                proxies = findproxy.find_proxies_FreeProxy()
-                if not proxies:
-                    break
-    if should_continue:
-        continue  # Skip to the next iteration of the outer loop
+    try:
+        response = requests.get(url, headers=headers, proxies=proxies)
+        # Save the html file for test purposes
+        with open(HTML_FILES_PATH + '/' + str(id) + '.html', 'w', encoding='utf-8') as f: 
+            f.write(response.text)
+        response.raise_for_status()
+        HTMLInfoExtractor(html_content=response.text, apartmentID=id).extract_all()
+    except requests.exceptions.RequestException:
+        # Other request errors (e.g., proxy failure), try new proxy
+        proxies = findproxy.find_proxies_FreeProxy()
+        headers = requestHeaders.change_headers()
