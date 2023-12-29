@@ -11,7 +11,7 @@ class AdsExtractor:
         self.base_url = BASE_URL
         self.logger = logging.getLogger(__name__)
 
-    def extract_ads_url_endings(self, responseHTML):
+    def extract_ads_url_endings(self, responseHTML, district, suburbs):
         # Find all the ads and extract their IDs and URL endings
         soup = BeautifulSoup(responseHTML, 'html.parser')
         ads = soup.find_all('div', class_='wgg_card offer_list_item')
@@ -22,7 +22,7 @@ class AdsExtractor:
             url_ending = ad.find('a', href=True)['href']
             url_dict[ad_id] = url_ending
 
-        self.store_ads_url_endings_in_csv(url_dict)
+        return self.store_ads_url_endings_in_csv(url_dict, district, suburbs)
 
     def extract_max_results(self, responseHTML):
         # Find the max results of the search on First Page
@@ -58,7 +58,7 @@ class AdsExtractor:
 
             writer.writerow([district, suburbs, max_results])
 
-    def store_ads_url_endings_in_csv(self, url_dict):
+    def store_ads_url_endings_in_csv(self, url_dict, district, suburbs):
         file_exists = os.path.isfile(ADS_URL_LIST_PATH)
         stored_urls = self.read_url_endings()
 
@@ -71,7 +71,8 @@ class AdsExtractor:
                 if ad_id not in stored_urls:
                     writer.writerow([ad_id, url_ending])
 
-        self.logger.info(f"Stored {len(url_dict)} new ADs: {ADS_URL_LIST_PATH}")
+        self.logger.info(f"District: {district} - Suburb: {suburbs} : Stored {len(url_dict)} new ADs in the CSV.")
+        return len(url_dict)
 
     def read_url_endings(self):
         urls = {}

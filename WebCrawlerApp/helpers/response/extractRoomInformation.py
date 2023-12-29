@@ -1,4 +1,4 @@
-from ..constants import ROOMINFO_PATH, LOG_PATH
+from ..constants import ROOMINFO_PATH
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 import logging
@@ -75,18 +75,25 @@ class HTMLInfoExtractor:
         # Extracts user information such as name and premium status.
         # :return: Tuple of premium status and user name.
         try: 
+            # Find the premium status
             premium_image = self.soup.find('img', {'src': '/img/wgg_premium_partner.png'})
             premium_status = True if premium_image else False
 
-            name_tag = self.soup.find('p', {'class': 'text-dark-gray text-bold mb0 '})
-            name = name_tag.get_text().strip() if name_tag else None 
+            # Find the outer div containing the company name
+            user_profile_info_div = self.soup.find('div', class_='bottom_contact_box')
+            # Find the specific <p> tag for company name within this div
+            if user_profile_info_div:
+                name_tag = user_profile_info_div.find('p', class_='text-dark-gray text-bold mb0')
+                name = name_tag.get_text().strip() if name_tag else None
+            elif premium_status is False:
+                name = 'Public Person'
+            else: 
+                name = None
 
-            data = {'premiumstatus' : premium_status, 'user_name' : name}
+            data = {'premiumstatus': premium_status, 'user_name': name}
             self.update_apartment_data(data)
             return premium_status, name
         except Exception as e:
-            data = {'premiumstatus' : False, 'user_name' : 'Public Person'}
-            self.update_apartment_data(data)
             self.logger.error(f"{self.apartmentID}: Error in extract_user_information. Message: {e}")
             self.logger.error(traceback.format_exc())
 
@@ -473,22 +480,29 @@ class HTMLInfoExtractor:
             self.logger.error(f"{self.apartmentID}: Error in extract_required_documents. Message: {e}")
             self.logger.error(traceback.format_exc())
 
+    
+    def create_csv(self):
+        # Creates a CSV file with the apartment data.
+        try: 
+            with open(self.output_filepath, 'w', newline='', encoding='utf-8') as csvfile:
+                fieldnames = list(self.apartment_data.keys())
+                writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+                writer.writeheader()
+        except Exception as e:
+            self.logger.error(f"{self.apartmentID}: Error in create_csv. Message: {e}")
+            self.logger.error(traceback.format_exc())
+
 
     def write_to_csv(self):
         # Writes the extracted apartment data to a CSV file.
         # :param filename: Name of the CSV file to be written.
         try:
             filename = self.output_filepath        
-            file_exists = os.path.isfile(filename)
 
             with open(filename, 'a', newline='', encoding='utf-8') as csvfile:
                 # Dynamically adjust column names based on the data
                 fieldnames = list(self.apartment_data.keys())
                 writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-
-                # Write header only if file did not exist
-                if not file_exists:
-                    writer.writeheader()
 
                 # Extend existing columns if new data has more columns
                 missing_columns = set(fieldnames) - set(COLUMN_NAMES)
@@ -504,6 +518,10 @@ class HTMLInfoExtractor:
     def extract_all(self):
         # Main method to extract all information and handle exceptions.
         try:
+            if os.path.isfile(self.output_filepath) is False:
+                self.create_csv()
+                self.logger.info(f" - Initialized CSV file.")
+
             if self.check_ad_is_active() is True:
                 if self.check_id_is_stored() is False:
                     self.extract_rental_information()
