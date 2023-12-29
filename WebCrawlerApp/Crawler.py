@@ -3,8 +3,9 @@ from helpers.request.suburb_filter import *
 from helpers.request.header import *
 from helpers.request.url_manager import *
 from helpers.request.findproxy import *
-from helpers.response.extractUrls import *
-from helpers.response.retrieveRoomInformation import *
+from helpers.response.extractAdsUrls import *
+from helpers.response.extractRoomInformation import *
+from helpers import logging
 import requests
 
 # -------------------------------------------------------
@@ -19,6 +20,9 @@ proxyReader = ProxyReader()
 findproxy = ProxyManager()
 adsExtractor = AdsExtractor()
 
+# Initialize the logging
+logging.setup_logging()
+
 # 1.2. Get all the districts
 districts = suburbFilter.get_all_districts()
 
@@ -27,10 +31,11 @@ BaseURL = urlManager.set_base_url(filter_apartment=False, filter_wg=True)
 header_initialized = False
 currentpage_num = 1
 
+"""
 # 1.4. Request through pages of the district and extract the ads url endings
 for district in districts:
     for suburbs in suburbFilter.generate_random_suburb_subsets(district):
-        FilterUrl = urlManager.set_suburb_filter(BaseURL, suburbs[0]).encode('utf-8')
+        FilterUrl = urlManager.set_suburb_filter(BaseURL, suburbs[0])
         if header_initialized == False:
             proxies = findproxy.find_proxies_FreeProxy()
             headers = requestHeaders.init_headers()
@@ -48,6 +53,10 @@ for district in districts:
                     adsExtractor.store_max_results_in_csv(max_results, district, suburbs[0])
                 adsExtractor.extract_ads_url_endings(response.text)
                 currentpage_num += 1
+                if adsExtractor.check_no_ads_within_radius_lastpage(response.text):
+                    currentpage_num = 1
+                    headers = requestHeaders.change_headers()
+                    break
             except requests.exceptions.HTTPError:
                 # HTTP error (e.g., page not found), break the loop
                 currentpage_num = 1
@@ -56,7 +65,7 @@ for district in districts:
             except requests.exceptions.RequestException:
                 # Other request errors (e.g., proxy failure), try new proxy
                 proxies = findproxy.find_proxies_FreeProxy()
-
+"""
 # -------------------------------------------------------
 # 2. Request to extract the information of the apartments
 # -------------------------------------------------------
