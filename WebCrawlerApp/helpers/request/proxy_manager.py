@@ -13,8 +13,7 @@ class ProxyManager:
     def __init__(self):
         self.proxy_path = PROXY_CSV_PATH
         self.proxies_df = self.init_proxie_df()
-        logging.basicConfig(filename=LOG_PATH, filemode='w', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
+        self.logger = logging.getLogger(__name__)
 
     def init_proxie_df(self): 
         try:
@@ -23,8 +22,8 @@ class ProxyManager:
                 proxies_df[key] = pd.NA 
             return proxies_df
         except Exception as e:
-            logging.error(f"Error in init_proxie_df: {e}")
-            logging.error(traceback.format_exc())
+            self.logger.error(f"Error in init_proxie_df: {e}")
+            self.logger.error(traceback.format_exc())
     
 
     def find_proxies_FreeProxy(self):
@@ -39,29 +38,28 @@ class ProxyManager:
                         self.store_working_ip_address_in_csv(self.proxies_df)
                         return proxies
 
-            logging.info("Failed to find a working proxy after several attempts")
+            self.logger.warning("No working proxy found.")
             return None
         except Exception as e:
-            logging.error(f"Error in find_proxies_FreeProxy: {e}")
-            logging.error(traceback.format_exc())
+            self.logger.error(f"Error in find_proxies_FreeProxy: {e}")
+            self.logger.error(traceback.format_exc())
     
 
     def get_random_proxy(self):
         try:
             random_country = self.select_random_country()
-            try:
-                proxy = FreeProxy(country_id=random_country).get()
-                if proxy:
-                    return proxy
-                else:
-                    logging.warning(f"No proxy found for country: {random_country}")
-                    return None
-            except Exception as e:
-                logging.error(f"Error obtaining proxy: {e}")
+            proxy = FreeProxy(country_id=random_country).get()
+
+            if proxy:
+                return proxy
+            else:
+                self.logger.warning("No proxy found.")
                 return None
         except Exception as e:
-            logging.error(f"Error in get_random_proxy: {e}")
-            logging.error(traceback.format_exc())
+            self.logger.error(f"Error in get_random_proxy: {e}")
+            self.logger.error(traceback.format_exc())
+            return None
+
 
     def select_random_country(self):
         europe_countries = ['DE'] * 10 + ['CH'] * 2 + ['AT'] * 3 + ['FR'] * 2 + ['IT'] * 2 + ['ES'] * 2 + ['GB'] * 2 + ['NL'] * 2 + ['SE'] * 2 + ['PL'] * 2
@@ -79,34 +77,33 @@ class ProxyManager:
                     if key == 'WgGesucht':
                         self.proxies_df.loc[0, 'http'] = proxy
                         self.proxies_df.loc[0, 'https'] = proxy
-                        logging.info("Found working proxies for WgGesucht.")
+                        self.logger.info(f"Found a working proxy for {key}: {proxy}")
                         wg_gesucht_found = True
                 else:
                     self.proxies_df.loc[0, key] = 0
 
             return wg_gesucht_found, proxies
         except Exception as e:
-            logging.error(f"Error in test_proxy: {e}")
-            logging.error(traceback.format_exc())
+            self.logger.error(f"Error in test_proxy: {e}")
+            self.logger.error(traceback.format_exc())
 
 
     def is_proxy_working(self, proxy, proxies, url):
         try:
             response = requests.get(url, proxies=proxies)
             if response.status_code == 200:
-                logging.info(f"{proxy}: Proxy is working for the website {url}.")
+                self.logger.info(f"{proxy}: Proxy is working for the website {url}.")
                 return True
             else:
-                logging.info(f"{proxy}: Proxy is NOT working for the website {url}.")
+                self.logger.info(f"{proxy}: Proxy is not working for the website {url}.")
                 return False
         except requests.exceptions.RequestException as e:
-            logging.error(f"{proxy}: Error connecting to website {url}.")
+            self.logger.info(f"{proxy}: Proxy is not working for the website {url}.")
             return False
 
 
     def store_working_ip_address_in_csv(self, proxies_df):
         try:
-            # Read existing proxies from CSV
             existing_proxies = self.read_proxies_from_csv()
 
             # Extract proxy information from the DataFrame
@@ -120,12 +117,13 @@ class ProxyManager:
                     writer = csv.writer(csvfile)
                     # Writing the entire row from DataFrame to CSV
                     writer.writerow(proxies_df.iloc[0].tolist())
-                logging.info("New proxy information saved to proxies.csv.")
+                self.logger.info(f"Stored a new proxy in the CSV: {proxy_http}")
             else:
-                logging.info("Proxy already exists in the CSV.")
+                self.logger.info(f"Proxy already in CSV: {proxy_http}")
         except Exception as e:
-            logging.error(f"Error in store_working_ip_address_in_csv: {e}")
-            logging.error(traceback.format_exc())
+            self.logger.error(f"Error in store_working_ip_address_in_csv: {e}")
+            self.logger.error(traceback.format_exc())
+
 
     def read_proxies_from_csv(self):
         try:
@@ -139,5 +137,5 @@ class ProxyManager:
                 pass
             return proxies
         except Exception as e:
-            logging.error(f"Error in read_proxies_from_csv: {e}")
-            logging.error(traceback.format_exc())
+            self.logger.error(f"Error in read_proxies_from_csv: {e}")  
+            self.logger.error(traceback.format_exc())
