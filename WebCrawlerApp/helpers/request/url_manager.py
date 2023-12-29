@@ -1,5 +1,6 @@
 from .suburb_filter import *
 from ..constants import *
+from urllib.parse import urlencode, urlparse, urlunparse, parse_qs
 
 class URLManager:
     BASE_URL = BASE_URL
@@ -20,10 +21,25 @@ class URLManager:
 
     @staticmethod
     def set_suburb_filter(url, suburbs):
-        filter_url = url + '?offer_filter=1&city_id=8&sort_order=0&noDeact=1&categories[]=0&categories[]=1'
-        for suburb, number in suburbs:
-            filter_url += f'&ot[]={number}'
-        return filter_url
+        # Parse the URL
+        parsed_url = urlparse(url)
+
+        # Existing query parameters
+        query_params = parse_qs(parsed_url.query)
+
+        # Add additional parameters
+        query_params['offer_filter'] = ['1']
+        query_params['city_id'] = ['8']
+        query_params['sort_order'] = ['0']
+        query_params['noDeact'] = ['1']
+        query_params['categories[]'] = ['0', '1']
+        query_params['ot[]'] = [str(number) for suburb, number in suburbs]
+
+        # Encode the query string
+        encoded_query = urlencode(query_params, doseq=True)
+
+        # Reconstruct the full URL with the encoded query string
+        return urlunparse((parsed_url.scheme, parsed_url.netloc, parsed_url.path, parsed_url.params, encoded_query, parsed_url.fragment))
 
     @staticmethod
     def switch_page(url, page_number):
