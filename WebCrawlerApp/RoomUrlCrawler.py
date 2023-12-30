@@ -2,9 +2,7 @@ from helpers.request.proxy_manager import *
 from helpers.request.suburb_filter import *
 from helpers.request.header import *
 from helpers.request.url_manager import *
-from helpers.request.findproxy import *
 from helpers.response.extractAdsUrls import *
-from helpers.response.extractRoomInformation import *
 from helpers import logging
 import requests
 import time
@@ -17,7 +15,6 @@ import time
 suburbFilter = SuburbFilter()
 requestHeaders = RequestHeaders()
 urlManager = URLManager()
-proxyReader = ProxyReader()
 findproxy = ProxyManager()
 adsExtractor = AdsExtractor()
 
@@ -33,10 +30,8 @@ header_initialized = False
 currentpage_num = 1
 
 # 1.4. Request through pages of the district and extract the ads url endings
-# Initializations outside the loop
 proxies = findproxy.find_proxies_FreeProxy()
 headers = requestHeaders.init_headers()
-
 
 for district in districts:
     for suburbs in suburbFilter.generate_random_suburb_subsets(district):
@@ -77,32 +72,3 @@ for district in districts:
             except requests.exceptions.RequestException:
                 proxies = findproxy.find_proxies_FreeProxy()
                 headers = requestHeaders.change_headers()
-
-# -------------------------------------------------------
-# 2. Request to extract the information of the apartments
-# -------------------------------------------------------
-
-# 2.1. Read the ads url endings from the file 
-if os.path.isfile(ROOMINFO_PATH):
-    ad_url_list = adsExtractor.ads_roominfo_not_extracted()
-else: 
-    ad_url_list = adsExtractor.read_url_endings()
-    
-
-# 2.2. Find proxie and create header for request
-proxies = findproxy.find_proxies_FreeProxy()
-headers = requestHeaders.init_headers()
-
-# 2.3. Requests for the apartment and extract the information
-for id, url in ad_url_list.items():
-    try:
-        response = requests.get(url, headers=headers, proxies=proxies)
-        # Save the html file for test purposes
-        with open(HTML_FILES_PATH + '/' + str(id) + '.html', 'w', encoding='utf-8') as f: 
-            f.write(response.text)
-        response.raise_for_status()
-        HTMLInfoExtractor(html_content=response.text, apartmentID=id).extract_all()
-    except requests.exceptions.RequestException:
-        # Other request errors (e.g., proxy failure), try new proxy
-        proxies = findproxy.find_proxies_FreeProxy()
-        headers = requestHeaders.change_headers()
