@@ -42,7 +42,7 @@ for district in districts:
     for suburbs in suburbFilter.generate_random_suburb_subsets(district):
         FilterUrl = urlManager.set_suburb_filter(BaseURL, suburbs[0])
         currentpage_num = 1
-        counter = 0
+        counter = 1
 
         while True:
             try:
@@ -57,16 +57,18 @@ for district in districts:
                 length_urls_check = adsExtractor.extract_ads_url_endings(response.text, district, suburbs[0])
                 if length_urls_check == 0:
                     counter += 1
+                else: 
+                    currentpage_num += 1
 
                 if adsExtractor.check_no_ads_within_radius_lastpage(response.text):
                     currentpage_num = 1
                     headers = requestHeaders.change_headers()
                     break
-                elif counter > 10:
-                    time.sleep(60)
-                    counter = 0
-                else:
-                    currentpage_num += 1
+                elif counter >= 10:
+                    counter = 0 
+                    time.sleep(random.randint(5,15))
+                    proxies = findproxy.find_proxies_FreeProxy()
+                    headers = requestHeaders.change_headers()  
 
             except requests.exceptions.HTTPError:
                 currentpage_num = 1
