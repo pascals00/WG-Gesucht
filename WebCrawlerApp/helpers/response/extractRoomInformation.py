@@ -60,7 +60,7 @@ class HTMLInfoExtractor:
         # :return: True if the apartment ID is already stored, False otherwise.
         try: 
             # Find the section with the title 'Anzeige ist deaktiviert'
-            with open(self.output_filepath, 'r') as csvfile:
+            with open(self.output_filepath, 'r', encoding='utf-8') as csvfile:
                 reader = csv.reader(csvfile)
                 for row in reader:
                     if row[0] == self.apartmentID:
