@@ -32,7 +32,7 @@ for id, url in ad_url_list.items():
     try:
         headers = requestHeaders.init_headers()
         response = requests.get(url, headers=headers, proxies=proxies)
-        while 'Captcha' in response.text or 'captcha' in response.text:
+        while 'Lösung des Captchas' in response.text or 'class="g-recaptcha"' in response.text:
             headers = requestHeaders.change_headers()
             proxies = findproxy.find_proxies_FreeProxy()
             response = requests.get(url, headers=headers, proxies=proxies)
