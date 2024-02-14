@@ -37,7 +37,9 @@ for id, url in ad_url_list.items():
             proxies = findproxy.find_proxies_FreeProxy()
             response = requests.get(url, headers=headers, proxies=proxies)
         response.raise_for_status()
-        HTMLInfoExtractor(html_content=response.text, apartmentID=id).extract_all()
+        ad_extract_success = HTMLInfoExtractor(html_content=response.text, apartmentID=id).extract_all()
+        if ad_extract_success == False:
+            
     except requests.exceptions.RequestException:
         # Other request errors (e.g., proxy failure), try new proxy
         proxies = findproxy.find_proxies_FreeProxy()

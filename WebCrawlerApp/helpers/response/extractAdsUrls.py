@@ -93,7 +93,7 @@ class AdsExtractor:
         stored_urls = self.read_url_endings()
         url_endings_roominfo_not_extracted = {}
 
-        with open(ROOMINFO_PATH, 'r') as csvfile:
+        with open(ROOMINFO_PATH, 'r', encoding='utf-8') as csvfile:
             reader = csv.reader(csvfile)
             next(reader, None)
             ids_roominfo_extracted = [int(float(row[0])) for row in reader]

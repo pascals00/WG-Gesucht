@@ -539,6 +539,7 @@ class HTMLInfoExtractor:
                     self.logger.info(f"{self.apartmentID}: Apartment data already stored.")
             else:
                 self.logger.info(f"{self.apartmentID}: Apartment ad is not active.")
+                return 0
         except Exception as e:
             self.logger.error(f"{self.apartmentID}: Error in extract_all. Message: {e}")
             self.logger.error(traceback.format_exc())
