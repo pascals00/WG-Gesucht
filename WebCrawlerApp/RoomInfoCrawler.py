@@ -38,7 +38,8 @@ for id, url in ad_url_list.items():
             response = requests.get(url, headers=headers, proxies=proxies)
         response.raise_for_status()
         ad_extract_success = HTMLInfoExtractor(html_content=response.text, apartmentID=id).extract_all()
-        if ad_extract_success == False:
+        if ad_extract_success is False:
+            adsExtractor.delete_inactive_ad(id)
             
     except requests.exceptions.RequestException:
         # Other request errors (e.g., proxy failure), try new proxy

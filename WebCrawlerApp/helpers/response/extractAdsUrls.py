@@ -11,6 +11,7 @@ class AdsExtractor:
         self.base_url = BASE_URL
         self.logger = logging.getLogger(__name__)
 
+
     def extract_ads_url_endings(self, responseHTML, district, suburbs):
         # Find all the ads and extract their IDs and URL endings
         soup = BeautifulSoup(responseHTML, 'html.parser')
@@ -37,6 +38,7 @@ class AdsExtractor:
             self.logger.error(f"Error extracting max results: {e}")
             self.logger.error(traceback.format_exc())
 
+
     def check_no_ads_within_radius_lastpage(self, responseHTML):
         try: 
             snippet = "leider keine Anzeigen vorhanden"
@@ -47,7 +49,8 @@ class AdsExtractor:
         except Exception as e:
             self.logger.error(f"Error in check_no_ads_within_radius_lastpage: {e}")
             self.logger.error(traceback.format_exc())
-        
+
+
     def store_max_results_in_csv(self, max_results, district, suburbs):
         file_exists = os.path.isfile(MAX_RESULTS_SUBURBS_PATH)
 
@@ -57,6 +60,7 @@ class AdsExtractor:
                 writer.writerow(['District','Suburbs','Max Results'])
 
             writer.writerow([district, suburbs, max_results])
+
 
     def store_ads_url_endings_in_csv(self, url_dict, district, suburbs):
         file_exists = os.path.isfile(ADS_URL_LIST_PATH)
@@ -74,6 +78,7 @@ class AdsExtractor:
         self.logger.info(f"District: {district} - Suburb: {suburbs} : Stored {len(url_dict)} new ADs in the CSV.")
         return len(url_dict)
 
+
     def read_url_endings(self):
         urls = {}
         try:
@@ -89,6 +94,7 @@ class AdsExtractor:
             self.logger.error(f"File not found: {ADS_URL_LIST_PATH}")
             return []
         
+
     def ads_roominfo_not_extracted(self):
         stored_urls = self.read_url_endings()
         url_endings_roominfo_not_extracted = {}
@@ -103,6 +109,21 @@ class AdsExtractor:
                 url_endings_roominfo_not_extracted[id] = stored_urls[id]
         
         return url_endings_roominfo_not_extracted
+    
+
+    def delete_inactive_ad(self, id):
+        with open(ADS_URL_LIST_PATH, 'r', encoding='utf-8') as csvfile:
+            reader = csv.reader(csvfile)
+            rows = list(reader)
+
+        with open(ADS_URL_LIST_PATH, 'w', encoding='utf-8') as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(rows[0])    # Write the header
+            for row in rows[1:]:        # Start after the header
+                if row[0] != id:
+                    writer.writerow(row)
+        self.logger.info(f"Deleted inactive ad with ID: {id}")
+        return True
     
 
     

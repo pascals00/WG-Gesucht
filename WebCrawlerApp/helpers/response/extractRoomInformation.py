@@ -535,11 +535,13 @@ class HTMLInfoExtractor:
                     self.extract_required_documents()
                     self.write_to_csv()
                     self.logger.info(f"{self.apartmentID}: Apartment data extracted and stored.")
+                    return True
                 else: 
                     self.logger.info(f"{self.apartmentID}: Apartment data already stored.")
+                    return False
             else:
                 self.logger.info(f"{self.apartmentID}: Apartment ad is not active.")
-                return 0
+                return False
         except Exception as e:
             self.logger.error(f"{self.apartmentID}: Error in extract_all. Message: {e}")
             self.logger.error(traceback.format_exc())
