@@ -86,9 +86,11 @@ class AdsExtractor:
                 reader = csv.reader(csvfile)
                 next(reader, None)  # Skip header
                 for row in reader:
-                    # if statement 
-                    full_url = self.base_url + row[1]
-                    urls[row[0]] = full_url
+                    if row:  
+                        full_url = self.base_url + row[1]
+                        urls[row[0]] = full_url
+                    else: 
+                        return {}
             return urls
         except FileNotFoundError:
             self.logger.error(f"File not found: {ADS_URL_LIST_PATH}")
