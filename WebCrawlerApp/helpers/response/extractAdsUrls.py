@@ -82,7 +82,7 @@ class AdsExtractor:
     def read_url_endings(self):
         urls = {}
         try:
-            with open(ADS_URL_LIST_PATH, 'r') as csvfile:
+            with open(ADS_URL_LIST_PATH, 'r', encoding='utf-8') as csvfile:
                 reader = csv.reader(csvfile)
                 next(reader, None)  # Skip header
                 for row in reader:
