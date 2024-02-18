@@ -1,0 +1,2 @@
+2024-02-18 11:54:29,202 - INFO - helpers.request.proxy_manager - http://18.206.243.225:4920: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-02-18 11:54:29,500 - INFO - helpers.request.proxy_manager - http://18.206.243.225:4920: Proxy is not working for the website https://www.immobilienscout24.de.
