@@ -1,0 +1,85 @@
+2024-02-18 15:24:08,453 - INFO - helpers.request.proxy_manager - http://12.186.205.123:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-02-18 15:24:08,703 - INFO - helpers.request.proxy_manager - http://12.186.205.123:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-02-18 15:24:10,953 - INFO - helpers.request.proxy_manager - http://12.186.205.123:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-02-18 15:24:11,203 - INFO - helpers.request.proxy_manager - http://12.186.205.123:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-02-18 15:24:22,156 - INFO - helpers.request.proxy_manager - http://189.240.60.169:9090: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-02-18 15:24:24,937 - INFO - helpers.request.proxy_manager - http://189.240.60.169:9090: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-02-18 15:24:27,062 - INFO - helpers.request.proxy_manager - http://35.185.196.38:3128: Proxy is working for the website https://www.wg-gesucht.de.
+2024-02-18 15:24:27,062 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://35.185.196.38:3128
+2024-02-18 15:24:28,719 - INFO - helpers.request.proxy_manager - http://35.185.196.38:3128: Proxy is working for the website https://www.immobilienscout24.de.
+2024-02-18 15:24:28,719 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://35.185.196.38:3128
+2024-02-18 15:24:34,515 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Oberschöneweide', 169), ('Köpenick', 150)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:24:40,000 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Oberschöneweide', 169), ('Köpenick', 150)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:24:45,500 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Oberschöneweide', 169), ('Köpenick', 150)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:24:51,031 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Oberschöneweide', 169), ('Köpenick', 150)] : Stored 8 new ADs in the CSV.
+2024-02-18 15:24:56,776 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Oberschöneweide', 169), ('Köpenick', 150)] : Stored 6 new ADs in the CSV.
+2024-02-18 15:25:02,937 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Grünau', 135), ('Baumschulenweg', 116)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:25:08,562 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Grünau', 135), ('Baumschulenweg', 116)] : Stored 9 new ADs in the CSV.
+2024-02-18 15:25:12,562 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Grünau', 135), ('Baumschulenweg', 116)] : Stored 6 new ADs in the CSV.
+2024-02-18 15:25:18,328 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Bohnsdorf', 120), ('Schöneberg', 178), ('Treptow', 185), ('Plänterwald', 85089)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:25:23,812 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Bohnsdorf', 120), ('Schöneberg', 178), ('Treptow', 185), ('Plänterwald', 85089)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:25:29,421 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Bohnsdorf', 120), ('Schöneberg', 178), ('Treptow', 185), ('Plänterwald', 85089)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:25:35,890 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Bohnsdorf', 120), ('Schöneberg', 178), ('Treptow', 185), ('Plänterwald', 85089)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:25:41,562 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Bohnsdorf', 120), ('Schöneberg', 178), ('Treptow', 185), ('Plänterwald', 85089)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:25:47,375 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Bohnsdorf', 120), ('Schöneberg', 178), ('Treptow', 185), ('Plänterwald', 85089)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:25:52,906 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Bohnsdorf', 120), ('Schöneberg', 178), ('Treptow', 185), ('Plänterwald', 85089)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:25:58,500 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Bohnsdorf', 120), ('Schöneberg', 178), ('Treptow', 185), ('Plänterwald', 85089)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:26:04,656 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Bohnsdorf', 120), ('Schöneberg', 178), ('Treptow', 185), ('Plänterwald', 85089)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:26:10,578 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Bohnsdorf', 120), ('Schöneberg', 178), ('Treptow', 185), ('Plänterwald', 85089)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:26:16,859 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Bohnsdorf', 120), ('Schöneberg', 178), ('Treptow', 185), ('Plänterwald', 85089)] : Stored 16 new ADs in the CSV.
+2024-02-18 15:26:21,234 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Bohnsdorf', 120), ('Schöneberg', 178), ('Treptow', 185), ('Plänterwald', 85089)] : Stored 6 new ADs in the CSV.
+2024-02-18 15:26:26,874 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Wilhelmshagen', 191), ('Niederschöneweide', 166), ('Johannisthal', 143), ('Karolinenhof', 145)] : Stored 18 new ADs in the CSV.
+2024-02-18 15:26:31,171 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Wilhelmshagen', 191), ('Niederschöneweide', 166), ('Johannisthal', 143), ('Karolinenhof', 145)] : Stored 6 new ADs in the CSV.
+2024-02-18 15:26:36,890 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Müggelheim', 164), ('Altglienicke', 115), ('Rahnsdorf', 172), ('Friedrichshagen', 131)] : Stored 21 new ADs in the CSV.
+2024-02-18 15:26:41,031 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Müggelheim', 164), ('Altglienicke', 115), ('Rahnsdorf', 172), ('Friedrichshagen', 131)] : Stored 6 new ADs in the CSV.
+2024-02-18 15:26:46,859 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Adlershof', 114), ('Hessenwinkel', 141)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:26:52,406 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Adlershof', 114), ('Hessenwinkel', 141)] : Stored 17 new ADs in the CSV.
+2024-02-18 15:26:54,234 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Adlershof', 114), ('Hessenwinkel', 141)] : Stored 0 new ADs in the CSV.
+2024-02-18 15:26:58,500 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Adlershof', 114), ('Hessenwinkel', 141)] : Stored 6 new ADs in the CSV.
+2024-02-18 15:27:10,640 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Malchow', 158), ('Lichtenberg', 153), ('Falkenberg', 128), ('Karlshorst', 144)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:27:17,484 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Malchow', 158), ('Lichtenberg', 153), ('Falkenberg', 128), ('Karlshorst', 144)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:27:23,124 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Malchow', 158), ('Lichtenberg', 153), ('Falkenberg', 128), ('Karlshorst', 144)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:27:28,843 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Malchow', 158), ('Lichtenberg', 153), ('Falkenberg', 128), ('Karlshorst', 144)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:27:34,609 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Malchow', 158), ('Lichtenberg', 153), ('Falkenberg', 128), ('Karlshorst', 144)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:27:40,280 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Malchow', 158), ('Lichtenberg', 153), ('Falkenberg', 128), ('Karlshorst', 144)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:27:45,812 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Malchow', 158), ('Lichtenberg', 153), ('Falkenberg', 128), ('Karlshorst', 144)] : Stored 15 new ADs in the CSV.
+2024-02-18 15:27:50,234 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Malchow', 158), ('Lichtenberg', 153), ('Falkenberg', 128), ('Karlshorst', 144)] : Stored 6 new ADs in the CSV.
+2024-02-18 15:27:55,968 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Rummelsburg', 85090), ('Hohenschönhausen', 142), ('Alt-Hohenschönhausen', 85076)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:28:01,703 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Rummelsburg', 85090), ('Hohenschönhausen', 142), ('Alt-Hohenschönhausen', 85076)] : Stored 11 new ADs in the CSV.
+2024-02-18 15:28:05,140 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Rummelsburg', 85090), ('Hohenschönhausen', 142), ('Alt-Hohenschönhausen', 85076)] : Stored 0 new ADs in the CSV.
+2024-02-18 15:28:09,359 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Rummelsburg', 85090), ('Hohenschönhausen', 142), ('Alt-Hohenschönhausen', 85076)] : Stored 6 new ADs in the CSV.
+2024-02-18 15:28:15,015 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Neu-Hohenschönhausen', 85087), ('Friedrichsfelde', 130), ('Wartenberg', 188)] : Stored 20 new ADs in the CSV.
+2024-02-18 15:28:19,437 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Neu-Hohenschönhausen', 85087), ('Friedrichsfelde', 130), ('Wartenberg', 188)] : Stored 6 new ADs in the CSV.
+2024-02-18 15:28:25,343 - INFO - helpers.response.extractAdsUrls - District: Marzahn-Hellersdorf - Suburb: [('Biesdorf', 117)] : Stored 16 new ADs in the CSV.
+2024-02-18 15:28:29,702 - INFO - helpers.response.extractAdsUrls - District: Marzahn-Hellersdorf - Suburb: [('Biesdorf', 117)] : Stored 6 new ADs in the CSV.
+2024-02-18 15:28:35,390 - INFO - helpers.response.extractAdsUrls - District: Marzahn-Hellersdorf - Suburb: [('Kaulsdorf', 147), ('Marzahn-Hellersdorf', 85085)] : Stored 20 new ADs in the CSV.
+2024-02-18 15:28:39,531 - INFO - helpers.response.extractAdsUrls - District: Marzahn-Hellersdorf - Suburb: [('Kaulsdorf', 147), ('Marzahn-Hellersdorf', 85085)] : Stored 6 new ADs in the CSV.
+2024-02-18 15:28:45,124 - INFO - helpers.response.extractAdsUrls - District: Marzahn-Hellersdorf - Suburb: [('Marzahn', 162)] : Stored 18 new ADs in the CSV.
+2024-02-18 15:28:49,374 - INFO - helpers.response.extractAdsUrls - District: Marzahn-Hellersdorf - Suburb: [('Marzahn', 162)] : Stored 6 new ADs in the CSV.
+2024-02-18 15:28:55,093 - INFO - helpers.response.extractAdsUrls - District: Marzahn-Hellersdorf - Suburb: [('Mahlsdorf', 157), ('Hellersdorf', 139)] : Stored 17 new ADs in the CSV.
+2024-02-18 15:28:59,265 - INFO - helpers.response.extractAdsUrls - District: Marzahn-Hellersdorf - Suburb: [('Mahlsdorf', 157), ('Hellersdorf', 139)] : Stored 6 new ADs in the CSV.
+2024-02-18 15:29:03,452 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Heinersdorf', 138)] : Stored 6 new ADs in the CSV.
+2024-02-18 15:29:09,140 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Pankow', 170), ('Blankenburg', 118), ('Buchholz', 124), ('Französisch Buchholz', 85078)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:29:14,733 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Pankow', 170), ('Blankenburg', 118), ('Buchholz', 124), ('Französisch Buchholz', 85078)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:29:20,280 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Pankow', 170), ('Blankenburg', 118), ('Buchholz', 124), ('Französisch Buchholz', 85078)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:29:25,749 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Pankow', 170), ('Blankenburg', 118), ('Buchholz', 124), ('Französisch Buchholz', 85078)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:29:31,233 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Pankow', 170), ('Blankenburg', 118), ('Buchholz', 124), ('Französisch Buchholz', 85078)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:29:36,890 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Pankow', 170), ('Blankenburg', 118), ('Buchholz', 124), ('Französisch Buchholz', 85078)] : Stored 11 new ADs in the CSV.
+2024-02-18 15:29:41,061 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Pankow', 170), ('Blankenburg', 118), ('Buchholz', 124), ('Französisch Buchholz', 85078)] : Stored 6 new ADs in the CSV.
+2024-02-18 15:29:47,124 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Buch', 123)] : Stored 11 new ADs in the CSV.
+2024-02-18 15:30:17,358 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Buch', 123)] : Stored 6 new ADs in the CSV.
+2024-02-18 15:30:21,421 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Niederschönhausen', 167), ('Steglitz', 181), ('Karow', 146), ('Rosenthal', 174)] : Stored 0 new ADs in the CSV.
+2024-02-18 15:30:27,447 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Niederschönhausen', 167), ('Steglitz', 181), ('Karow', 146), ('Rosenthal', 174)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:30:33,119 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Niederschönhausen', 167), ('Steglitz', 181), ('Karow', 146), ('Rosenthal', 174)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:30:38,808 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Niederschönhausen', 167), ('Steglitz', 181), ('Karow', 146), ('Rosenthal', 174)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:30:44,737 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Niederschönhausen', 167), ('Steglitz', 181), ('Karow', 146), ('Rosenthal', 174)] : Stored 23 new ADs in the CSV.
+2024-02-18 15:30:49,651 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Niederschönhausen', 167), ('Steglitz', 181), ('Karow', 146), ('Rosenthal', 174)] : Stored 6 new ADs in the CSV.
+2024-02-18 15:30:56,227 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Blankenfelde', 119), ('Prenzlauer Berg', 171)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:31:01,970 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Blankenfelde', 119), ('Prenzlauer Berg', 171)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:31:08,010 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Blankenfelde', 119), ('Prenzlauer Berg', 171)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:31:14,312 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Blankenfelde', 119), ('Prenzlauer Berg', 171)] : Stored 26 new ADs in the CSV.
+2024-02-18 15:31:36,139 - INFO - helpers.request.proxy_manager - http://93.190.141.109:20923: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-02-18 15:31:36,171 - INFO - helpers.request.proxy_manager - http://93.190.141.109:20923: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-02-18 15:31:37,924 - INFO - helpers.request.proxy_manager - http://12.186.205.123:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-02-18 15:31:38,190 - INFO - helpers.request.proxy_manager - http://12.186.205.123:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-02-18 15:33:54,076 - INFO - helpers.request.proxy_manager - http://202.131.65.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
