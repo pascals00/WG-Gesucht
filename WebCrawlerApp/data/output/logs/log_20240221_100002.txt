@@ -1,0 +1,64 @@
+2024-02-21 10:00:08,941 - INFO - helpers.request.proxy_manager - http://116.203.28.43:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-02-21 10:00:08,957 - INFO - helpers.request.proxy_manager - http://116.203.28.43:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-02-21 10:00:09,269 - INFO - helpers.request.proxy_manager - http://193.196.65.24:8080: Proxy is working for the website https://www.wg-gesucht.de.
+2024-02-21 10:00:09,269 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://193.196.65.24:8080
+2024-02-21 10:00:09,394 - INFO - helpers.request.proxy_manager - http://193.196.65.24:8080: Proxy is working for the website https://www.immobilienscout24.de.
+2024-02-21 10:00:09,426 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://193.196.65.24:8080
+2024-02-21 10:00:10,660 - INFO - helpers.response.extractRoomInformation - 10157073: Apartment data extracted and stored.
+2024-02-21 10:00:10,973 - INFO - helpers.response.extractRoomInformation - 10804963: Apartment data extracted and stored.
+2024-02-21 10:00:11,301 - INFO - helpers.response.extractRoomInformation - 10807568: Apartment data extracted and stored.
+2024-02-21 10:00:12,723 - INFO - helpers.response.extractRoomInformation - 10818914: Apartment data extracted and stored.
+2024-02-21 10:00:14,082 - INFO - helpers.response.extractRoomInformation - 9822719: Apartment data extracted and stored.
+2024-02-21 10:00:14,832 - INFO - helpers.request.proxy_manager - http://193.196.65.24:8080: Proxy is working for the website https://www.wg-gesucht.de.
+2024-02-21 10:00:14,832 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://193.196.65.24:8080
+2024-02-21 10:00:14,910 - INFO - helpers.request.proxy_manager - http://193.196.65.24:8080: Proxy is working for the website https://www.immobilienscout24.de.
+2024-02-21 10:00:14,910 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://193.196.65.24:8080
+2024-02-21 10:00:15,427 - INFO - helpers.response.extractRoomInformation - 10126994: Apartment data extracted and stored.
+2024-02-21 10:00:20,366 - INFO - helpers.request.proxy_manager - http://116.203.28.43:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-02-21 10:00:20,381 - INFO - helpers.request.proxy_manager - http://116.203.28.43:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-02-21 10:00:20,959 - INFO - helpers.request.proxy_manager - http://193.196.65.24:8080: Proxy is working for the website https://www.wg-gesucht.de.
+2024-02-21 10:00:20,959 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://193.196.65.24:8080
+2024-02-21 10:00:21,022 - INFO - helpers.request.proxy_manager - http://193.196.65.24:8080: Proxy is working for the website https://www.immobilienscout24.de.
+2024-02-21 10:00:21,022 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://193.196.65.24:8080
+2024-02-21 10:00:21,647 - INFO - helpers.response.extractRoomInformation - 10646181: Apartment data extracted and stored.
+2024-02-21 10:00:22,163 - INFO - helpers.response.extractRoomInformation - 10643135: Apartment data extracted and stored.
+2024-02-21 10:00:22,475 - INFO - helpers.response.extractRoomInformation - 10804928: Apartment data extracted and stored.
+2024-02-21 10:00:22,803 - INFO - helpers.response.extractRoomInformation - 10808686: Apartment data extracted and stored.
+2024-02-21 10:00:23,366 - INFO - helpers.response.extractRoomInformation - 10585402: Apartment data extracted and stored.
+2024-02-21 10:00:24,006 - INFO - helpers.response.extractRoomInformation - 10570634: Apartment data extracted and stored.
+2024-02-21 10:00:24,569 - INFO - helpers.response.extractRoomInformation - 10585277: Apartment data extracted and stored.
+2024-02-21 10:00:24,913 - INFO - helpers.response.extractRoomInformation - 10807910: Apartment data extracted and stored.
+2024-02-21 10:00:25,709 - INFO - helpers.response.extractRoomInformation - 10125092: Apartment data extracted and stored.
+2024-02-21 10:00:26,303 - INFO - helpers.response.extractRoomInformation - 10545646: Apartment data extracted and stored.
+2024-02-21 10:00:27,709 - INFO - helpers.response.extractRoomInformation - 10792410: Apartment data extracted and stored.
+2024-02-21 10:00:29,225 - INFO - helpers.response.extractRoomInformation - 10182791: Apartment data extracted and stored.
+2024-02-21 10:00:31,834 - INFO - helpers.response.extractRoomInformation - 10818671: Apartment data extracted and stored.
+2024-02-21 10:00:32,319 - INFO - helpers.response.extractRoomInformation - 9136731: Apartment data extracted and stored.
+2024-02-21 10:00:32,959 - INFO - helpers.response.extractRoomInformation - 10816187: Apartment data extracted and stored.
+2024-02-21 10:00:37,944 - INFO - helpers.request.proxy_manager - http://116.203.28.43:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-02-21 10:00:37,944 - INFO - helpers.request.proxy_manager - http://116.203.28.43:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-02-21 10:00:38,272 - INFO - helpers.request.proxy_manager - http://193.196.65.24:8080: Proxy is working for the website https://www.wg-gesucht.de.
+2024-02-21 10:00:38,272 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://193.196.65.24:8080
+2024-02-21 10:00:38,350 - INFO - helpers.request.proxy_manager - http://193.196.65.24:8080: Proxy is working for the website https://www.immobilienscout24.de.
+2024-02-21 10:00:38,366 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://193.196.65.24:8080
+2024-02-21 10:00:38,725 - INFO - helpers.response.extractRoomInformation - 2874052: Apartment data extracted and stored.
+2024-02-21 10:00:39,100 - INFO - helpers.response.extractRoomInformation - 9924896: Apartment data extracted and stored.
+2024-02-21 10:00:39,444 - INFO - helpers.response.extractRoomInformation - 10824879: Apartment data extracted and stored.
+2024-02-21 10:00:40,069 - INFO - helpers.response.extractRoomInformation - 7258437: Apartment data extracted and stored.
+2024-02-21 10:00:41,475 - INFO - helpers.response.extractRoomInformation - 4631281: Apartment data extracted and stored.
+2024-02-21 10:00:42,897 - INFO - helpers.response.extractRoomInformation - 10824544: Apartment data extracted and stored.
+2024-02-21 10:00:43,772 - INFO - helpers.response.extractRoomInformation - 10126282: Apartment data extracted and stored.
+2024-02-21 10:00:44,569 - INFO - helpers.response.extractRoomInformation - 10083892: Apartment data extracted and stored.
+2024-02-21 10:00:44,975 - INFO - helpers.response.extractRoomInformation - 10779491: Apartment data extracted and stored.
+2024-02-21 10:00:46,413 - INFO - helpers.response.extractRoomInformation - 9826374: Apartment data extracted and stored.
+2024-02-21 10:00:46,788 - INFO - helpers.response.extractRoomInformation - 10824188: Apartment data extracted and stored.
+2024-02-21 10:00:47,381 - INFO - helpers.response.extractRoomInformation - 10823775: Apartment data extracted and stored.
+2024-02-21 10:00:47,788 - INFO - helpers.response.extractRoomInformation - 10822577: Apartment data extracted and stored.
+2024-02-21 10:00:49,194 - INFO - helpers.response.extractRoomInformation - 10823564: Apartment data extracted and stored.
+2024-02-21 10:00:49,569 - INFO - helpers.response.extractRoomInformation - 9630079: Apartment data extracted and stored.
+2024-02-21 10:00:50,209 - INFO - helpers.response.extractRoomInformation - 10822663: Apartment data extracted and stored.
+2024-02-21 10:00:50,803 - INFO - helpers.response.extractRoomInformation - 10822270: Apartment ad is not active.
+2024-02-21 10:00:50,819 - INFO - helpers.response.extractAdsUrls - Deleted inactive ad with ID: 10822270
+2024-02-21 10:00:52,209 - INFO - helpers.response.extractRoomInformation - 9965673: Apartment data extracted and stored.
+2024-02-21 10:00:52,600 - INFO - helpers.response.extractRoomInformation - 10537704: Apartment data extracted and stored.
+2024-02-21 10:00:52,928 - INFO - helpers.response.extractRoomInformation - 10820623: Apartment ad is not active.
