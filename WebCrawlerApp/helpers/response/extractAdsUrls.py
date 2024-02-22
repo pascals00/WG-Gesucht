@@ -84,7 +84,7 @@ class AdsExtractor:
         try:
             with open(ADS_URL_LIST_PATH, 'r', encoding='utf-8') as csvfile:
                 reader = csv.reader(csvfile)
-                next(reader, None)  # Skip header
+                next(reader, None)  # Skip header, this may lead to an error deleting the first line. 
                 for row in reader:
                     if row:  
                         full_url = self.base_url + row[1]
@@ -113,7 +113,7 @@ class AdsExtractor:
         return url_endings_roominfo_not_extracted
     
 
-    def delete_inactive_ad(self, id):
+    def delete_inactive_ad(self, id):                                               # Test this method again: this may lead to an error deleting the first line.
         with open(ADS_URL_LIST_PATH, 'r', encoding='utf-8') as csvfile:
             reader = csv.reader(csvfile)
             rows = list(reader)
