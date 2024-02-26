@@ -82,7 +82,7 @@ class AdsExtractor:
     def read_url_endings(self):
         urls = {}
         try:
-            with open(ADS_URL_LIST_PATH, 'r', encoding='utf-8') as csvfile:
+            with open(ADS_URL_LIST_PATH, 'r', encoding='utf-8', newline='') as csvfile:
                 reader = csv.reader(csvfile)
                 next(reader, None)  # Skip header, this may lead to an error deleting the first line. 
                 for row in reader:
@@ -101,7 +101,7 @@ class AdsExtractor:
         stored_urls = self.read_url_endings()
         url_endings_roominfo_not_extracted = {}
 
-        with open(ROOMINFO_PATH, 'r', encoding='utf-8') as csvfile:
+        with open(ROOMINFO_PATH, 'r', encoding='utf-8', newline='') as csvfile:
             reader = csv.reader(csvfile)
             next(reader, None)
             ids_roominfo_extracted = [int(float(row[0])) for row in reader]
@@ -117,14 +117,14 @@ class AdsExtractor:
         if not isinstance(ids, list):
             ids = [ids]
 
-        with open(ADS_URL_LIST_PATH, 'r', encoding='utf-8') as csvfile:
+        with open(ADS_URL_LIST_PATH, 'r', encoding='utf-8', newline='') as csvfile:
             reader = csv.reader(csvfile)
             rows = list(reader)
 
-        with open(ADS_URL_LIST_PATH, 'w', encoding='utf-8') as csvfile:
+        with open(ADS_URL_LIST_PATH, 'w', encoding='utf-8', newline='') as csvfile:
             writer = csv.writer(csvfile)
-            writer.writerow(rows[0])    # Write the header
-            for row in rows[1:]:        # Start after the header
+            writer.writerow(rows[0])
+            for row in rows[1:]:        
                 if row[0] not in map(str, ids):
                     writer.writerow(row)
         self.logger.info(f"Deleted inactive ad with ID: {id}")
@@ -132,7 +132,7 @@ class AdsExtractor:
     
     def delete_duplicates(self):
         unique_ads = {}
-        with open(ADS_URL_LIST_PATH, 'r', encoding='utf-8') as csvfile:
+        with open(ADS_URL_LIST_PATH, 'r', encoding='utf-8', newline='') as csvfile:
             reader = csv.reader(csvfile)
             header = next(reader, None)  # Capture the header
             for row in reader:
@@ -141,7 +141,7 @@ class AdsExtractor:
                     unique_ads[ad_id] = row
 
         # Write the unique ads back to the file, including the header if it exists
-        with open(ADS_URL_LIST_PATH, 'w', encoding='utf-8') as csvfile:
+        with open(ADS_URL_LIST_PATH, 'w', encoding='utf-8', newline='') as csvfile:
             writer = csv.writer(csvfile)
             if header:
                 writer.writerow(header)  # Write the header back first
