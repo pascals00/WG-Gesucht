@@ -20,7 +20,15 @@ logging.setup_logging()
 
 # 2.1. Read the ads url endings from the file 
 if os.path.isfile(ROOMINFO_PATH):
+    # Read not extracted ads (Difference between AdsUrlList file and apartmentsData file)
+    adsExtractor.delete_duplicates()
     ad_url_list = adsExtractor.ads_roominfo_not_extracted()
+    all_ads = adsExtractor.read_url_endings()
+
+    ids_to_delete = [id for id in all_ads.keys() if id not in ad_url_list.keys()]
+
+    if ids_to_delete:
+        adsExtractor.delete_inactive_ad(ids_to_delete)
 else: 
     ad_url_list = adsExtractor.read_url_endings()
     
