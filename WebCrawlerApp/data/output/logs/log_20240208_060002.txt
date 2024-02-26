@@ -1,8 +1,0 @@
-2024-02-08 06:00:25,478 - INFO - helpers.request.proxy_manager - http://96.92.64.213:3128: Proxy is working for the website https://www.wg-gesucht.de.
-2024-02-08 06:00:25,478 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://96.92.64.213:3128
-2024-02-08 06:00:31,019 - INFO - helpers.request.proxy_manager - http://96.92.64.213:3128: Proxy is working for the website https://www.immobilienscout24.de.
-2024-02-08 06:00:31,065 - INFO - helpers.request.proxy_manager - Stored a new proxy in the CSV: http://96.92.64.213:3128
-2024-02-08 06:00:44,529 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Hessenwinkel', 141), ('Altglienicke', 115), ('Schöneberg', 178), ('Karolinenhof', 145)] : Stored 26 new ADs in the CSV.
-2024-02-08 06:00:54,527 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Hessenwinkel', 141), ('Altglienicke', 115), ('Schöneberg', 178), ('Karolinenhof', 145)] : Stored 26 new ADs in the CSV.
-2024-02-08 06:01:04,925 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Hessenwinkel', 141), ('Altglienicke', 115), ('Schöneberg', 178), ('Karolinenhof', 145)] : Stored 26 new ADs in the CSV.
-2024-02-08 06:01:17,283 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Hessenwinkel', 141), ('Altglienicke', 115), ('Schöneberg', 178), ('Karolinenhof', 145)] : Stored 26 new ADs in the CSV.
