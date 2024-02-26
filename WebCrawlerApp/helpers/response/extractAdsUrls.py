@@ -113,7 +113,10 @@ class AdsExtractor:
         return url_endings_roominfo_not_extracted
     
 
-    def delete_inactive_ad(self, id):                                               # Test this method again: this may lead to an error deleting the first line.
+    def delete_inactive_ad(self, ids):
+        if not isinstance(ids, list):
+            ids = [ids]
+
         with open(ADS_URL_LIST_PATH, 'r', encoding='utf-8') as csvfile:
             reader = csv.reader(csvfile)
             rows = list(reader)
@@ -122,10 +125,29 @@ class AdsExtractor:
             writer = csv.writer(csvfile)
             writer.writerow(rows[0])    # Write the header
             for row in rows[1:]:        # Start after the header
-                if row[0] != id:
+                if row[0] not in map(str, ids):
                     writer.writerow(row)
         self.logger.info(f"Deleted inactive ad with ID: {id}")
         return True
     
+    def delete_duplicates(self):
+        unique_ads = {}
+        with open(ADS_URL_LIST_PATH, 'r', encoding='utf-8') as csvfile:
+            reader = csv.reader(csvfile)
+            header = next(reader, None)  # Capture the header
+            for row in reader:
+                ad_id = row[0]  # Assuming the first column is the ad ID
+                if ad_id not in unique_ads:
+                    unique_ads[ad_id] = row
+
+        # Write the unique ads back to the file, including the header if it exists
+        with open(ADS_URL_LIST_PATH, 'w', encoding='utf-8') as csvfile:
+            writer = csv.writer(csvfile)
+            if header:
+                writer.writerow(header)  # Write the header back first
+            for ad_id in unique_ads:
+                writer.writerow(unique_ads[ad_id])
+
+        self.logger.info("Duplicate ads deleted successfully.")
 
     
