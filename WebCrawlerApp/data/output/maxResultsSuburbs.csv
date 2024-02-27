@@ -1099,3 +1099,66 @@ Mitte,"[('Mitte', 163), ('Moabit', 85086)]",0
 Mitte,"[('Mitte', 163), ('Moabit', 85086)]",328
 Mitte,"[('Gesundbrunnen', 85080)]",37
 Mitte,"[('Wedding', 189)]",235
+Treptow-Köpenick,"[('Müggelheim', 164), ('Schöneberg', 178), ('Altglienicke', 115), ('Plänterwald', 85089)]",167
+Treptow-Köpenick,"[('Oberschöneweide', 169), ('Niederschöneweide', 166)]",45
+Treptow-Köpenick,"[('Baumschulenweg', 116)]",22
+Treptow-Köpenick,"[('Bohnsdorf', 120), ('Karolinenhof', 145), ('Rahnsdorf', 172), ('Hessenwinkel', 141)]",10
+Treptow-Köpenick,"[('Friedrichshagen', 131), ('Grünau', 135), ('Johannisthal', 143)]",17
+Treptow-Köpenick,"[('Treptow', 185)]",39
+Treptow-Köpenick,"[('Adlershof', 114)]",35
+Treptow-Köpenick,"[('Köpenick', 150)]",32
+Treptow-Köpenick,"[('Wilhelmshagen', 191)]",7
+Lichtenberg,"[('Neu-Hohenschönhausen', 85087), ('Wartenberg', 188), ('Rummelsburg', 85090)]",23
+Lichtenberg,"[('Malchow', 158)]",7
+Lichtenberg,"[('Falkenberg', 128), ('Lichtenberg', 153), ('Alt-Hohenschönhausen', 85076)]",105
+Lichtenberg,"[('Friedrichsfelde', 130), ('Hohenschönhausen', 142), ('Karlshorst', 144)]",34
+Marzahn-Hellersdorf,"[('Mahlsdorf', 157), ('Hellersdorf', 139)]",18
+Marzahn-Hellersdorf,"[('Marzahn-Hellersdorf', 85085)]",15
+Marzahn-Hellersdorf,"[('Marzahn', 162), ('Kaulsdorf', 147), ('Biesdorf', 117)]",33
+Pankow,"[('Steglitz', 181), ('Buch', 123), ('Heinersdorf', 138)]",65
+Pankow,"[('Blankenburg', 118), ('Wilhelmsruh', 85095), ('Niederschönhausen', 167), ('Rosenthal', 174)]",12
+Pankow,"[('Blankenfelde', 119), ('Prenzlauer Berg', 171), ('Weißensee', 190)]",0
+Pankow,"[('Blankenfelde', 119), ('Prenzlauer Berg', 171), ('Weißensee', 190)]",314
+Pankow,"[('Buchholz', 124)]",8
+Pankow,"[('Karow', 146), ('Pankow', 170), ('Französisch Buchholz', 85078)]",107
+Reinickendorf,"[('Tegel', 182), ('Hermsdorf', 140), ('Heiligensee', 137)]",19
+Reinickendorf,"[('Reinickendorf', 173), ('Frohnau', 133), ('Marienfelde', 161), ('Borsigwalde', 121)]",73
+Reinickendorf,"[('Waidmannslust', 186), ('Lübars', 156), ('Konradshöhe', 149), ('Wittenau', 193)]",15
+Neukölln,"[('Britz', 122)]",18
+Neukölln,"[('Buckow', 125), ('Neukölln', 165)]",410
+Neukölln,"[('Gropiusstadt', 85081), ('Rudow', 175)]",18
+Charlottenburg-Wilmersdorf,"[('Schmöckwitz', 177), ('Charlottenburg-Wilmersdorf', 85077), ('Halensee', 85083)]",74
+Charlottenburg-Wilmersdorf,"[('Grunewald', 136), ('Wilmersdorf', 192), ('Charlottenburg', 126)]",221
+Steglitz-Zehlendorf,"[('Lichterfelde', 155), ('Zehlendorf', 194), ('Steglitz-Zehlendorf', 85093), ('Nikolassee', 168)]",76
+Steglitz-Zehlendorf,"[('Lankwitz', 152)]",21
+Steglitz-Zehlendorf,"[('Schmargendorf', 176), ('Dahlem', 127)]",20
+Steglitz-Zehlendorf,"[('Wannsee', 187)]",0
+Steglitz-Zehlendorf,"[('Wannsee', 187)]",0
+Steglitz-Zehlendorf,"[('Wannsee', 187)]",0
+Steglitz-Zehlendorf,"[('Wannsee', 187)]",0
+Steglitz-Zehlendorf,"[('Wannsee', 187)]",0
+Steglitz-Zehlendorf,"[('Wannsee', 187)]",0
+Steglitz-Zehlendorf,"[('Wannsee', 187)]",0
+Steglitz-Zehlendorf,"[('Wannsee', 187)]",9
+Tempelhof-Schöneberg,"[('Lichtenrade', 154)]",0
+Tempelhof-Schöneberg,"[('Lichtenrade', 154)]",0
+Tempelhof-Schöneberg,"[('Lichtenrade', 154)]",0
+Tempelhof-Schöneberg,"[('Lichtenrade', 154)]",0
+Tempelhof-Schöneberg,"[('Lichtenrade', 154)]",0
+Tempelhof-Schöneberg,"[('Lichtenrade', 154)]",0
+Tempelhof-Schöneberg,"[('Lichtenrade', 154)]",0
+Tempelhof-Schöneberg,"[('Lichtenrade', 154)]",0
+Tempelhof-Schöneberg,"[('Lichtenrade', 154)]",0
+Tempelhof-Schöneberg,"[('Lichtenrade', 154)]",12
+Tempelhof-Schöneberg,"[('Mariendorf', 160), ('Tempelhof-Schöneberg', 85094)]",0
+Tempelhof-Schöneberg,"[('Mariendorf', 160), ('Tempelhof-Schöneberg', 85094)]",38
+Tempelhof-Schöneberg,"[('Siemensstadt', 179), ('Tempelhof', 183)]",48
+Tempelhof-Schöneberg,"[('Friedenau', 129)]",54
+Friedrichshain-Kreuzberg,"[('Friedrichshain', 132)]",303
+Friedrichshain-Kreuzberg,"[('Kreuzberg', 151), ('Friedrichshain-Kreuzberg', 85079)]",352
+Spandau,"[('Spandau', 180), ('Stadtrandsiedlung Malchow', 85092)]",41
+Spandau,"[('Pichelsdorf', 85088), ('Hakenfelde', 85082), ('Gatow', 134), ('Kladow', 148)]",9
+Spandau,"[('Wilhelmstadt', 85096), ('Staaken', 85091)]",0
+Spandau,"[('Wilhelmstadt', 85096), ('Staaken', 85091)]",13
+Mitte,"[('Mitte', 163), ('Wedding', 189), ('Tiergarten', 184), ('Moabit', 85086)]",573
+Mitte,"[('Gesundbrunnen', 85080)]",38
