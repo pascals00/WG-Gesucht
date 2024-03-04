@@ -1,0 +1,6 @@
+2024-03-04 17:19:37,947 - INFO - helpers.response.extractAdsUrls - Duplicate ads deleted successfully.
+2024-03-04 17:19:38,181 - INFO - helpers.response.extractAdsUrls - Deleted inactive ad with ID: <built-in function id>
+2024-03-04 17:19:40,916 - INFO - helpers.request.proxy_manager - http://43.156.0.125:8888: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-04 17:19:41,228 - INFO - helpers.request.proxy_manager - http://43.156.0.125:8888: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-04 17:19:53,687 - INFO - helpers.request.proxy_manager - http://159.65.77.168:8585: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-04 17:19:54,008 - INFO - helpers.request.proxy_manager - http://159.65.77.168:8585: Proxy is not working for the website https://www.immobilienscout24.de.

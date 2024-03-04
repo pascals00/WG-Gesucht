@@ -1,0 +1,1 @@
+2024-03-03 19:12:27,012 - INFO - helpers.response.extractAdsUrls - Duplicate ads deleted successfully.

@@ -1,0 +1,358 @@
+2024-03-03 10:00:02,384 - INFO - helpers.response.extractAdsUrls - Duplicate ads deleted successfully.
+2024-03-03 10:00:02,680 - INFO - helpers.response.extractAdsUrls - Deleted inactive ad with ID: <built-in function id>
+2024-03-03 10:00:05,554 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:00:05,852 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:00:10,212 - INFO - helpers.request.proxy_manager - http://213.17.246.46:3128: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-03 10:00:10,212 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://213.17.246.46:3128
+2024-03-03 10:00:10,629 - INFO - helpers.request.proxy_manager - http://213.17.246.46:3128: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-03 10:00:10,653 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://213.17.246.46:3128
+2024-03-03 10:00:18,219 - INFO - helpers.request.proxy_manager - http://95.164.89.123:8888: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:00:18,219 - INFO - helpers.request.proxy_manager - http://95.164.89.123:8888: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:00:20,158 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:00:20,625 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:00:24,818 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:00:25,146 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:00:29,710 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:00:30,022 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:00:39,041 - INFO - helpers.request.proxy_manager - http://95.164.89.123:8888: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:00:39,041 - INFO - helpers.request.proxy_manager - http://95.164.89.123:8888: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:00:43,404 - INFO - helpers.request.proxy_manager - http://23.92.223.122:3128: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-03 10:00:43,404 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://23.92.223.122:3128
+2024-03-03 10:00:45,999 - INFO - helpers.request.proxy_manager - http://23.92.223.122:3128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:00:45,999 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://23.92.223.122:3128
+2024-03-03 10:00:52,610 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:00:52,792 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:00:57,047 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:00:57,250 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:00:59,283 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:00:59,470 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:01:00,001 - INFO - helpers.request.proxy_manager - http://51.145.176.250:8080: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-03 10:01:00,017 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://51.145.176.250:8080
+2024-03-03 10:01:00,267 - INFO - helpers.request.proxy_manager - http://51.145.176.250:8080: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-03 10:01:00,283 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://51.145.176.250:8080
+2024-03-03 10:01:07,778 - INFO - helpers.request.proxy_manager - http://95.164.89.123:8888: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:01:07,778 - INFO - helpers.request.proxy_manager - http://95.164.89.123:8888: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:01:09,939 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:01:10,169 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:01:14,531 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:01:14,828 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:01:19,261 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:01:19,558 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:01:29,023 - INFO - helpers.request.proxy_manager - http://4.236.183.37:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:01:29,210 - INFO - helpers.request.proxy_manager - http://4.236.183.37:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:01:31,245 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:01:31,476 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:01:38,273 - INFO - helpers.request.proxy_manager - http://89.145.162.81:3128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:01:38,304 - INFO - helpers.request.proxy_manager - http://89.145.162.81:3128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:01:42,303 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:01:42,475 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:01:46,366 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:01:46,983 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:01:51,579 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:01:51,736 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:01:55,272 - INFO - helpers.request.proxy_manager - http://114.156.77.107:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:01:55,885 - INFO - helpers.request.proxy_manager - http://114.156.77.107:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:01:57,745 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:01:58,120 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:02:00,135 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:02:00,311 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:02:04,648 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:02:04,835 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:02:07,135 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:02:07,929 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:02:10,242 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:02:11,031 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:02:13,248 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:02:14,019 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:02:18,323 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:02:19,105 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:02:21,101 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:02:21,891 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:02:26,251 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:02:27,038 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:02:28,975 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:02:29,763 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:02:34,032 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:02:34,805 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:02:36,915 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:02:37,073 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:02:39,258 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:02:40,037 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:02:44,553 - INFO - helpers.request.proxy_manager - http://20.205.61.143:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:02:44,995 - INFO - helpers.request.proxy_manager - http://20.205.61.143:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:02:51,310 - INFO - helpers.request.proxy_manager - http://20.205.61.143:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:02:51,747 - INFO - helpers.request.proxy_manager - http://20.205.61.143:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:02:53,881 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:02:54,037 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:02:58,095 - INFO - helpers.request.proxy_manager - http://20.205.61.143:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:02:58,517 - INFO - helpers.request.proxy_manager - http://20.205.61.143:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:03:03,017 - INFO - helpers.request.proxy_manager - http://20.205.61.143:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:03:03,460 - INFO - helpers.request.proxy_manager - http://20.205.61.143:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:03:05,794 - INFO - helpers.request.proxy_manager - http://35.185.196.38:3128: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-03 10:03:05,794 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://35.185.196.38:3128
+2024-03-03 10:03:07,279 - INFO - helpers.request.proxy_manager - http://35.185.196.38:3128: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-03 10:03:07,279 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://35.185.196.38:3128
+2024-03-03 10:03:11,865 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:03:12,654 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:03:15,600 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:03:16,385 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:03:18,382 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:03:19,165 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:03:23,435 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:03:23,629 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:03:27,889 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:03:28,680 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:03:30,038 - INFO - helpers.request.proxy_manager - http://35.72.118.126:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:03:30,822 - INFO - helpers.request.proxy_manager - http://35.72.118.126:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:03:33,443 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:03:34,216 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:03:38,273 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:03:39,048 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:03:40,986 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:03:41,774 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:03:44,153 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:03:44,924 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:03:49,576 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:03:50,358 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:03:52,311 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:03:53,093 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:03:55,046 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:03:55,827 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:04:00,180 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:04:00,352 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:04:04,470 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:04:05,238 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:04:09,541 - INFO - helpers.request.proxy_manager - http://20.205.61.143:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:04:09,972 - INFO - helpers.request.proxy_manager - http://20.205.61.143:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:04:15,767 - INFO - helpers.request.proxy_manager - http://20.205.61.143:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:04:16,192 - INFO - helpers.request.proxy_manager - http://20.205.61.143:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:04:20,251 - INFO - helpers.request.proxy_manager - http://20.205.61.143:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:04:20,688 - INFO - helpers.request.proxy_manager - http://20.205.61.143:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:04:22,030 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:04:22,455 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:04:26,016 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:04:26,438 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:04:28,469 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:04:28,633 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:04:33,194 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:04:33,965 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:04:38,149 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:04:38,930 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:04:40,894 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:04:41,671 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:04:43,008 - INFO - helpers.request.proxy_manager - http://129.213.150.205:8080: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-03 10:04:43,023 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://129.213.150.205:8080
+2024-03-03 10:04:43,195 - INFO - helpers.request.proxy_manager - http://129.213.150.205:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:04:43,195 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://129.213.150.205:8080
+2024-03-03 10:04:46,472 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:04:47,256 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:04:48,624 - INFO - helpers.request.proxy_manager - http://35.72.118.126:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:04:49,404 - INFO - helpers.request.proxy_manager - http://35.72.118.126:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:04:50,517 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:04:51,931 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:04:56,393 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:04:57,179 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:04:58,313 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:04:58,751 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:05:00,936 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:05:01,710 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:05:03,073 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:05:04,488 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:05:08,436 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:05:09,871 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:05:13,597 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:05:14,362 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:05:17,786 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:05:21,228 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:05:28,461 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:05:29,250 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:05:30,886 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:05:31,324 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:05:36,074 - INFO - helpers.request.proxy_manager - http://20.205.61.143:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:05:36,511 - INFO - helpers.request.proxy_manager - http://20.205.61.143:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:05:38,977 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:05:39,751 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:05:41,704 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:05:42,493 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:05:47,134 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:05:48,577 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:05:50,524 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:05:51,293 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:05:54,211 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:05:54,640 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:05:58,850 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:05:59,287 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:06:00,070 - INFO - helpers.request.proxy_manager - http://51.145.176.250:8080: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-03 10:06:00,070 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://51.145.176.250:8080
+2024-03-03 10:06:00,554 - INFO - helpers.request.proxy_manager - http://51.145.176.250:8080: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-03 10:06:00,554 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://51.145.176.250:8080
+2024-03-03 10:06:04,400 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:06:07,842 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:06:11,147 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:06:11,585 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:06:17,974 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:06:18,396 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:06:23,939 - INFO - helpers.request.proxy_manager - http://213.17.246.46:3128: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-03 10:06:23,939 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://213.17.246.46:3128
+2024-03-03 10:06:24,252 - INFO - helpers.request.proxy_manager - http://213.17.246.46:3128: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-03 10:06:24,252 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://213.17.246.46:3128
+2024-03-03 10:06:47,118 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:06:47,540 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:06:48,681 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:06:49,103 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:06:51,742 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:06:52,176 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:06:55,106 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:06:55,536 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:06:58,413 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:06:58,838 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:07:02,638 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:07:03,061 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:07:06,220 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:07:06,660 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:07:08,030 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:07:08,454 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:07:09,831 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:07:10,269 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:07:11,394 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:07:11,817 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:07:15,494 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:07:15,932 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:07:17,051 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:07:17,475 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:07:18,581 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:07:19,015 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:07:20,383 - INFO - helpers.request.proxy_manager - http://35.72.118.126:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:07:21,155 - INFO - helpers.request.proxy_manager - http://35.72.118.126:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:07:22,513 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:07:22,935 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:07:24,061 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:07:24,499 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:07:25,844 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:07:26,257 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:07:28,137 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:07:28,548 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:07:33,820 - INFO - helpers.request.proxy_manager - http://51.145.176.250:8080: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-03 10:07:33,820 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://51.145.176.250:8080
+2024-03-03 10:07:38,070 - INFO - helpers.request.proxy_manager - http://51.145.176.250:8080: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-03 10:07:38,070 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://51.145.176.250:8080
+2024-03-03 10:07:48,951 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:07:49,358 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:07:51,803 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:07:52,583 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:07:53,939 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:07:54,360 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:07:58,129 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:07:58,560 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:07:59,755 - INFO - helpers.request.proxy_manager - http://51.145.176.250:8080: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-03 10:07:59,755 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://51.145.176.250:8080
+2024-03-03 10:08:01,316 - INFO - helpers.request.proxy_manager - http://51.145.176.250:8080: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-03 10:08:01,316 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://51.145.176.250:8080
+2024-03-03 10:08:07,302 - INFO - helpers.request.proxy_manager - http://23.92.223.122:3128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:08:10,826 - INFO - helpers.request.proxy_manager - http://23.92.223.122:3128: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-03 10:08:12,782 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:08:13,560 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:08:15,174 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:08:15,596 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:08:25,070 - INFO - helpers.request.proxy_manager - http://95.164.89.123:8888: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:08:25,070 - INFO - helpers.request.proxy_manager - http://95.164.89.123:8888: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:08:26,710 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:08:27,139 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:08:29,633 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:08:30,536 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:08:34,950 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:08:35,688 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:08:39,011 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:08:39,453 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:08:40,628 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:08:41,057 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:08:44,747 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:08:45,185 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:08:49,499 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:08:49,831 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:08:51,177 - INFO - helpers.request.proxy_manager - http://35.72.118.126:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:08:51,966 - INFO - helpers.request.proxy_manager - http://35.72.118.126:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:08:53,359 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:08:53,765 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:08:55,719 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:08:56,500 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:08:58,714 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:08:59,485 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:09:03,490 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:09:04,256 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:09:08,032 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:09:08,453 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:09:09,130 - INFO - helpers.request.proxy_manager - http://51.145.176.250:8080: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-03 10:09:09,130 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://51.145.176.250:8080
+2024-03-03 10:09:09,391 - INFO - helpers.request.proxy_manager - http://51.145.176.250:8080: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-03 10:09:09,391 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://51.145.176.250:8080
+2024-03-03 10:09:11,946 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:09:12,367 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:09:18,137 - INFO - helpers.request.proxy_manager - http://114.156.77.107:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:09:18,700 - INFO - helpers.request.proxy_manager - http://114.156.77.107:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:09:20,076 - INFO - helpers.request.proxy_manager - http://35.72.118.126:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:09:20,855 - INFO - helpers.request.proxy_manager - http://35.72.118.126:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:09:22,192 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:09:22,624 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:09:29,200 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:09:29,630 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:09:31,865 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:09:32,309 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:09:35,668 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:09:36,098 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:09:37,215 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:09:37,637 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:09:39,037 - INFO - helpers.request.proxy_manager - http://129.213.150.205:8080: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-03 10:09:39,037 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://129.213.150.205:8080
+2024-03-03 10:09:39,700 - INFO - helpers.request.proxy_manager - http://129.213.150.205:8080: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-03 10:09:39,716 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://129.213.150.205:8080
+2024-03-03 10:09:43,462 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:09:43,884 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:09:47,194 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:09:47,632 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:09:48,869 - INFO - helpers.request.proxy_manager - http://129.213.150.205:8080: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-03 10:09:48,869 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://129.213.150.205:8080
+2024-03-03 10:09:49,525 - INFO - helpers.request.proxy_manager - http://129.213.150.205:8080: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-03 10:09:49,525 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://129.213.150.205:8080
+2024-03-03 10:09:51,766 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:09:52,191 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:09:56,744 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:09:57,016 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:09:59,237 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:09:59,583 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:10:04,014 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:10:04,800 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:10:09,108 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:10:09,879 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:10:10,995 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:10:12,417 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:10:15,889 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:10:16,668 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:10:24,110 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:10:31,530 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:10:38,931 - INFO - helpers.request.proxy_manager - http://95.164.89.123:8888: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:10:38,931 - INFO - helpers.request.proxy_manager - http://95.164.89.123:8888: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:10:41,213 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:10:41,478 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:10:43,665 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:10:44,465 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:10:48,664 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:10:56,086 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:11:00,014 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:11:00,422 - INFO - helpers.request.proxy_manager - http://198.199.86.11:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:11:02,317 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:11:03,068 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:11:07,559 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:11:08,301 - INFO - helpers.request.proxy_manager - http://54.248.238.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:11:10,511 - INFO - helpers.request.proxy_manager - http://129.213.150.205:8080: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-03 10:11:10,511 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://129.213.150.205:8080
+2024-03-03 10:11:10,699 - INFO - helpers.request.proxy_manager - http://129.213.150.205:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:11:10,714 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://129.213.150.205:8080
+2024-03-03 10:11:12,719 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:11:20,134 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:11:21,423 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-03 10:11:24,834 - INFO - helpers.request.proxy_manager - http://219.93.101.60:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-03 10:11:25,493 - INFO - helpers.request.proxy_manager - http://51.145.176.250:8080: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-03 10:11:25,493 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://51.145.176.250:8080
+2024-03-03 10:11:28,849 - INFO - helpers.request.proxy_manager - http://51.145.176.250:8080: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-03 10:11:28,864 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://51.145.176.250:8080
