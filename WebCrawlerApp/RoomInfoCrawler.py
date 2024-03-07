@@ -44,9 +44,8 @@ for id, url in ad_url_list.items():
             headers = requestHeaders.change_headers()
             proxies = findproxy.find_proxies_FreeProxy()
             response = requests.get(url, headers=headers, proxies=proxies)
-        response.raise_for_status()
         ad_extract_success = HTMLInfoExtractor(html_content=response.text, apartmentID=id).extract_all()
-        if ad_extract_success is False:
+        if ad_extract_success is False or 'existiert nicht in der Datenbank' in response.text :
             adsExtractor.delete_inactive_ad(id)
             
     except requests.exceptions.RequestException:

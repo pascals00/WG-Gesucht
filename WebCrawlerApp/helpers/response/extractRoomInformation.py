@@ -46,7 +46,8 @@ class HTMLInfoExtractor:
         try: 
             # Find the section with the title 'Anzeige ist deaktiviert'
             ad_deactivated = re.compile(r'Anzeige.*deaktiviert', re.DOTALL)
-            if ad_deactivated.search(self.soup.text):
+            ad_not_indatabase = re.compile(r'existiert nicht in der Datenbank', re.DOTALL)
+            if ad_deactivated.search(self.soup.text) or ad_not_indatabase.search(self.soup.text):
                 return False
             else:
                 return True

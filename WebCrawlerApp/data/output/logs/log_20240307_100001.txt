@@ -1,0 +1,922 @@
+2024-03-07 10:00:02,369 - INFO - helpers.response.extractAdsUrls - Duplicate ads deleted successfully.
+2024-03-07 10:00:02,557 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:00:02,635 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:00:02,651 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:00:02,729 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:00:02,744 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 200.174.198.95:8888
+2024-03-07 10:00:03,244 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.228.131.169:5000
+2024-03-07 10:00:03,932 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 128.199.251.219:8000
+2024-03-07 10:00:04,248 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 198.49.68.80:80
+2024-03-07 10:00:04,753 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 110.49.34.126:32650
+2024-03-07 10:00:05,254 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 42.61.48.219:8000
+2024-03-07 10:00:05,754 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.174.214.221:80
+2024-03-07 10:00:06,260 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.200.12.84:80
+2024-03-07 10:00:06,761 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.174.214.223:80
+2024-03-07 10:00:07,261 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.230.222.202:80
+2024-03-07 10:00:07,773 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.200.12.86:80
+2024-03-07 10:00:08,286 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 77.48.244.78:80
+2024-03-07 10:00:08,786 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.174.214.219:80
+2024-03-07 10:00:09,287 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.223.239.185:80
+2024-03-07 10:00:09,795 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.200.12.83:80
+2024-03-07 10:00:10,309 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.174.214.220:80
+2024-03-07 10:00:10,824 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.145.6.38:80
+2024-03-07 10:00:11,338 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.169.118.209:80
+2024-03-07 10:00:11,854 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.172.218.160:80
+2024-03-07 10:00:12,363 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.223.239.166:80
+2024-03-07 10:00:12,877 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 202.131.65.110:80
+2024-03-07 10:00:13,349 - DEBUG - urllib3.connectionpool - http://202.131.65.110:80 "GET http://www.google.com/ HTTP/1.1" 200 8351
+2024-03-07 10:00:13,349 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:02:22,748 - INFO - helpers.request.proxy_manager - http://202.131.65.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:02:22,748 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:04:33,829 - INFO - helpers.request.proxy_manager - http://202.131.65.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:04:33,829 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:04:33,876 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:04:33,876 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 213.202.230.241:80
+2024-03-07 10:04:34,018 - DEBUG - urllib3.connectionpool - http://213.202.230.241:80 "GET http://www.google.com/ HTTP/1.1" 200 7925
+2024-03-07 10:04:34,018 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.139.0:8000
+2024-03-07 10:04:34,536 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 212.77.163.196:3128
+2024-03-07 10:04:35,049 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.28.35:8000
+2024-03-07 10:04:35,189 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.131.88:8000
+2024-03-07 10:04:35,408 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 5.189.139.14:8118
+2024-03-07 10:04:35,424 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:04:35,471 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:04:35,486 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.227.226:25639
+2024-03-07 10:04:35,991 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.174:22669
+2024-03-07 10:04:36,496 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 152.70.235.185:9002
+2024-03-07 10:04:37,230 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 8.219.97.248:80
+2024-03-07 10:04:37,899 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 114.129.2.82:8081
+2024-03-07 10:04:38,406 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 213.202.230.241:80
+2024-03-07 10:04:38,713 - DEBUG - urllib3.connectionpool - http://213.202.230.241:80 "GET http://www.google.com/ HTTP/1.1" 302 360
+2024-03-07 10:04:38,713 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 213.202.230.241
+2024-03-07 10:04:38,744 - DEBUG - urllib3.connectionpool - http://213.202.230.241:80 "GET http://www.google.com/sorry/index?continue=http://www.google.com/&q=EgTVyubxGKaGpq8GIjAzlOGUfFV7N5AP9liVf8DqDoyFanDDFCYtlvYXppbZkgoWVCJealWJ6XrAf6y204YyAXJaAUM HTTP/1.1" 429 3086
+2024-03-07 10:04:38,744 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 203.57.51.53:80
+2024-03-07 10:04:39,511 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.92:26077
+2024-03-07 10:04:40,011 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.228.253:14869
+2024-03-07 10:04:40,511 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.228.252:1499
+2024-03-07 10:04:41,011 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 77.68.100.177:80
+2024-03-07 10:04:41,519 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 34.87.84.105:80
+2024-03-07 10:04:42,183 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 128.199.187.204:8000
+2024-03-07 10:04:42,691 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 196.20.125.145:8083
+2024-03-07 10:04:43,244 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 42.61.48.219:8000
+2024-03-07 10:04:43,753 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 52.196.1.182:80
+2024-03-07 10:04:44,211 - DEBUG - urllib3.connectionpool - http://52.196.1.182:80 "GET http://www.google.com/ HTTP/1.1" 200 326032
+2024-03-07 10:04:44,211 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:04:44,908 - INFO - helpers.request.proxy_manager - http://52.196.1.182:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:04:44,908 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:04:45,603 - INFO - helpers.request.proxy_manager - http://52.196.1.182:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:04:45,603 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:04:45,650 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:04:45,666 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:04:45,713 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:04:45,728 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 200.174.198.95:8888
+2024-03-07 10:04:46,252 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.228.131.169:5000
+2024-03-07 10:04:46,928 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 128.199.251.219:8000
+2024-03-07 10:04:47,435 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 198.49.68.80:80
+2024-03-07 10:04:47,948 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 110.49.34.126:32650
+2024-03-07 10:04:48,454 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 42.61.48.219:8000
+2024-03-07 10:04:48,957 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.174.214.221:80
+2024-03-07 10:04:49,467 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.200.12.84:80
+2024-03-07 10:04:49,967 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.174.214.223:80
+2024-03-07 10:04:50,476 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.230.222.202:80
+2024-03-07 10:04:50,980 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.200.12.86:80
+2024-03-07 10:04:51,483 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 77.48.244.78:80
+2024-03-07 10:04:51,992 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.174.214.219:80
+2024-03-07 10:04:52,492 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.223.239.185:80
+2024-03-07 10:04:52,996 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.200.12.83:80
+2024-03-07 10:04:53,498 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.174.214.220:80
+2024-03-07 10:04:54,011 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.145.6.38:80
+2024-03-07 10:04:54,512 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.169.118.209:80
+2024-03-07 10:04:55,012 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.172.218.160:80
+2024-03-07 10:04:55,513 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.223.239.166:80
+2024-03-07 10:04:56,013 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 202.131.65.110:80
+2024-03-07 10:04:56,461 - DEBUG - urllib3.connectionpool - http://202.131.65.110:80 "GET http://www.google.com/ HTTP/1.1" 200 8360
+2024-03-07 10:04:56,461 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:07:05,370 - INFO - helpers.request.proxy_manager - http://202.131.65.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:07:05,370 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:09:16,447 - INFO - helpers.request.proxy_manager - http://202.131.65.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:09:16,447 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:09:16,515 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:09:16,515 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:09:16,609 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:09:16,624 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.227.226:25639
+2024-03-07 10:09:17,126 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.174:22669
+2024-03-07 10:09:17,642 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 152.70.235.185:9002
+2024-03-07 10:09:18,357 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 8.219.97.248:80
+2024-03-07 10:09:19,041 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 114.129.2.82:8081
+2024-03-07 10:09:19,786 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 213.202.230.241:80
+2024-03-07 10:09:20,036 - DEBUG - urllib3.connectionpool - http://213.202.230.241:80 "GET http://www.google.com/ HTTP/1.1" 302 360
+2024-03-07 10:09:20,036 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 213.202.230.241
+2024-03-07 10:09:20,067 - DEBUG - urllib3.connectionpool - http://213.202.230.241:80 "GET http://www.google.com/sorry/index?continue=http://www.google.com/&q=EgTVyubxGL-Ipq8GIjBP1GoHEK9vGiCacyb3fotGQ7hki-9CekzYvzuDHQY6QqwSy5SrPjujwrJr2yysKckyAXJaAUM HTTP/1.1" 429 3086
+2024-03-07 10:09:20,067 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 203.57.51.53:80
+2024-03-07 10:09:20,829 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.92:26077
+2024-03-07 10:09:21,329 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.228.253:14869
+2024-03-07 10:09:21,842 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.228.252:1499
+2024-03-07 10:09:22,342 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 77.68.100.177:80
+2024-03-07 10:09:22,846 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 34.87.84.105:80
+2024-03-07 10:09:23,359 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 128.199.187.204:8000
+2024-03-07 10:09:23,859 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 196.20.125.145:8083
+2024-03-07 10:09:24,415 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 42.61.48.219:8000
+2024-03-07 10:09:24,921 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 52.196.1.182:80
+2024-03-07 10:09:25,435 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.223.239.190:80
+2024-03-07 10:09:25,947 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.223.239.183:80
+2024-03-07 10:09:26,450 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 103.199.18.248:80
+2024-03-07 10:09:26,979 - DEBUG - urllib3.connectionpool - http://103.199.18.248:80 "GET http://www.google.com/ HTTP/1.1" 200 None
+2024-03-07 10:09:26,979 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:09:27,370 - INFO - helpers.request.proxy_manager - http://103.199.18.248:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:09:27,386 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:09:27,776 - INFO - helpers.request.proxy_manager - http://103.199.18.248:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:09:27,776 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:09:27,854 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:09:27,869 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.227.226:25639
+2024-03-07 10:09:28,370 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.174:22669
+2024-03-07 10:09:28,885 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.236.20:16829
+2024-03-07 10:09:29,389 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.93:25873
+2024-03-07 10:09:29,892 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.228.250:18003
+2024-03-07 10:09:30,395 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.171:5369
+2024-03-07 10:09:30,908 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.90:29129
+2024-03-07 10:09:31,417 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.91:18031
+2024-03-07 10:09:31,929 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.228.251:11339
+2024-03-07 10:09:32,433 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.227.227:4479
+2024-03-07 10:09:32,945 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.172:15991
+2024-03-07 10:09:33,448 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.228.254:32221
+2024-03-07 10:09:33,961 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.164.178:10801
+2024-03-07 10:09:34,462 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.227.230:23685
+2024-03-07 10:09:34,962 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.236.19:10587
+2024-03-07 10:09:35,466 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.227.229:29003
+2024-03-07 10:09:35,976 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 209.121.164.50:31147
+2024-03-07 10:09:36,479 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.94:24271
+2024-03-07 10:09:36,994 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 209.209.10.40:54258
+2024-03-07 10:09:37,495 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:09:37,542 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:09:37,557 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.227.226:25639
+2024-03-07 10:09:38,064 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.174:22669
+2024-03-07 10:09:38,564 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 152.70.235.185:9002
+2024-03-07 10:09:39,290 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 8.219.97.248:80
+2024-03-07 10:09:39,966 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 114.129.2.82:8081
+2024-03-07 10:09:40,469 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 213.202.230.241:80
+2024-03-07 10:09:40,485 - DEBUG - urllib3.connectionpool - http://213.202.230.241:80 "GET http://www.google.com/ HTTP/1.1" 502 548
+2024-03-07 10:09:40,485 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 203.57.51.53:80
+2024-03-07 10:09:40,988 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.92:26077
+2024-03-07 10:09:41,493 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.228.253:14869
+2024-03-07 10:09:41,993 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.228.252:1499
+2024-03-07 10:09:42,493 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 77.68.100.177:80
+2024-03-07 10:09:42,996 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 34.87.84.105:80
+2024-03-07 10:09:43,662 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 128.199.187.204:8000
+2024-03-07 10:09:44,173 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 196.20.125.145:8083
+2024-03-07 10:09:44,732 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 42.61.48.219:8000
+2024-03-07 10:09:45,236 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 52.196.1.182:80
+2024-03-07 10:09:45,736 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.223.239.190:80
+2024-03-07 10:09:46,245 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.223.239.183:80
+2024-03-07 10:09:46,751 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 103.199.18.248:80
+2024-03-07 10:09:47,260 - DEBUG - urllib3.connectionpool - http://103.199.18.248:80 "GET http://www.google.com/ HTTP/1.1" 200 None
+2024-03-07 10:09:47,260 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:09:47,662 - INFO - helpers.request.proxy_manager - http://103.199.18.248:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:09:47,662 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:09:48,068 - INFO - helpers.request.proxy_manager - http://103.199.18.248:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:09:48,068 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:09:48,115 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:09:48,115 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 114.129.2.82:8081
+2024-03-07 10:09:48,621 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 52.196.1.182:80
+2024-03-07 10:09:49,079 - DEBUG - urllib3.connectionpool - http://52.196.1.182:80 "GET http://www.google.com/ HTTP/1.1" 200 326032
+2024-03-07 10:09:49,079 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:09:49,777 - INFO - helpers.request.proxy_manager - http://52.196.1.182:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:09:49,777 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:09:50,515 - INFO - helpers.request.proxy_manager - http://52.196.1.182:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:09:50,515 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:09:50,562 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:09:50,562 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:09:50,609 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:09:50,641 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.227.226:25639
+2024-03-07 10:09:51,144 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.174:22669
+2024-03-07 10:09:51,644 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 152.70.235.185:9002
+2024-03-07 10:09:52,374 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 8.219.97.248:80
+2024-03-07 10:09:53,055 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 114.129.2.82:8081
+2024-03-07 10:09:53,681 - DEBUG - urllib3.connectionpool - http://114.129.2.82:8081 "GET http://www.google.com/ HTTP/1.1" 200 8292
+2024-03-07 10:09:53,681 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:09:55,463 - INFO - helpers.request.proxy_manager - http://114.129.2.82:8081: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:09:55,463 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:09:57,186 - INFO - helpers.request.proxy_manager - http://114.129.2.82:8081: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:09:57,186 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:09:57,233 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:09:57,249 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:09:57,296 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:09:57,311 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.227.226:25639
+2024-03-07 10:09:57,812 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.174:22669
+2024-03-07 10:09:58,327 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 152.70.235.185:9002
+2024-03-07 10:09:59,048 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 8.219.97.248:80
+2024-03-07 10:09:59,727 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 114.129.2.82:8081
+2024-03-07 10:10:00,455 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 213.202.230.241:80
+2024-03-07 10:10:00,537 - DEBUG - urllib3.connectionpool - http://213.202.230.241:80 "GET http://www.google.com/ HTTP/1.1" 200 7939
+2024-03-07 10:10:00,537 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 203.57.51.53:80
+2024-03-07 10:10:01,052 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.92:26077
+2024-03-07 10:10:01,565 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.228.253:14869
+2024-03-07 10:10:02,068 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.228.252:1499
+2024-03-07 10:10:02,572 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 77.68.100.177:80
+2024-03-07 10:10:03,086 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 34.87.84.105:80
+2024-03-07 10:10:03,589 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 128.199.187.204:8000
+2024-03-07 10:10:04,089 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 196.20.125.145:8083
+2024-03-07 10:10:04,652 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 42.61.48.219:8000
+2024-03-07 10:10:05,155 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 52.196.1.182:80
+2024-03-07 10:10:05,624 - DEBUG - urllib3.connectionpool - http://52.196.1.182:80 "GET http://www.google.com/ HTTP/1.1" 200 326032
+2024-03-07 10:10:05,624 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:10:06,324 - INFO - helpers.request.proxy_manager - http://52.196.1.182:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:10:06,324 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:10:07,027 - INFO - helpers.request.proxy_manager - http://52.196.1.182:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:10:07,027 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:10:07,059 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:10:07,074 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 82.113.157.122:31280
+2024-03-07 10:10:07,106 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:10:07,153 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:10:07,168 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.227.226:25639
+2024-03-07 10:10:07,681 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.174:22669
+2024-03-07 10:10:08,184 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 152.70.235.185:9002
+2024-03-07 10:10:08,915 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 8.219.97.248:80
+2024-03-07 10:10:09,576 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 114.129.2.82:8081
+2024-03-07 10:10:10,222 - DEBUG - urllib3.connectionpool - http://114.129.2.82:8081 "GET http://www.google.com/ HTTP/1.1" 200 8311
+2024-03-07 10:10:10,222 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:10:11,973 - INFO - helpers.request.proxy_manager - http://114.129.2.82:8081: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:10:11,973 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:10:12,687 - INFO - helpers.request.proxy_manager - http://114.129.2.82:8081: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:10:12,687 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:10:12,734 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:10:12,750 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 213.202.230.241:80
+2024-03-07 10:10:12,984 - DEBUG - urllib3.connectionpool - http://213.202.230.241:80 "GET http://www.google.com/ HTTP/1.1" 200 7955
+2024-03-07 10:10:12,984 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.139.0:8000
+2024-03-07 10:10:13,047 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 212.77.163.196:3128
+2024-03-07 10:10:13,547 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.28.35:8000
+2024-03-07 10:10:13,563 - DEBUG - urllib3.connectionpool - http://49.13.28.35:8000 "GET http://www.google.com/ HTTP/1.1" 503 None
+2024-03-07 10:10:13,563 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.131.88:8000
+2024-03-07 10:10:13,563 - DEBUG - urllib3.connectionpool - http://49.13.131.88:8000 "GET http://www.google.com/ HTTP/1.1" 503 None
+2024-03-07 10:10:13,578 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 5.189.139.14:8118
+2024-03-07 10:10:13,594 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:10:13,650 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:10:13,657 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.227.226:25639
+2024-03-07 10:10:14,170 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.174:22669
+2024-03-07 10:10:14,682 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 152.70.235.185:9002
+2024-03-07 10:10:15,402 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 8.219.97.248:80
+2024-03-07 10:10:16,087 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 114.129.2.82:8081
+2024-03-07 10:10:16,706 - DEBUG - urllib3.connectionpool - http://114.129.2.82:8081 "GET http://www.google.com/ HTTP/1.1" 200 8299
+2024-03-07 10:10:16,706 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:10:17,418 - INFO - helpers.request.proxy_manager - http://114.129.2.82:8081: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:10:17,418 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:10:19,172 - INFO - helpers.request.proxy_manager - http://114.129.2.82:8081: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:10:19,172 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:10:19,219 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:10:19,235 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 51.159.0.236:3128
+2024-03-07 10:10:19,748 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 5.196.111.30:20013
+2024-03-07 10:10:20,250 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:10:20,299 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:10:20,314 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 200.174.198.95:8888
+2024-03-07 10:10:21,045 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.228.131.169:5000
+2024-03-07 10:10:21,730 - DEBUG - urllib3.connectionpool - http://49.228.131.169:5000 "GET http://www.google.com/ HTTP/1.1" 200 8724
+2024-03-07 10:10:21,730 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 128.199.251.219:8000
+2024-03-07 10:10:22,233 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 198.49.68.80:80
+2024-03-07 10:10:22,737 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 110.49.34.126:32650
+2024-03-07 10:10:23,239 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 42.61.48.219:8000
+2024-03-07 10:10:23,748 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.174.214.221:80
+2024-03-07 10:10:24,255 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.200.12.84:80
+2024-03-07 10:10:24,761 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.174.214.223:80
+2024-03-07 10:10:25,274 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.230.222.202:80
+2024-03-07 10:10:25,774 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.200.12.86:80
+2024-03-07 10:10:26,274 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 77.48.244.78:80
+2024-03-07 10:10:26,774 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.174.214.219:80
+2024-03-07 10:10:27,289 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.223.239.185:80
+2024-03-07 10:10:27,801 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.200.12.83:80
+2024-03-07 10:10:28,313 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.174.214.220:80
+2024-03-07 10:10:28,813 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.145.6.38:80
+2024-03-07 10:10:29,329 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.169.118.209:80
+2024-03-07 10:10:29,840 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.172.218.160:80
+2024-03-07 10:10:30,340 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 50.223.239.166:80
+2024-03-07 10:10:30,845 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 202.131.65.110:80
+2024-03-07 10:10:31,287 - DEBUG - urllib3.connectionpool - http://202.131.65.110:80 "GET http://www.google.com/ HTTP/1.1" 200 8413
+2024-03-07 10:10:31,303 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:12:41,244 - INFO - helpers.request.proxy_manager - http://202.131.65.110:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:12:41,244 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:14:52,315 - INFO - helpers.request.proxy_manager - http://202.131.65.110:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:14:52,315 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:14:52,613 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:14:52,613 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 129.213.150.205:8080
+2024-03-07 10:14:52,784 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 52.151.210.204:9002
+2024-03-07 10:14:53,313 - DEBUG - urllib3.connectionpool - http://52.151.210.204:9002 "GET http://www.google.com/ HTTP/1.1" 302 379
+2024-03-07 10:14:53,406 - DEBUG - urllib3.connectionpool - http://52.151.210.204:9002 "GET http://www.google.com/sorry/index?continue=http://www.google.com/&q=EgQ0vycYGIyLpq8GIil9W3KU3jGBKJpiBBiDGtgoyvSHm2EZIk34SU799rBOtcJgfYeLcecX9jIBckoTU09SUllfTUVSSVNfTUVTU0FHRVoBQw HTTP/1.1" 429 3209
+2024-03-07 10:14:53,406 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:14:54,439 - DEBUG - urllib3.connectionpool - https://www.wg-gesucht.de:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:14:54,439 - INFO - helpers.request.proxy_manager - http://52.151.210.204:9002: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-07 10:14:54,455 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://52.151.210.204:9002
+2024-03-07 10:14:54,455 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:00,546 - DEBUG - urllib3.connectionpool - https://www.immobilienscout24.de:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:00,547 - INFO - helpers.request.proxy_manager - http://52.151.210.204:9002: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:00,562 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://52.151.210.204:9002
+2024-03-07 10:15:00,562 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:01,451 - DEBUG - urllib3.connectionpool - https://www.wg-gesucht.de:443 "GET /1-zimmer-wohnungen-in-Berlin-Friedrichsfelde.10831668.html HTTP/1.1" 404 None
+2024-03-07 10:15:01,451 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:01,514 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:01,529 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 185.164.163.135:8118
+2024-03-07 10:15:02,037 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:02,180 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:02,196 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:02,511 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7914
+2024-03-07 10:15:02,511 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:02,691 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:02,691 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:02,832 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:02,832 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:02,894 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:02,894 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 52.196.1.182:80
+2024-03-07 10:15:03,378 - DEBUG - urllib3.connectionpool - http://52.196.1.182:80 "GET http://www.google.com/ HTTP/1.1" 200 326032
+2024-03-07 10:15:03,378 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:04,489 - INFO - helpers.request.proxy_manager - http://52.196.1.182:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:04,504 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:05,202 - INFO - helpers.request.proxy_manager - http://52.196.1.182:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:05,202 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:05,512 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:05,528 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 82.113.157.122:31280
+2024-03-07 10:15:05,575 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:05,621 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:05,637 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:05,715 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 8025
+2024-03-07 10:15:05,715 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:05,746 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:05,746 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:05,762 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:05,762 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:05,856 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:05,856 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:05,903 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:05,918 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:05,996 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7974
+2024-03-07 10:15:05,996 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:06,028 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:06,028 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:06,043 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:06,059 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:06,090 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:06,106 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 185.164.163.135:8118
+2024-03-07 10:15:06,606 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:06,637 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:06,653 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:06,731 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7985
+2024-03-07 10:15:06,731 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:06,762 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:06,762 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:06,778 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:06,778 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:06,840 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:06,840 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 185.164.163.135:8118
+2024-03-07 10:15:07,340 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:07,396 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:07,406 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:07,486 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7953
+2024-03-07 10:15:07,486 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:07,500 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:07,500 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:07,531 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:07,531 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:07,609 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:07,625 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:07,672 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:07,687 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:07,772 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7982
+2024-03-07 10:15:07,772 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:07,797 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:07,797 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:07,813 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:07,813 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:07,860 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:07,875 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 213.202.230.241:80
+2024-03-07 10:15:08,382 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.139.0:8000
+2024-03-07 10:15:08,397 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 212.77.163.196:3128
+2024-03-07 10:15:08,897 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.28.35:8000
+2024-03-07 10:15:09,398 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.131.88:8000
+2024-03-07 10:15:09,899 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 5.189.139.14:8118
+2024-03-07 10:15:10,173 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:10,220 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:10,236 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:10,329 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7963
+2024-03-07 10:15:10,329 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:10,345 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:10,345 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:10,376 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:10,376 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:10,408 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:10,423 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:10,486 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:10,501 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:10,595 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7952
+2024-03-07 10:15:10,595 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:10,611 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:10,626 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:10,642 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:10,642 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:10,689 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:10,704 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 51.159.0.236:3128
+2024-03-07 10:15:11,211 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 5.196.111.30:20013
+2024-03-07 10:15:11,724 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:11,771 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:11,786 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:11,867 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7923
+2024-03-07 10:15:11,867 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:11,883 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:11,883 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:11,914 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:11,914 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:11,961 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:11,977 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:12,024 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:12,039 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:12,117 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7987
+2024-03-07 10:15:12,117 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:12,149 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:12,149 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:12,164 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:12,164 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:12,227 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:12,242 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:12,289 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:12,305 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:12,383 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7981
+2024-03-07 10:15:12,383 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:12,399 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:12,399 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:12,430 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:12,430 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:12,461 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:12,477 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 213.202.230.241:80
+2024-03-07 10:15:12,869 - DEBUG - urllib3.connectionpool - http://213.202.230.241:80 "GET http://www.google.com/ HTTP/1.1" 302 360
+2024-03-07 10:15:12,869 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 213.202.230.241
+2024-03-07 10:15:12,901 - DEBUG - urllib3.connectionpool - http://213.202.230.241:80 "GET http://www.google.com/sorry/index?continue=http://www.google.com/&q=EgTVyubxGKCLpq8GIjChevavwhlUXEbmf3pjDa2BdF0Tk3zHEfiBDe5M3_usnsKyDg7PS3ykHsNgPM7X4SUyAXJaAUM HTTP/1.1" 429 3086
+2024-03-07 10:15:12,901 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.139.0:8000
+2024-03-07 10:15:12,901 - DEBUG - urllib3.connectionpool - http://49.13.139.0:8000 "GET http://www.google.com/ HTTP/1.1" 503 None
+2024-03-07 10:15:12,916 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 212.77.163.196:3128
+2024-03-07 10:15:13,430 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.28.35:8000
+2024-03-07 10:15:13,943 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.131.88:8000
+2024-03-07 10:15:14,443 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 5.189.139.14:8118
+2024-03-07 10:15:14,458 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:14,536 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:14,552 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:14,630 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7926
+2024-03-07 10:15:14,630 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:14,646 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:14,646 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:14,677 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:14,677 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:14,755 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:14,771 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:14,849 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:14,865 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:14,943 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7978
+2024-03-07 10:15:14,958 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:14,974 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:14,974 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:15,005 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:15,005 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:15,052 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:15,068 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 51.159.0.236:3128
+2024-03-07 10:15:15,568 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 5.196.111.30:20013
+2024-03-07 10:15:16,084 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:16,131 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:16,146 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:16,224 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7959
+2024-03-07 10:15:16,224 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:16,256 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:16,256 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:16,271 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:16,271 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:16,318 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:16,334 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:16,381 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:16,396 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:16,521 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7983
+2024-03-07 10:15:16,521 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:16,537 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:16,537 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:16,568 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:16,568 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:16,615 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:16,615 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 213.202.230.241:80
+2024-03-07 10:15:17,118 - DEBUG - urllib3.connectionpool - http://213.202.230.241:80 "GET http://www.google.com/ HTTP/1.1" 302 360
+2024-03-07 10:15:17,118 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 213.202.230.241
+2024-03-07 10:15:17,150 - DEBUG - urllib3.connectionpool - http://213.202.230.241:80 "GET http://www.google.com/sorry/index?continue=http://www.google.com/&q=EgTVyubxGKSLpq8GIjBENwuRJ8SkYmGVf4fzVTck3viyJ05i5ASCO5TurWkp6XDZEwEoiYodFJxHvLxD8eUyAXJaAUM HTTP/1.1" 429 3086
+2024-03-07 10:15:17,150 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.139.0:8000
+2024-03-07 10:15:17,353 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 212.77.163.196:3128
+2024-03-07 10:15:17,863 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.28.35:8000
+2024-03-07 10:15:18,367 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.131.88:8000
+2024-03-07 10:15:18,866 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 5.189.139.14:8118
+2024-03-07 10:15:18,975 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:19,037 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:19,053 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:19,147 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7959
+2024-03-07 10:15:19,147 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:19,162 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:19,162 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:19,194 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:19,194 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:19,241 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:19,256 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:19,303 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:19,319 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:19,404 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7996
+2024-03-07 10:15:19,404 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:19,419 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:19,419 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:19,451 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:19,451 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:19,497 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:19,513 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 51.159.0.236:3128
+2024-03-07 10:15:20,024 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 5.196.111.30:20013
+2024-03-07 10:15:20,537 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:20,583 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:20,599 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:20,755 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7975
+2024-03-07 10:15:20,771 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:20,889 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:20,889 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:20,963 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:20,963 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:21,009 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:21,009 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 129.213.150.205:8080
+2024-03-07 10:15:21,197 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 52.151.210.204:9002
+2024-03-07 10:15:21,728 - DEBUG - urllib3.connectionpool - http://52.151.210.204:9002 "GET http://www.google.com/ HTTP/1.1" 302 379
+2024-03-07 10:15:21,822 - DEBUG - urllib3.connectionpool - http://52.151.210.204:9002 "GET http://www.google.com/sorry/index?continue=http://www.google.com/&q=EgQ0vycYGKmLpq8GIilCWHVebJcL7ESLKNKVMLYYxJth7MYCU99gWsnGDleusM1ygk5jaZBM0DIBckoTU09SUllfTUVSSVNfTUVTU0FHRVoBQw HTTP/1.1" 429 3209
+2024-03-07 10:15:21,822 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:22,618 - DEBUG - urllib3.connectionpool - https://www.wg-gesucht.de:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:22,712 - INFO - helpers.request.proxy_manager - http://52.151.210.204:9002: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:22,712 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://52.151.210.204:9002
+2024-03-07 10:15:22,712 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:23,343 - DEBUG - urllib3.connectionpool - https://www.immobilienscout24.de:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:23,421 - INFO - helpers.request.proxy_manager - http://52.151.210.204:9002: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:23,421 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://52.151.210.204:9002
+2024-03-07 10:15:23,421 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:24,495 - DEBUG - urllib3.connectionpool - https://www.wg-gesucht.de:443 "GET /wg-zimmer-in-Berlin.10831792.html HTTP/1.1" 404 None
+2024-03-07 10:15:24,511 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:24,542 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:24,557 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 129.213.150.205:8080
+2024-03-07 10:15:24,731 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 52.151.210.204:9002
+2024-03-07 10:15:25,360 - DEBUG - urllib3.connectionpool - http://52.151.210.204:9002 "GET http://www.google.com/ HTTP/1.1" 302 379
+2024-03-07 10:15:25,454 - DEBUG - urllib3.connectionpool - http://52.151.210.204:9002 "GET http://www.google.com/sorry/index?continue=http://www.google.com/&q=EgQ0vycYGKyLpq8GIilNc5VEbEdzjr__rsJJzKE5NZJVQYSABGJFXHJ0gUAXOZqc5iJDkmBvoTIBckoTU09SUllfTUVSSVNfTUVTU0FHRVoBQw HTTP/1.1" 429 3209
+2024-03-07 10:15:25,454 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:26,520 - DEBUG - urllib3.connectionpool - https://www.wg-gesucht.de:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:26,520 - INFO - helpers.request.proxy_manager - http://52.151.210.204:9002: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:26,520 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://52.151.210.204:9002
+2024-03-07 10:15:26,520 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:27,114 - DEBUG - urllib3.connectionpool - https://www.immobilienscout24.de:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:27,117 - INFO - helpers.request.proxy_manager - http://52.151.210.204:9002: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:27,117 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://52.151.210.204:9002
+2024-03-07 10:15:27,117 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:27,991 - DEBUG - urllib3.connectionpool - https://www.wg-gesucht.de:443 "GET /wg-zimmer-in-Berlin.10831339.html HTTP/1.1" 404 None
+2024-03-07 10:15:27,991 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:28,054 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:28,054 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:28,101 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:28,132 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:28,226 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 8022
+2024-03-07 10:15:28,226 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:28,272 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:28,272 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:28,351 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:28,351 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:28,382 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:28,397 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 213.202.230.241:80
+2024-03-07 10:15:28,460 - DEBUG - urllib3.connectionpool - http://213.202.230.241:80 "GET http://www.google.com/ HTTP/1.1" 200 7916
+2024-03-07 10:15:28,460 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.139.0:8000
+2024-03-07 10:15:28,585 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 212.77.163.196:3128
+2024-03-07 10:15:29,088 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.28.35:8000
+2024-03-07 10:15:29,590 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.131.88:8000
+2024-03-07 10:15:30,101 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 5.189.139.14:8118
+2024-03-07 10:15:30,601 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:30,647 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:30,663 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:30,739 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7969
+2024-03-07 10:15:30,739 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:30,757 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:30,757 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:30,773 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:30,789 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:30,867 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:30,882 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 82.113.157.122:31280
+2024-03-07 10:15:31,389 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:31,436 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:31,482 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:31,561 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7976
+2024-03-07 10:15:31,561 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:31,592 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:31,592 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:31,607 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:31,607 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:31,654 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:31,670 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 213.202.230.241:80
+2024-03-07 10:15:31,920 - DEBUG - urllib3.connectionpool - http://213.202.230.241:80 "GET http://www.google.com/ HTTP/1.1" 302 360
+2024-03-07 10:15:31,920 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 213.202.230.241
+2024-03-07 10:15:31,951 - DEBUG - urllib3.connectionpool - http://213.202.230.241:80 "GET http://www.google.com/sorry/index?continue=http://www.google.com/&q=EgTVyubxGLOLpq8GIjBfoMwFvfJPHSY0T6zjF11ALiApA0a9NZirwBaZl5OiJI0UJtLYnP_E-zfzb338tBkyAXJaAUM HTTP/1.1" 429 3086
+2024-03-07 10:15:31,951 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.139.0:8000
+2024-03-07 10:15:32,420 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 212.77.163.196:3128
+2024-03-07 10:15:32,920 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.28.35:8000
+2024-03-07 10:15:33,423 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.131.88:8000
+2024-03-07 10:15:33,936 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 5.189.139.14:8118
+2024-03-07 10:15:34,421 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:34,484 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:34,499 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:34,577 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 8006
+2024-03-07 10:15:34,577 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:34,609 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:34,609 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:34,624 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:34,624 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:34,671 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:34,687 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 213.202.230.241:80
+2024-03-07 10:15:34,827 - DEBUG - urllib3.connectionpool - http://213.202.230.241:80 "GET http://www.google.com/ HTTP/1.1" 200 7963
+2024-03-07 10:15:34,843 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.139.0:8000
+2024-03-07 10:15:35,050 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 212.77.163.196:3128
+2024-03-07 10:15:35,550 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.28.35:8000
+2024-03-07 10:15:36,050 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.131.88:8000
+2024-03-07 10:15:36,560 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 5.189.139.14:8118
+2024-03-07 10:15:37,060 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:37,107 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:37,123 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:37,201 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7976
+2024-03-07 10:15:37,201 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:37,216 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:37,216 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:37,248 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:37,248 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:37,295 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:37,310 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:37,357 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:37,373 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:37,453 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7944
+2024-03-07 10:15:37,453 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:37,469 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:37,485 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:37,500 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:37,500 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:37,547 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:37,563 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:37,610 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:37,625 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:37,704 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7963
+2024-03-07 10:15:37,704 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:37,720 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:37,720 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:37,752 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:37,752 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:37,783 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:37,798 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 213.202.230.241:80
+2024-03-07 10:15:38,298 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.139.0:8000
+2024-03-07 10:15:38,470 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 212.77.163.196:3128
+2024-03-07 10:15:38,973 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.28.35:8000
+2024-03-07 10:15:39,221 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.131.88:8000
+2024-03-07 10:15:39,721 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 5.189.139.14:8118
+2024-03-07 10:15:39,721 - DEBUG - urllib3.connectionpool - http://5.189.139.14:8118 "GET http://www.google.com/ HTTP/1.1" 503 None
+2024-03-07 10:15:39,737 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:39,784 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:39,799 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:39,893 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7952
+2024-03-07 10:15:39,893 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:39,924 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:39,924 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:39,956 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:39,956 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:40,003 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:40,003 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 34.154.161.152:80
+2024-03-07 10:15:40,506 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:40,553 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:40,568 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:40,646 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7988
+2024-03-07 10:15:40,646 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:40,662 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:40,662 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:40,693 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:40,693 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:40,756 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:40,756 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:40,834 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:40,849 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:40,928 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7975
+2024-03-07 10:15:40,928 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:40,943 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:40,943 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:40,974 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:40,974 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:41,021 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:41,037 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 82.113.157.122:31280
+2024-03-07 10:15:41,540 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:41,587 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:41,603 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:41,681 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7956
+2024-03-07 10:15:41,681 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:41,696 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:41,696 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:41,728 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:41,728 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:41,806 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:41,806 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:41,868 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:41,884 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:41,946 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7991
+2024-03-07 10:15:41,946 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:41,978 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:41,978 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:42,009 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:42,009 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:42,040 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:42,056 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 129.213.150.205:8080
+2024-03-07 10:15:42,282 - DEBUG - urllib3.connectionpool - http://129.213.150.205:8080 "GET http://www.google.com/ HTTP/1.1" 200 8506
+2024-03-07 10:15:42,282 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:43,512 - DEBUG - urllib3.connectionpool - https://www.wg-gesucht.de:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:43,527 - INFO - helpers.request.proxy_manager - http://129.213.150.205:8080: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:43,527 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://129.213.150.205:8080
+2024-03-07 10:15:43,527 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:43,699 - INFO - helpers.request.proxy_manager - http://129.213.150.205:8080: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:43,699 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://129.213.150.205:8080
+2024-03-07 10:15:43,699 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:43,871 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:43,934 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:43,949 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:43,998 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:44,014 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:44,092 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7977
+2024-03-07 10:15:44,092 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:44,123 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:44,123 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:44,154 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:44,154 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:44,217 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:44,217 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:44,264 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:44,279 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:44,670 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7994
+2024-03-07 10:15:44,670 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:44,680 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:44,695 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:44,711 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:44,711 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:44,773 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:44,773 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 213.202.230.241:80
+2024-03-07 10:15:45,289 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.139.0:8000
+2024-03-07 10:15:45,289 - DEBUG - urllib3.connectionpool - http://49.13.139.0:8000 "GET http://www.google.com/ HTTP/1.1" 503 None
+2024-03-07 10:15:45,305 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 212.77.163.196:3128
+2024-03-07 10:15:45,811 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.28.35:8000
+2024-03-07 10:15:46,311 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.131.88:8000
+2024-03-07 10:15:46,358 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 5.189.139.14:8118
+2024-03-07 10:15:46,374 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:46,421 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:46,436 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:46,516 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7966
+2024-03-07 10:15:46,516 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:46,531 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:46,531 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:46,563 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:46,563 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:46,594 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:46,610 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:15:46,665 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:46,678 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:15:46,756 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7984
+2024-03-07 10:15:46,756 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:46,787 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:46,787 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:46,803 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:46,803 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:46,850 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:46,850 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 129.213.150.205:8080
+2024-03-07 10:15:47,037 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 52.151.210.204:9002
+2024-03-07 10:15:47,387 - DEBUG - urllib3.connectionpool - http://52.151.210.204:9002 "GET http://www.google.com/ HTTP/1.1" 200 None
+2024-03-07 10:15:47,387 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:48,334 - DEBUG - urllib3.connectionpool - https://www.wg-gesucht.de:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:48,413 - INFO - helpers.request.proxy_manager - http://52.151.210.204:9002: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-07 10:15:48,413 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://52.151.210.204:9002
+2024-03-07 10:15:48,428 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:15:49,032 - DEBUG - urllib3.connectionpool - https://www.immobilienscout24.de:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:49,032 - INFO - helpers.request.proxy_manager - http://52.151.210.204:9002: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-07 10:15:49,032 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://52.151.210.204:9002
+2024-03-07 10:15:49,032 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:15:50,403 - DEBUG - urllib3.connectionpool - https://www.wg-gesucht.de:443 "GET /wg-zimmer-in-Berlin.10831851.html HTTP/1.1" 404 None
+2024-03-07 10:15:50,418 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:15:50,450 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:15:50,465 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.227.226:25639
+2024-03-07 10:15:50,966 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.174:22669
+2024-03-07 10:15:51,474 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.236.20:16829
+2024-03-07 10:15:51,983 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.93:25873
+2024-03-07 10:15:52,485 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.228.250:18003
+2024-03-07 10:15:52,993 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.90:29129
+2024-03-07 10:15:53,496 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.171:5369
+2024-03-07 10:15:53,997 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.91:18031
+2024-03-07 10:15:54,512 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.227.227:4479
+2024-03-07 10:15:55,016 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.228.251:11339
+2024-03-07 10:15:55,517 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.160.172:15991
+2024-03-07 10:15:56,029 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.228.254:32221
+2024-03-07 10:15:56,544 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 72.10.164.178:10801
+2024-03-07 10:15:57,051 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.227.230:23685
+2024-03-07 10:15:57,564 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.236.19:10587
+2024-03-07 10:15:58,071 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 67.43.227.229:29003
+2024-03-07 10:15:58,575 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 209.121.164.50:31147
+2024-03-07 10:15:58,872 - DEBUG - urllib3.connectionpool - http://209.121.164.50:31147 "GET http://www.google.com/ HTTP/1.1" 503 3690
+2024-03-07 10:15:58,872 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:16:02,418 - DEBUG - urllib3.connectionpool - https://www.wg-gesucht.de:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:16:02,575 - INFO - helpers.request.proxy_manager - http://209.121.164.50:31147: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-07 10:16:02,575 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://209.121.164.50:31147
+2024-03-07 10:16:02,591 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:16:03,943 - DEBUG - urllib3.connectionpool - https://www.immobilienscout24.de:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:16:04,240 - INFO - helpers.request.proxy_manager - http://209.121.164.50:31147: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-07 10:16:04,240 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://209.121.164.50:31147
+2024-03-07 10:16:04,256 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:16:05,734 - DEBUG - urllib3.connectionpool - https://www.wg-gesucht.de:443 "GET /wg-zimmer-in-Berlin.10832012.html HTTP/1.1" 404 None
+2024-03-07 10:16:05,734 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:16:05,782 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:16:05,782 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 213.202.230.241:80
+2024-03-07 10:16:06,131 - DEBUG - urllib3.connectionpool - http://213.202.230.241:80 "GET http://www.google.com/ HTTP/1.1" 200 7944
+2024-03-07 10:16:06,131 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.139.0:8000
+2024-03-07 10:16:06,269 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 212.77.163.196:3128
+2024-03-07 10:16:06,785 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.28.35:8000
+2024-03-07 10:16:06,832 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.131.88:8000
+2024-03-07 10:16:06,910 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 5.189.139.14:8118
+2024-03-07 10:16:07,113 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:16:07,171 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:16:07,180 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:16:07,323 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 8008
+2024-03-07 10:16:07,323 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:16:07,401 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:16:07,401 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:16:07,448 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:16:07,448 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:16:07,494 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:16:07,510 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:16:07,541 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:16:07,557 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:16:07,641 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7995
+2024-03-07 10:16:07,641 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:16:07,657 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:16:07,657 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:16:07,688 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:16:07,688 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:16:07,719 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:16:07,735 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:16:07,782 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:16:07,797 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:16:07,875 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7975
+2024-03-07 10:16:07,875 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:16:07,907 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:16:07,907 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:16:07,922 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:16:07,938 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:16:07,985 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:16:07,985 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 185.164.163.135:8118
+2024-03-07 10:16:08,016 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:16:08,079 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:16:08,094 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:16:08,172 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7967
+2024-03-07 10:16:08,172 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:16:08,204 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:16:08,204 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:16:08,219 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:16:08,219 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:16:08,266 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:16:08,266 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 129.213.150.205:8080
+2024-03-07 10:16:08,439 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 52.151.210.204:9002
+2024-03-07 10:16:08,682 - DEBUG - urllib3.connectionpool - http://52.151.210.204:9002 "GET http://www.google.com/ HTTP/1.1" 200 None
+2024-03-07 10:16:08,682 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:16:09,729 - DEBUG - urllib3.connectionpool - https://www.wg-gesucht.de:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:16:09,729 - INFO - helpers.request.proxy_manager - http://52.151.210.204:9002: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-07 10:16:09,745 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://52.151.210.204:9002
+2024-03-07 10:16:09,745 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:16:10,302 - DEBUG - urllib3.connectionpool - https://www.immobilienscout24.de:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:16:10,394 - INFO - helpers.request.proxy_manager - http://52.151.210.204:9002: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-07 10:16:10,394 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://52.151.210.204:9002
+2024-03-07 10:16:10,394 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:16:11,488 - DEBUG - urllib3.connectionpool - https://www.wg-gesucht.de:443 "GET /1-zimmer-wohnungen-in-Berlin-Wilmersdorf.10808122.html HTTP/1.1" 404 None
+2024-03-07 10:16:11,504 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:16:11,535 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:16:11,550 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 213.202.230.241:80
+2024-03-07 10:16:12,059 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.139.0:8000
+2024-03-07 10:16:12,251 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 212.77.163.196:3128
+2024-03-07 10:16:12,754 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.28.35:8000
+2024-03-07 10:16:13,159 - DEBUG - urllib3.connectionpool - http://49.13.28.35:8000 "GET http://www.google.com/ HTTP/1.1" 302 376
+2024-03-07 10:16:13,190 - DEBUG - urllib3.connectionpool - http://49.13.28.35:8000 "GET http://www.google.com/sorry/index?continue=http://www.google.com/&q=EhAqAQT4wBJvhAAAAAAAAAABGNyLpq8GIjA9EVNb7THTobVFekHpAr6WkkX4HtFPcVqPxScXfO0Nokar4J1Ve4EsnMKApM6mTssyAXJaAUM HTTP/1.1" 429 3108
+2024-03-07 10:16:13,190 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:16:13,253 - INFO - helpers.request.proxy_manager - http://49.13.28.35:8000: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:16:13,268 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:16:13,268 - INFO - helpers.request.proxy_manager - http://49.13.28.35:8000: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:16:13,268 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:16:13,331 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:16:13,331 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 213.202.230.241:80
+2024-03-07 10:16:13,840 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.139.0:8000
+2024-03-07 10:16:14,139 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 212.77.163.196:3128
+2024-03-07 10:16:14,646 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.28.35:8000
+2024-03-07 10:16:14,756 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 49.13.131.88:8000
+2024-03-07 10:16:14,771 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 5.189.139.14:8118
+2024-03-07 10:16:14,787 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-03-07 10:16:14,834 - DEBUG - urllib3.connectionpool - https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:16:14,850 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 188.165.213.106:80
+2024-03-07 10:16:14,928 - DEBUG - urllib3.connectionpool - http://188.165.213.106:80 "GET http://www.google.com/ HTTP/1.1" 200 7962
+2024-03-07 10:16:14,928 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:16:14,990 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:16:14,990 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
+2024-03-07 10:16:15,084 - INFO - helpers.request.proxy_manager - http://188.165.213.106:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-07 10:16:15,084 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-03-07 10:16:15,131 - DEBUG - urllib3.connectionpool - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-03-07 10:16:15,146 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 52.196.1.182:80
+2024-03-07 10:16:15,646 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 114.129.2.82:8081
+2024-03-07 10:16:16,276 - DEBUG - urllib3.connectionpool - http://114.129.2.82:8081 "GET http://www.google.com/ HTTP/1.1" 200 8267
+2024-03-07 10:16:16,276 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.wg-gesucht.de:443
+2024-03-07 10:16:18,018 - INFO - helpers.request.proxy_manager - http://114.129.2.82:8081: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-07 10:16:18,018 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.immobilienscout24.de:443
