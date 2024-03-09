@@ -4,7 +4,7 @@ import logging
 
 def setup_logging(): 
     logging.basicConfig(
-        level=logging.DEBUG,
+        level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(name)s - %(message)s',
         handlers=[
             logging.FileHandler(LOG_PATH, mode='w'),

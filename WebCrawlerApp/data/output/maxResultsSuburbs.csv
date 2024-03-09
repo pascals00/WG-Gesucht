@@ -1,1 +1,53 @@
 District,Suburbs,Max Results
+Treptow-Köpenick,"[('Niederschöneweide', 166), ('Grünau', 135), ('Altglienicke', 115)]",24
+Treptow-Köpenick,"[('Friedrichshagen', 131), ('Johannisthal', 143)]",14
+Treptow-Köpenick,"[('Plänterwald', 85089)]",10
+Treptow-Köpenick,"[('Karolinenhof', 145)]",7
+Treptow-Köpenick,"[('Wilhelmshagen', 191), ('Rahnsdorf', 172), ('Schöneberg', 178), ('Köpenick', 150)]",171
+Treptow-Köpenick,"[('Treptow', 185)]",48
+Treptow-Köpenick,"[('Bohnsdorf', 120), ('Müggelheim', 164), ('Oberschöneweide', 169), ('Hessenwinkel', 141)]",42
+Treptow-Köpenick,"[('Adlershof', 114), ('Baumschulenweg', 116)]",59
+Lichtenberg,"[('Falkenberg', 128), ('Lichtenberg', 153), ('Wartenberg', 188)]",91
+Lichtenberg,"[('Rummelsburg', 85090), ('Neu-Hohenschönhausen', 85087)]",22
+Lichtenberg,"[('Hohenschönhausen', 142), ('Karlshorst', 144), ('Friedrichsfelde', 130), ('Malchow', 158)]",27
+Lichtenberg,"[('Alt-Hohenschönhausen', 85076)]",18
+Marzahn-Hellersdorf,"[('Biesdorf', 117), ('Marzahn-Hellersdorf', 85085), ('Mahlsdorf', 157)]",27
+Marzahn-Hellersdorf,"[('Marzahn', 162), ('Kaulsdorf', 147), ('Hellersdorf', 139)]",33
+Pankow,"[('Buch', 123), ('Buchholz', 124)]",16
+Pankow,"[('Weißensee', 190), ('Wilhelmsruh', 85095)]",37
+Pankow,"[('Prenzlauer Berg', 171), ('Blankenburg', 118)]",275
+Pankow,"[('Rosenthal', 174)]",8
+Pankow,"[('Pankow', 170)]",98
+Pankow,"[('Karow', 146), ('Französisch Buchholz', 85078), ('Blankenfelde', 119), ('Niederschönhausen', 167)]",16
+Pankow,"[('Steglitz', 181), ('Heinersdorf', 138)]",69
+Reinickendorf,"[('Marienfelde', 161), ('Lübars', 156)]",0
+Reinickendorf,"[('Marienfelde', 161), ('Lübars', 156)]",7
+Reinickendorf,"[('Borsigwalde', 121), ('Konradshöhe', 149)]",9
+Reinickendorf,"[('Wittenau', 193)]",10
+Reinickendorf,"[('Frohnau', 133)]",9
+Reinickendorf,"[('Tegel', 182), ('Heiligensee', 137)]",17
+Reinickendorf,"[('Waidmannslust', 186), ('Reinickendorf', 173)]",75
+Reinickendorf,"[('Hermsdorf', 140)]",10
+Neukölln,"[('Britz', 122), ('Rudow', 175), ('Gropiusstadt', 85081), ('Buckow', 125)]",40
+Neukölln,"[('Neukölln', 165)]",372
+Charlottenburg-Wilmersdorf,"[('Charlottenburg-Wilmersdorf', 85077), ('Wilmersdorf', 192)]",120
+Charlottenburg-Wilmersdorf,"[('Halensee', 85083), ('Grunewald', 136)]",0
+Charlottenburg-Wilmersdorf,"[('Halensee', 85083), ('Grunewald', 136)]",0
+Charlottenburg-Wilmersdorf,"[('Halensee', 85083), ('Grunewald', 136)]",13
+Charlottenburg-Wilmersdorf,"[('Schmöckwitz', 177)]",7
+Charlottenburg-Wilmersdorf,"[('Charlottenburg', 126)]",155
+Steglitz-Zehlendorf,"[('Lankwitz', 152), ('Wannsee', 187)]",22
+Steglitz-Zehlendorf,"[('Nikolassee', 168), ('Schmargendorf', 176), ('Dahlem', 127), ('Steglitz-Zehlendorf', 85093)]",37
+Steglitz-Zehlendorf,"[('Lichterfelde', 155)]",25
+Steglitz-Zehlendorf,"[('Zehlendorf', 194)]",35
+Tempelhof-Schöneberg,"[('Mariendorf', 160), ('Tempelhof', 183), ('Friedenau', 129)]",0
+Tempelhof-Schöneberg,"[('Mariendorf', 160), ('Tempelhof', 183), ('Friedenau', 129)]",108
+Tempelhof-Schöneberg,"[('Tempelhof-Schöneberg', 85094), ('Siemensstadt', 179)]",32
+Tempelhof-Schöneberg,"[('Lichtenrade', 154)]",0
+Tempelhof-Schöneberg,"[('Lichtenrade', 154)]",11
+Friedrichshain-Kreuzberg,"[('Kreuzberg', 151), ('Friedrichshain', 132), ('Friedrichshain-Kreuzberg', 85079)]",643
+Spandau,"[('Hakenfelde', 85082), ('Pichelsdorf', 85088), ('Wilhelmstadt', 85096)]",13
+Spandau,"[('Spandau', 180), ('Stadtrandsiedlung Malchow', 85092), ('Staaken', 85091), ('Kladow', 148)]",42
+Spandau,"[('Gatow', 134)]",8
+Mitte,"[('Mitte', 163), ('Wedding', 189), ('Tiergarten', 184), ('Moabit', 85086)]",553
+Mitte,"[('Gesundbrunnen', 85080)]",47
