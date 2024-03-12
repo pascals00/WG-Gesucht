@@ -51,3 +51,142 @@ Spandau,"[('Spandau', 180), ('Stadtrandsiedlung Malchow', 85092), ('Staaken', 85
 Spandau,"[('Gatow', 134)]",8
 Mitte,"[('Mitte', 163), ('Wedding', 189), ('Tiergarten', 184), ('Moabit', 85086)]",553
 Mitte,"[('Gesundbrunnen', 85080)]",47
+Treptow-Köpenick,"[('Friedrichshagen', 131), ('Müggelheim', 164), ('Hessenwinkel', 141)]",12
+Treptow-Köpenick,"[('Bohnsdorf', 120), ('Baumschulenweg', 116), ('Oberschöneweide', 169), ('Plänterwald', 85089)]",58
+Treptow-Köpenick,"[('Treptow', 185), ('Johannisthal', 143), ('Schöneberg', 178)]",183
+Treptow-Köpenick,"[('Karolinenhof', 145)]",7
+Treptow-Köpenick,"[('Köpenick', 150), ('Grünau', 135)]",38
+Treptow-Köpenick,"[('Adlershof', 114), ('Altglienicke', 115), ('Wilhelmshagen', 191)]",48
+Treptow-Köpenick,"[('Rahnsdorf', 172), ('Niederschöneweide', 166)]",14
+Lichtenberg,"[('Wartenberg', 188)]",0
+Lichtenberg,"[('Wartenberg', 188)]",9
+Lichtenberg,"[('Rummelsburg', 85090), ('Hohenschönhausen', 142), ('Neu-Hohenschönhausen', 85087), ('Falkenberg', 128)]",26
+Lichtenberg,"[('Friedrichsfelde', 130)]",13
+Lichtenberg,"[('Karlshorst', 144), ('Lichtenberg', 153), ('Malchow', 158), ('Alt-Hohenschönhausen', 85076)]",0
+Lichtenberg,"[('Karlshorst', 144), ('Lichtenberg', 153), ('Malchow', 158), ('Alt-Hohenschönhausen', 85076)]",108
+Marzahn-Hellersdorf,"[('Kaulsdorf', 147), ('Marzahn', 162)]",25
+Marzahn-Hellersdorf,"[('Biesdorf', 117)]",18
+Marzahn-Hellersdorf,"[('Mahlsdorf', 157), ('Hellersdorf', 139)]",16
+Marzahn-Hellersdorf,"[('Marzahn-Hellersdorf', 85085)]",16
+Pankow,"[('Buchholz', 124), ('Niederschönhausen', 167), ('Französisch Buchholz', 85078), ('Wilhelmsruh', 85095)]",15
+Pankow,"[('Weißensee', 190), ('Pankow', 170), ('Blankenburg', 118), ('Heinersdorf', 138)]",0
+Pankow,"[('Weißensee', 190), ('Pankow', 170), ('Blankenburg', 118), ('Heinersdorf', 138)]",130
+Pankow,"[('Karow', 146), ('Prenzlauer Berg', 171)]",277
+Pankow,"[('Blankenfelde', 119), ('Rosenthal', 174)]",8
+Pankow,"[('Buch', 123), ('Steglitz', 181)]",75
+Reinickendorf,"[('Borsigwalde', 121), ('Waidmannslust', 186), ('Hermsdorf', 140)]",13
+Reinickendorf,"[('Tegel', 182), ('Marienfelde', 161), ('Lübars', 156), ('Frohnau', 133)]",19
+Reinickendorf,"[('Reinickendorf', 173), ('Heiligensee', 137), ('Konradshöhe', 149)]",75
+Reinickendorf,"[('Wittenau', 193)]",10
+Neukölln,"[('Rudow', 175), ('Britz', 122), ('Neukölln', 165)]",388
+Neukölln,"[('Gropiusstadt', 85081), ('Buckow', 125)]",0
+Neukölln,"[('Gropiusstadt', 85081), ('Buckow', 125)]",20
+Charlottenburg-Wilmersdorf,"[('Halensee', 85083), ('Grunewald', 136), ('Wilmersdorf', 192), ('Charlottenburg', 126)]",218
+Charlottenburg-Wilmersdorf,"[('Charlottenburg-Wilmersdorf', 85077)]",0
+Charlottenburg-Wilmersdorf,"[('Charlottenburg-Wilmersdorf', 85077)]",0
+Charlottenburg-Wilmersdorf,"[('Charlottenburg-Wilmersdorf', 85077)]",0
+Charlottenburg-Wilmersdorf,"[('Charlottenburg-Wilmersdorf', 85077)]",63
+Charlottenburg-Wilmersdorf,"[('Schmöckwitz', 177)]",7
+Steglitz-Zehlendorf,"[('Schmargendorf', 176), ('Steglitz-Zehlendorf', 85093), ('Nikolassee', 168), ('Zehlendorf', 194)]",57
+Steglitz-Zehlendorf,"[('Wannsee', 187), ('Lankwitz', 152)]",21
+Steglitz-Zehlendorf,"[('Dahlem', 127), ('Lichterfelde', 155)]",0
+Steglitz-Zehlendorf,"[('Dahlem', 127), ('Lichterfelde', 155)]",34
+Tempelhof-Schöneberg,"[('Tempelhof', 183), ('Mariendorf', 160), ('Tempelhof-Schöneberg', 85094), ('Lichtenrade', 154)]",0
+Tempelhof-Schöneberg,"[('Tempelhof', 183), ('Mariendorf', 160), ('Tempelhof-Schöneberg', 85094), ('Lichtenrade', 154)]",0
+Tempelhof-Schöneberg,"[('Tempelhof', 183), ('Mariendorf', 160), ('Tempelhof-Schöneberg', 85094), ('Lichtenrade', 154)]",92
+Tempelhof-Schöneberg,"[('Siemensstadt', 179), ('Friedenau', 129)]",48
+Friedrichshain-Kreuzberg,"[('Friedrichshain-Kreuzberg', 85079), ('Kreuzberg', 151), ('Friedrichshain', 132)]",628
+Spandau,"[('Gatow', 134), ('Hakenfelde', 85082), ('Wilhelmstadt', 85096)]",13
+Spandau,"[('Kladow', 148), ('Pichelsdorf', 85088), ('Spandau', 180)]",40
+Spandau,"[('Staaken', 85091)]",10
+Spandau,"[('Stadtrandsiedlung Malchow', 85092)]",7
+Mitte,"[('Tiergarten', 184)]",29
+Mitte,"[('Moabit', 85086), ('Gesundbrunnen', 85080)]",161
+Mitte,"[('Mitte', 163)]",213
+Mitte,"[('Wedding', 189)]",0
+Mitte,"[('Wedding', 189)]",0
+Mitte,"[('Wedding', 189)]",209
+Treptow-Köpenick,"[('Karolinenhof', 145)]",0
+Treptow-Köpenick,"[('Karolinenhof', 145)]",7
+Treptow-Köpenick,"[('Bohnsdorf', 120), ('Niederschöneweide', 166), ('Friedrichshagen', 131)]",22
+Treptow-Köpenick,"[('Altglienicke', 115), ('Treptow', 185), ('Wilhelmshagen', 191), ('Schöneberg', 178)]",0
+Treptow-Köpenick,"[('Altglienicke', 115), ('Treptow', 185), ('Wilhelmshagen', 191), ('Schöneberg', 178)]",188
+Treptow-Köpenick,"[('Köpenick', 150), ('Rahnsdorf', 172), ('Müggelheim', 164), ('Baumschulenweg', 116)]",50
+Treptow-Köpenick,"[('Grünau', 135), ('Oberschöneweide', 169), ('Hessenwinkel', 141), ('Johannisthal', 143)]",45
+Treptow-Köpenick,"[('Plänterwald', 85089)]",10
+Treptow-Köpenick,"[('Adlershof', 114)]",41
+Lichtenberg,"[('Karlshorst', 144), ('Falkenberg', 128)]",21
+Lichtenberg,"[('Alt-Hohenschönhausen', 85076), ('Friedrichsfelde', 130), ('Rummelsburg', 85090), ('Malchow', 158)]",34
+Lichtenberg,"[('Lichtenberg', 153), ('Hohenschönhausen', 142), ('Neu-Hohenschönhausen', 85087), ('Wartenberg', 188)]",0
+Lichtenberg,"[('Lichtenberg', 153), ('Hohenschönhausen', 142), ('Neu-Hohenschönhausen', 85087), ('Wartenberg', 188)]",96
+Marzahn-Hellersdorf,"[('Mahlsdorf', 157), ('Marzahn-Hellersdorf', 85085), ('Biesdorf', 117)]",0
+Marzahn-Hellersdorf,"[('Mahlsdorf', 157), ('Marzahn-Hellersdorf', 85085), ('Biesdorf', 117)]",27
+Marzahn-Hellersdorf,"[('Kaulsdorf', 147)]",12
+Marzahn-Hellersdorf,"[('Marzahn', 162)]",20
+Marzahn-Hellersdorf,"[('Hellersdorf', 139)]",15
+Pankow,"[('Blankenfelde', 119), ('Steglitz', 181), ('Blankenburg', 118)]",0
+Pankow,"[('Blankenfelde', 119), ('Steglitz', 181), ('Blankenburg', 118)]",76
+Pankow,"[('Französisch Buchholz', 85078), ('Heinersdorf', 138), ('Weißensee', 190), ('Niederschönhausen', 167)]",42
+Pankow,"[('Karow', 146), ('Prenzlauer Berg', 171)]",0
+Pankow,"[('Karow', 146), ('Prenzlauer Berg', 171)]",276
+Pankow,"[('Wilhelmsruh', 85095)]",7
+Pankow,"[('Pankow', 170), ('Buch', 123), ('Rosenthal', 174), ('Buchholz', 124)]",111
+Reinickendorf,"[('Reinickendorf', 173)]",75
+Reinickendorf,"[('Borsigwalde', 121), ('Hermsdorf', 140)]",11
+Reinickendorf,"[('Waidmannslust', 186), ('Heiligensee', 137)]",9
+Reinickendorf,"[('Konradshöhe', 149), ('Tegel', 182), ('Lübars', 156)]",19
+Reinickendorf,"[('Wittenau', 193)]",0
+Reinickendorf,"[('Wittenau', 193)]",10
+Reinickendorf,"[('Marienfelde', 161)]",7
+Reinickendorf,"[('Frohnau', 133)]",9
+Neukölln,"[('Gropiusstadt', 85081)]",0
+Neukölln,"[('Gropiusstadt', 85081)]",13
+Neukölln,"[('Rudow', 175), ('Neukölln', 165), ('Buckow', 125)]",0
+Neukölln,"[('Rudow', 175), ('Neukölln', 165), ('Buckow', 125)]",391
+Neukölln,"[('Britz', 122)]",19
+Charlottenburg-Wilmersdorf,"[('Schmöckwitz', 177), ('Wilmersdorf', 192)]",64
+Charlottenburg-Wilmersdorf,"[('Charlottenburg-Wilmersdorf', 85077), ('Grunewald', 136)]",64
+Charlottenburg-Wilmersdorf,"[('Halensee', 85083), ('Charlottenburg', 126)]",162
+Steglitz-Zehlendorf,"[('Zehlendorf', 194), ('Dahlem', 127), ('Nikolassee', 168), ('Lankwitz', 152)]",56
+Steglitz-Zehlendorf,"[('Steglitz-Zehlendorf', 85093), ('Schmargendorf', 176), ('Lichterfelde', 155), ('Wannsee', 187)]",51
+Tempelhof-Schöneberg,"[('Lichtenrade', 154), ('Tempelhof', 183), ('Siemensstadt', 179), ('Friedenau', 129)]",98
+Tempelhof-Schöneberg,"[('Tempelhof-Schöneberg', 85094), ('Mariendorf', 160)]",40
+Friedrichshain-Kreuzberg,"[('Friedrichshain', 132)]",296
+Friedrichshain-Kreuzberg,"[('Kreuzberg', 151), ('Friedrichshain-Kreuzberg', 85079)]",337
+Spandau,"[('Staaken', 85091), ('Spandau', 180), ('Wilhelmstadt', 85096)]",44
+Spandau,"[('Hakenfelde', 85082)]",9
+Spandau,"[('Gatow', 134), ('Pichelsdorf', 85088), ('Stadtrandsiedlung Malchow', 85092), ('Kladow', 148)]",9
+Mitte,"[('Moabit', 85086)]",118
+Mitte,"[('Wedding', 189), ('Mitte', 163), ('Gesundbrunnen', 85080), ('Tiergarten', 184)]",477
+Treptow-Köpenick,"[('Baumschulenweg', 116)]",22
+Treptow-Köpenick,"[('Niederschöneweide', 166)]",14
+Treptow-Köpenick,"[('Friedrichshagen', 131)]",0
+Treptow-Köpenick,"[('Friedrichshagen', 131)]",11
+Treptow-Köpenick,"[('Johannisthal', 143), ('Altglienicke', 115)]",14
+Treptow-Köpenick,"[('Oberschöneweide', 169), ('Bohnsdorf', 120), ('Schöneberg', 178)]",0
+Treptow-Köpenick,"[('Oberschöneweide', 169), ('Bohnsdorf', 120), ('Schöneberg', 178)]",176
+Treptow-Köpenick,"[('Hessenwinkel', 141), ('Treptow', 185), ('Grünau', 135), ('Köpenick', 150)]",76
+Treptow-Köpenick,"[('Wilhelmshagen', 191)]",7
+Treptow-Köpenick,"[('Plänterwald', 85089), ('Müggelheim', 164)]",11
+Treptow-Köpenick,"[('Adlershof', 114), ('Karolinenhof', 145)]",40
+Treptow-Köpenick,"[('Rahnsdorf', 172)]",9
+Lichtenberg,"[('Neu-Hohenschönhausen', 85087), ('Rummelsburg', 85090), ('Malchow', 158)]",21
+Lichtenberg,"[('Friedrichsfelde', 130), ('Lichtenberg', 153)]",90
+Lichtenberg,"[('Hohenschönhausen', 142), ('Falkenberg', 128), ('Wartenberg', 188), ('Karlshorst', 144)]",25
+Lichtenberg,"[('Alt-Hohenschönhausen', 85076)]",17
+Marzahn-Hellersdorf,"[('Mahlsdorf', 157), ('Marzahn-Hellersdorf', 85085), ('Biesdorf', 117), ('Marzahn', 162)]",41
+Marzahn-Hellersdorf,"[('Kaulsdorf', 147), ('Hellersdorf', 139)]",21
+Pankow,"[('Niederschönhausen', 167), ('Wilhelmsruh', 85095), ('Steglitz', 181)]",74
+Pankow,"[('Rosenthal', 174), ('Blankenburg', 118), ('Blankenfelde', 119), ('Buchholz', 124)]",13
+Pankow,"[('Pankow', 170), ('Heinersdorf', 138), ('Buch', 123)]",106
+Pankow,"[('Französisch Buchholz', 85078), ('Weißensee', 190)]",39
+Pankow,"[('Prenzlauer Berg', 171)]",276
+Pankow,"[('Karow', 146)]",9
+Reinickendorf,"[('Tegel', 182), ('Lübars', 156)]",18
+Reinickendorf,"[('Frohnau', 133), ('Borsigwalde', 121)]",10
+Reinickendorf,"[('Heiligensee', 137), ('Waidmannslust', 186)]",9
+Reinickendorf,"[('Konradshöhe', 149), ('Reinickendorf', 173)]",79
+Reinickendorf,"[('Wittenau', 193)]",10
+Reinickendorf,"[('Marienfelde', 161)]",8
+Reinickendorf,"[('Hermsdorf', 140)]",10
+Neukölln,"[('Britz', 122), ('Rudow', 175), ('Neukölln', 165), ('Buckow', 125)]",405
