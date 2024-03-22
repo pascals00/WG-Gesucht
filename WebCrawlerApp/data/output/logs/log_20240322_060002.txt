@@ -1,0 +1,455 @@
+2024-03-22 06:00:43,778 - INFO - helpers.request.proxy_manager - http://208.196.136.141:3128: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-22 06:00:43,778 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://208.196.136.141:3128
+2024-03-22 06:00:44,633 - INFO - helpers.request.proxy_manager - http://208.196.136.141:3128: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-22 06:00:44,649 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://208.196.136.141:3128
+2024-03-22 06:00:49,298 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Baumschulenweg', 116), ('Oberschöneweide', 169), ('Friedrichshagen', 131)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:00:53,965 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Baumschulenweg', 116), ('Oberschöneweide', 169), ('Friedrichshagen', 131)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:00:58,377 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Baumschulenweg', 116), ('Oberschöneweide', 169), ('Friedrichshagen', 131)] : Stored 19 new ADs in the CSV.
+2024-03-22 06:01:01,456 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Baumschulenweg', 116), ('Oberschöneweide', 169), ('Friedrichshagen', 131)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:01:05,887 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Plänterwald', 85089)] : Stored 10 new ADs in the CSV.
+2024-03-22 06:01:08,935 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Plänterwald', 85089)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:01:10,993 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Niederschöneweide', 166), ('Altglienicke', 115)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:01:13,076 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Niederschöneweide', 166), ('Altglienicke', 115)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:01:17,522 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Niederschöneweide', 166), ('Altglienicke', 115)] : Stored 17 new ADs in the CSV.
+2024-03-22 06:01:20,587 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Niederschöneweide', 166), ('Altglienicke', 115)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:01:25,085 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Karolinenhof', 145), ('Rahnsdorf', 172), ('Wilhelmshagen', 191), ('Müggelheim', 164)] : Stored 9 new ADs in the CSV.
+2024-03-22 06:01:29,558 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Bohnsdorf', 120)] : Stored 10 new ADs in the CSV.
+2024-03-22 06:01:32,605 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Bohnsdorf', 120)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:01:37,309 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Treptow', 185)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:01:41,656 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Treptow', 185)] : Stored 19 new ADs in the CSV.
+2024-03-22 06:01:42,842 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Treptow', 185)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:01:45,898 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Treptow', 185)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:01:50,387 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Grünau', 135)] : Stored 10 new ADs in the CSV.
+2024-03-22 06:01:53,455 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Grünau', 135)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:01:57,997 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Adlershof', 114), ('Hessenwinkel', 141), ('Köpenick', 150)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:02:02,425 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Adlershof', 114), ('Hessenwinkel', 141), ('Köpenick', 150)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:02:06,879 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Adlershof', 114), ('Hessenwinkel', 141), ('Köpenick', 150)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:02:11,326 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Adlershof', 114), ('Hessenwinkel', 141), ('Köpenick', 150)] : Stored 13 new ADs in the CSV.
+2024-03-22 06:02:12,525 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Adlershof', 114), ('Hessenwinkel', 141), ('Köpenick', 150)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:02:15,554 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Adlershof', 114), ('Hessenwinkel', 141), ('Köpenick', 150)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:02:16,738 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Schöneberg', 178), ('Johannisthal', 143)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:02:21,289 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Schöneberg', 178), ('Johannisthal', 143)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:02:25,784 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Schöneberg', 178), ('Johannisthal', 143)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:02:30,383 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Schöneberg', 178), ('Johannisthal', 143)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:02:34,961 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Schöneberg', 178), ('Johannisthal', 143)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:02:39,522 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Schöneberg', 178), ('Johannisthal', 143)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:02:43,869 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Schöneberg', 178), ('Johannisthal', 143)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:02:48,494 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Schöneberg', 178), ('Johannisthal', 143)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:02:49,674 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Schöneberg', 178), ('Johannisthal', 143)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:02:54,051 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Schöneberg', 178), ('Johannisthal', 143)] : Stored 8 new ADs in the CSV.
+2024-03-22 06:02:57,176 - INFO - helpers.response.extractAdsUrls - District: Treptow-Köpenick - Suburb: [('Schöneberg', 178), ('Johannisthal', 143)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:02:58,342 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Lichtenberg', 153)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:02:59,466 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Lichtenberg', 153)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:03:03,957 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Lichtenberg', 153)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:03:05,150 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Lichtenberg', 153)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:03:09,501 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Lichtenberg', 153)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:03:13,971 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Lichtenberg', 153)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:03:15,123 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Lichtenberg', 153)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:03:19,487 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Lichtenberg', 153)] : Stored 16 new ADs in the CSV.
+2024-03-22 06:03:20,658 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Lichtenberg', 153)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:03:21,755 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Lichtenberg', 153)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:03:22,884 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Lichtenberg', 153)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:03:24,011 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Lichtenberg', 153)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:03:25,118 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Lichtenberg', 153)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:03:41,132 - INFO - helpers.request.proxy_manager - http://82.126.142.134:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:03:41,601 - INFO - helpers.request.proxy_manager - http://82.126.142.134:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:03:43,753 - INFO - helpers.request.proxy_manager - http://82.126.142.134:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:03:43,935 - INFO - helpers.request.proxy_manager - http://82.126.142.134:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:03:44,780 - INFO - helpers.request.proxy_manager - http://5.75.132.26:3129: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-22 06:03:44,780 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://5.75.132.26:3129
+2024-03-22 06:03:45,723 - INFO - helpers.request.proxy_manager - http://5.75.132.26:3129: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-22 06:03:45,723 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://5.75.132.26:3129
+2024-03-22 06:03:48,410 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Lichtenberg', 153)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:03:52,012 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Rummelsburg', 85090), ('Alt-Hohenschönhausen', 85076), ('Hohenschönhausen', 142), ('Karlshorst', 144)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:04:03,490 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Rummelsburg', 85090), ('Alt-Hohenschönhausen', 85076), ('Hohenschönhausen', 142), ('Karlshorst', 144)] : Stored 19 new ADs in the CSV.
+2024-03-22 06:04:10,085 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:04:10,116 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:04:11,256 - INFO - helpers.request.proxy_manager - http://5.75.132.26:3129: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-22 06:04:11,256 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://5.75.132.26:3129
+2024-03-22 06:04:11,649 - INFO - helpers.request.proxy_manager - http://5.75.132.26:3129: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-22 06:04:11,665 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://5.75.132.26:3129
+2024-03-22 06:04:15,576 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Rummelsburg', 85090), ('Alt-Hohenschönhausen', 85076), ('Hohenschönhausen', 142), ('Karlshorst', 144)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:04:19,558 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Neu-Hohenschönhausen', 85087), ('Malchow', 158), ('Friedrichsfelde', 130), ('Wartenberg', 188)] : Stored 17 new ADs in the CSV.
+2024-03-22 06:04:24,113 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Neu-Hohenschönhausen', 85087), ('Malchow', 158), ('Friedrichsfelde', 130), ('Wartenberg', 188)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:04:48,024 - INFO - helpers.request.proxy_manager - http://82.126.142.134:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:04:48,102 - INFO - helpers.request.proxy_manager - http://82.126.142.134:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:04:50,567 - INFO - helpers.request.proxy_manager - http://82.126.142.134:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:04:50,614 - INFO - helpers.request.proxy_manager - http://82.126.142.134:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:04:52,530 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:04:52,561 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:04:53,898 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:04:53,929 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:04:55,972 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:04:56,003 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:05:01,456 - INFO - helpers.request.proxy_manager - http://89.185.85.70:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:05:04,516 - INFO - helpers.request.proxy_manager - http://89.185.85.70:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:05:06,861 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:05:06,877 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:05:08,227 - INFO - helpers.request.proxy_manager - http://82.126.142.134:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:05:08,294 - INFO - helpers.request.proxy_manager - http://82.126.142.134:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:05:10,529 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:05:10,545 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:05:11,771 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:05:11,803 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:05:13,545 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:05:13,576 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:05:15,835 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:05:15,866 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:05:19,015 - INFO - helpers.request.proxy_manager - http://89.185.85.70:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:05:34,050 - INFO - helpers.request.proxy_manager - http://89.185.85.70:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:05:36,357 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:05:36,388 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:05:37,823 - INFO - helpers.request.proxy_manager - http://82.126.142.134:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:05:37,870 - INFO - helpers.request.proxy_manager - http://82.126.142.134:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:05:39,126 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:05:39,142 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:05:41,432 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:05:41,463 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:05:58,420 - INFO - helpers.request.proxy_manager - http://156.38.157.199:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:05:58,788 - INFO - helpers.request.proxy_manager - http://156.38.157.199:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:06:02,563 - INFO - helpers.request.proxy_manager - http://84.39.112.144:3128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:06:02,588 - INFO - helpers.request.proxy_manager - http://84.39.112.144:3128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:06:07,756 - INFO - helpers.request.proxy_manager - http://38.54.2.42:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:06:07,972 - INFO - helpers.request.proxy_manager - http://38.54.2.42:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:06:08,752 - INFO - helpers.request.proxy_manager - http://89.185.85.70:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:06:23,823 - INFO - helpers.request.proxy_manager - http://89.185.85.70:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:06:26,356 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:06:26,366 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:06:28,104 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:06:28,120 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:06:32,409 - INFO - helpers.request.proxy_manager - http://89.185.85.70:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:06:33,456 - INFO - helpers.request.proxy_manager - http://89.185.85.70:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:06:34,560 - INFO - helpers.request.proxy_manager - http://89.185.85.70:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:06:49,631 - INFO - helpers.request.proxy_manager - http://89.185.85.70:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:06:54,642 - INFO - helpers.request.proxy_manager - http://89.185.85.70:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:07:15,658 - INFO - helpers.request.proxy_manager - http://89.185.85.70:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:07:17,190 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:07:17,221 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:07:18,476 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:07:18,507 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:07:22,534 - INFO - helpers.request.proxy_manager - http://84.39.112.144:3128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:07:22,565 - INFO - helpers.request.proxy_manager - http://84.39.112.144:3128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:07:27,505 - INFO - helpers.request.proxy_manager - http://38.54.2.42:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:07:27,712 - INFO - helpers.request.proxy_manager - http://38.54.2.42:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:07:31,064 - INFO - helpers.request.proxy_manager - http://89.185.85.70:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:07:32,138 - INFO - helpers.request.proxy_manager - http://89.185.85.70:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:07:32,929 - INFO - helpers.request.proxy_manager - http://185.245.80.156:3128: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-22 06:07:32,929 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://185.245.80.156:3128
+2024-03-22 06:07:33,184 - INFO - helpers.request.proxy_manager - http://185.245.80.156:3128: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-22 06:07:33,184 - INFO - helpers.request.proxy_manager - Stored a new proxy in the CSV: http://185.245.80.156:3128
+2024-03-22 06:07:36,293 - INFO - helpers.response.extractAdsUrls - District: Lichtenberg - Suburb: [('Falkenberg', 128)] : Stored 7 new ADs in the CSV.
+2024-03-22 06:07:39,393 - INFO - helpers.response.extractAdsUrls - District: Marzahn-Hellersdorf - Suburb: [('Mahlsdorf', 157)] : Stored 7 new ADs in the CSV.
+2024-03-22 06:07:42,574 - INFO - helpers.response.extractAdsUrls - District: Marzahn-Hellersdorf - Suburb: [('Hellersdorf', 139)] : Stored 13 new ADs in the CSV.
+2024-03-22 06:07:44,203 - INFO - helpers.response.extractAdsUrls - District: Marzahn-Hellersdorf - Suburb: [('Hellersdorf', 139)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:07:47,471 - INFO - helpers.response.extractAdsUrls - District: Marzahn-Hellersdorf - Suburb: [('Kaulsdorf', 147), ('Marzahn', 162), ('Marzahn-Hellersdorf', 85085)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:07:50,524 - INFO - helpers.response.extractAdsUrls - District: Marzahn-Hellersdorf - Suburb: [('Kaulsdorf', 147), ('Marzahn', 162), ('Marzahn-Hellersdorf', 85085)] : Stored 11 new ADs in the CSV.
+2024-03-22 06:07:52,116 - INFO - helpers.response.extractAdsUrls - District: Marzahn-Hellersdorf - Suburb: [('Kaulsdorf', 147), ('Marzahn', 162), ('Marzahn-Hellersdorf', 85085)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:07:55,258 - INFO - helpers.response.extractAdsUrls - District: Marzahn-Hellersdorf - Suburb: [('Biesdorf', 117)] : Stored 16 new ADs in the CSV.
+2024-03-22 06:07:56,982 - INFO - helpers.response.extractAdsUrls - District: Marzahn-Hellersdorf - Suburb: [('Biesdorf', 117)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:08:00,165 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Buch', 123), ('Pankow', 170), ('Weißensee', 190), ('Steglitz', 181)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:08:03,206 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Buch', 123), ('Pankow', 170), ('Weißensee', 190), ('Steglitz', 181)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:08:06,321 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Buch', 123), ('Pankow', 170), ('Weißensee', 190), ('Steglitz', 181)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:08:09,719 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Buch', 123), ('Pankow', 170), ('Weißensee', 190), ('Steglitz', 181)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:08:12,795 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Buch', 123), ('Pankow', 170), ('Weißensee', 190), ('Steglitz', 181)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:08:16,303 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Buch', 123), ('Pankow', 170), ('Weißensee', 190), ('Steglitz', 181)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:08:20,473 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Buch', 123), ('Pankow', 170), ('Weißensee', 190), ('Steglitz', 181)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:08:23,576 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Buch', 123), ('Pankow', 170), ('Weißensee', 190), ('Steglitz', 181)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:08:26,663 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Buch', 123), ('Pankow', 170), ('Weißensee', 190), ('Steglitz', 181)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:08:29,689 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Buch', 123), ('Pankow', 170), ('Weißensee', 190), ('Steglitz', 181)] : Stored 15 new ADs in the CSV.
+2024-03-22 06:08:31,408 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Buch', 123), ('Pankow', 170), ('Weißensee', 190), ('Steglitz', 181)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:08:34,548 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Buchholz', 124), ('Blankenburg', 118), ('Wilhelmsruh', 85095), ('Karow', 146)] : Stored 11 new ADs in the CSV.
+2024-03-22 06:08:36,220 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Buchholz', 124), ('Blankenburg', 118), ('Wilhelmsruh', 85095), ('Karow', 146)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:08:37,951 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Heinersdorf', 138)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:08:41,223 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:08:44,336 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:08:47,465 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:08:50,546 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:08:53,604 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:08:57,691 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:09:00,818 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:09:01,194 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:09:01,537 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:09:01,886 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:09:02,209 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:09:02,581 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:09:02,901 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:09:03,246 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:09:03,621 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:09:03,975 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:09:19,871 - INFO - helpers.request.proxy_manager - http://84.39.112.144:3128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:09:19,902 - INFO - helpers.request.proxy_manager - http://84.39.112.144:3128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:09:23,944 - INFO - helpers.request.proxy_manager - http://84.39.112.144:3128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:09:23,991 - INFO - helpers.request.proxy_manager - http://84.39.112.144:3128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:09:29,456 - INFO - helpers.request.proxy_manager - http://38.54.2.42:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:09:29,674 - INFO - helpers.request.proxy_manager - http://38.54.2.42:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:09:43,417 - INFO - helpers.request.proxy_manager - http://61.110.5.2:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:09:43,859 - INFO - helpers.request.proxy_manager - http://61.110.5.2:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:09:46,121 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:09:46,152 - INFO - helpers.request.proxy_manager - http://51.254.78.223:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:09:51,304 - INFO - helpers.request.proxy_manager - http://38.54.2.42:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:09:51,500 - INFO - helpers.request.proxy_manager - http://38.54.2.42:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:09:54,833 - INFO - helpers.request.proxy_manager - http://89.185.85.70:80: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:09:54,880 - INFO - helpers.request.proxy_manager - http://89.185.85.70:80: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:09:55,754 - INFO - helpers.request.proxy_manager - http://5.75.132.26:3129: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-22 06:09:55,754 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://5.75.132.26:3129
+2024-03-22 06:09:56,745 - INFO - helpers.request.proxy_manager - http://5.75.132.26:3129: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-22 06:09:56,761 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://5.75.132.26:3129
+2024-03-22 06:10:10,705 - INFO - helpers.request.proxy_manager - http://192.99.5.161:8081: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-22 06:10:10,705 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://192.99.5.161:8081
+2024-03-22 06:10:11,819 - INFO - helpers.request.proxy_manager - http://192.99.5.161:8081: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-22 06:10:11,819 - INFO - helpers.request.proxy_manager - Stored a new proxy in the CSV: http://192.99.5.161:8081
+2024-03-22 06:10:17,405 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:10:46,580 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:10:51,107 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:10:55,704 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:11:00,170 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:11:04,672 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:11:07,737 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Prenzlauer Berg', 171)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:11:12,299 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Rosenthal', 174), ('Blankenfelde', 119), ('Niederschönhausen', 167), ('Französisch Buchholz', 85078)] : Stored 13 new ADs in the CSV.
+2024-03-22 06:11:15,301 - INFO - helpers.response.extractAdsUrls - District: Pankow - Suburb: [('Rosenthal', 174), ('Blankenfelde', 119), ('Niederschönhausen', 167), ('Französisch Buchholz', 85078)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:11:19,988 - INFO - helpers.response.extractAdsUrls - District: Reinickendorf - Suburb: [('Borsigwalde', 121), ('Waidmannslust', 186), ('Reinickendorf', 173)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:11:25,159 - INFO - helpers.response.extractAdsUrls - District: Reinickendorf - Suburb: [('Borsigwalde', 121), ('Waidmannslust', 186), ('Reinickendorf', 173)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:11:29,725 - INFO - helpers.response.extractAdsUrls - District: Reinickendorf - Suburb: [('Borsigwalde', 121), ('Waidmannslust', 186), ('Reinickendorf', 173)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:11:42,533 - INFO - helpers.response.extractAdsUrls - District: Reinickendorf - Suburb: [('Borsigwalde', 121), ('Waidmannslust', 186), ('Reinickendorf', 173)] : Stored 17 new ADs in the CSV.
+2024-03-22 06:11:46,034 - INFO - helpers.response.extractAdsUrls - District: Reinickendorf - Suburb: [('Borsigwalde', 121), ('Waidmannslust', 186), ('Reinickendorf', 173)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:11:50,645 - INFO - helpers.response.extractAdsUrls - District: Reinickendorf - Suburb: [('Konradshöhe', 149), ('Hermsdorf', 140)] : Stored 10 new ADs in the CSV.
+2024-03-22 06:11:53,721 - INFO - helpers.response.extractAdsUrls - District: Reinickendorf - Suburb: [('Konradshöhe', 149), ('Hermsdorf', 140)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:11:58,394 - INFO - helpers.response.extractAdsUrls - District: Reinickendorf - Suburb: [('Lübars', 156), ('Wittenau', 193), ('Tegel', 182)] : Stored 20 new ADs in the CSV.
+2024-03-22 06:12:01,549 - INFO - helpers.response.extractAdsUrls - District: Reinickendorf - Suburb: [('Lübars', 156), ('Wittenau', 193), ('Tegel', 182)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:12:58,808 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:12:59,121 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:00,465 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:00,787 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:02,041 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:02,394 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:04,664 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:04,978 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:05,734 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:06,047 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:07,294 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:07,607 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:09,360 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:09,662 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:11,019 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:11,340 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:13,673 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:13,996 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:14,744 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:15,056 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:16,825 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:17,152 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:17,936 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:18,240 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:19,990 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:20,304 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:22,049 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:22,366 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:23,120 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:23,434 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:25,283 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:25,596 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:26,350 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:26,659 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:28,432 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:28,741 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:29,472 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:29,790 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:30,544 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:30,865 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:32,114 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:32,431 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:34,733 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:35,049 - INFO - helpers.request.proxy_manager - http://178.128.113.118:23128: Proxy is not working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:37,083 - INFO - helpers.request.proxy_manager - http://35.185.196.38:3128: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-22 06:13:37,083 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://35.185.196.38:3128
+2024-03-22 06:13:38,583 - INFO - helpers.request.proxy_manager - http://35.185.196.38:3128: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-22 06:13:38,598 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://35.185.196.38:3128
+2024-03-22 06:13:44,442 - INFO - helpers.response.extractAdsUrls - District: Reinickendorf - Suburb: [('Marienfelde', 161)] : Stored 7 new ADs in the CSV.
+2024-03-22 06:13:49,978 - INFO - helpers.response.extractAdsUrls - District: Reinickendorf - Suburb: [('Frohnau', 133)] : Stored 7 new ADs in the CSV.
+2024-03-22 06:13:54,291 - INFO - helpers.response.extractAdsUrls - District: Reinickendorf - Suburb: [('Heiligensee', 137)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:13:59,991 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:14:03,238 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:14:08,861 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:14:12,164 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:14:17,905 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:14:23,542 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:14:29,132 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:14:35,029 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:14:36,834 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:14:42,516 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:14:48,282 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:14:53,994 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:14:59,702 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:15:05,498 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:15:11,111 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:15:16,820 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:15:22,518 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:15:28,061 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:15:33,806 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:15:39,439 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:15:45,108 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 21 new ADs in the CSV.
+2024-03-22 06:15:49,382 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Neukölln', 165)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:15:52,831 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Buckow', 125), ('Britz', 122)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:15:58,652 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Buckow', 125), ('Britz', 122)] : Stored 22 new ADs in the CSV.
+2024-03-22 06:16:02,854 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Buckow', 125), ('Britz', 122)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:16:08,721 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Rudow', 175), ('Gropiusstadt', 85081)] : Stored 18 new ADs in the CSV.
+2024-03-22 06:16:12,974 - INFO - helpers.response.extractAdsUrls - District: Neukölln - Suburb: [('Rudow', 175), ('Gropiusstadt', 85081)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:16:18,658 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Grunewald', 136), ('Charlottenburg', 126), ('Charlottenburg-Wilmersdorf', 85077)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:16:24,611 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Grunewald', 136), ('Charlottenburg', 126), ('Charlottenburg-Wilmersdorf', 85077)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:16:30,307 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Grunewald', 136), ('Charlottenburg', 126), ('Charlottenburg-Wilmersdorf', 85077)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:16:35,870 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Grunewald', 136), ('Charlottenburg', 126), ('Charlottenburg-Wilmersdorf', 85077)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:16:41,557 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Grunewald', 136), ('Charlottenburg', 126), ('Charlottenburg-Wilmersdorf', 85077)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:16:47,398 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Grunewald', 136), ('Charlottenburg', 126), ('Charlottenburg-Wilmersdorf', 85077)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:16:50,670 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Grunewald', 136), ('Charlottenburg', 126), ('Charlottenburg-Wilmersdorf', 85077)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:16:53,893 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Grunewald', 136), ('Charlottenburg', 126), ('Charlottenburg-Wilmersdorf', 85077)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:16:59,559 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Grunewald', 136), ('Charlottenburg', 126), ('Charlottenburg-Wilmersdorf', 85077)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:17:05,262 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Grunewald', 136), ('Charlottenburg', 126), ('Charlottenburg-Wilmersdorf', 85077)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:17:10,926 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Grunewald', 136), ('Charlottenburg', 126), ('Charlottenburg-Wilmersdorf', 85077)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:17:16,615 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Grunewald', 136), ('Charlottenburg', 126), ('Charlottenburg-Wilmersdorf', 85077)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:17:22,189 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Grunewald', 136), ('Charlottenburg', 126), ('Charlottenburg-Wilmersdorf', 85077)] : Stored 25 new ADs in the CSV.
+2024-03-22 06:17:25,494 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Grunewald', 136), ('Charlottenburg', 126), ('Charlottenburg-Wilmersdorf', 85077)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:17:29,710 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Grunewald', 136), ('Charlottenburg', 126), ('Charlottenburg-Wilmersdorf', 85077)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:17:34,159 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Schmöckwitz', 177)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:17:40,082 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Wilmersdorf', 192), ('Halensee', 85083)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:17:45,723 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Wilmersdorf', 192), ('Halensee', 85083)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:17:51,473 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Wilmersdorf', 192), ('Halensee', 85083)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:17:53,301 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Wilmersdorf', 192), ('Halensee', 85083)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:17:58,949 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Wilmersdorf', 192), ('Halensee', 85083)] : Stored 10 new ADs in the CSV.
+2024-03-22 06:18:03,328 - INFO - helpers.response.extractAdsUrls - District: Charlottenburg-Wilmersdorf - Suburb: [('Wilmersdorf', 192), ('Halensee', 85083)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:18:09,345 - INFO - helpers.response.extractAdsUrls - District: Steglitz-Zehlendorf - Suburb: [('Zehlendorf', 194), ('Steglitz-Zehlendorf', 85093), ('Dahlem', 127)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:18:14,839 - INFO - helpers.response.extractAdsUrls - District: Steglitz-Zehlendorf - Suburb: [('Zehlendorf', 194), ('Steglitz-Zehlendorf', 85093), ('Dahlem', 127)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:18:20,325 - INFO - helpers.response.extractAdsUrls - District: Steglitz-Zehlendorf - Suburb: [('Zehlendorf', 194), ('Steglitz-Zehlendorf', 85093), ('Dahlem', 127)] : Stored 20 new ADs in the CSV.
+2024-03-22 06:18:24,662 - INFO - helpers.response.extractAdsUrls - District: Steglitz-Zehlendorf - Suburb: [('Zehlendorf', 194), ('Steglitz-Zehlendorf', 85093), ('Dahlem', 127)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:18:30,360 - INFO - helpers.response.extractAdsUrls - District: Steglitz-Zehlendorf - Suburb: [('Lankwitz', 152), ('Nikolassee', 168), ('Schmargendorf', 176), ('Wannsee', 187)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:18:35,804 - INFO - helpers.response.extractAdsUrls - District: Steglitz-Zehlendorf - Suburb: [('Lankwitz', 152), ('Nikolassee', 168), ('Schmargendorf', 176), ('Wannsee', 187)] : Stored 7 new ADs in the CSV.
+2024-03-22 06:18:40,292 - INFO - helpers.response.extractAdsUrls - District: Steglitz-Zehlendorf - Suburb: [('Lankwitz', 152), ('Nikolassee', 168), ('Schmargendorf', 176), ('Wannsee', 187)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:18:46,015 - INFO - helpers.response.extractAdsUrls - District: Steglitz-Zehlendorf - Suburb: [('Lichterfelde', 155)] : Stored 20 new ADs in the CSV.
+2024-03-22 06:18:50,234 - INFO - helpers.response.extractAdsUrls - District: Steglitz-Zehlendorf - Suburb: [('Lichterfelde', 155)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:18:55,948 - INFO - helpers.response.extractAdsUrls - District: Tempelhof-Schöneberg - Suburb: [('Siemensstadt', 179), ('Lichtenrade', 154), ('Friedenau', 129)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:19:01,626 - INFO - helpers.response.extractAdsUrls - District: Tempelhof-Schöneberg - Suburb: [('Siemensstadt', 179), ('Lichtenrade', 154), ('Friedenau', 129)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:19:07,048 - INFO - helpers.response.extractAdsUrls - District: Tempelhof-Schöneberg - Suburb: [('Siemensstadt', 179), ('Lichtenrade', 154), ('Friedenau', 129)] : Stored 9 new ADs in the CSV.
+2024-03-22 06:19:11,084 - INFO - helpers.response.extractAdsUrls - District: Tempelhof-Schöneberg - Suburb: [('Siemensstadt', 179), ('Lichtenrade', 154), ('Friedenau', 129)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:19:16,771 - INFO - helpers.response.extractAdsUrls - District: Tempelhof-Schöneberg - Suburb: [('Mariendorf', 160)] : Stored 17 new ADs in the CSV.
+2024-03-22 06:19:21,283 - INFO - helpers.response.extractAdsUrls - District: Tempelhof-Schöneberg - Suburb: [('Mariendorf', 160)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:19:23,158 - INFO - helpers.response.extractAdsUrls - District: Tempelhof-Schöneberg - Suburb: [('Tempelhof', 183)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:19:28,970 - INFO - helpers.response.extractAdsUrls - District: Tempelhof-Schöneberg - Suburb: [('Tempelhof', 183)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:19:34,749 - INFO - helpers.response.extractAdsUrls - District: Tempelhof-Schöneberg - Suburb: [('Tempelhof', 183)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:19:38,317 - INFO - helpers.response.extractAdsUrls - District: Tempelhof-Schöneberg - Suburb: [('Tempelhof', 183)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:19:43,832 - INFO - helpers.response.extractAdsUrls - District: Tempelhof-Schöneberg - Suburb: [('Tempelhof', 183)] : Stored 8 new ADs in the CSV.
+2024-03-22 06:19:47,288 - INFO - helpers.response.extractAdsUrls - District: Tempelhof-Schöneberg - Suburb: [('Tempelhof', 183)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:19:51,497 - INFO - helpers.response.extractAdsUrls - District: Tempelhof-Schöneberg - Suburb: [('Tempelhof', 183)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:19:57,389 - INFO - helpers.response.extractAdsUrls - District: Tempelhof-Schöneberg - Suburb: [('Tempelhof-Schöneberg', 85094)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:19:59,238 - INFO - helpers.response.extractAdsUrls - District: Tempelhof-Schöneberg - Suburb: [('Tempelhof-Schöneberg', 85094)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:20:02,564 - INFO - helpers.response.extractAdsUrls - District: Tempelhof-Schöneberg - Suburb: [('Tempelhof-Schöneberg', 85094)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:20:08,017 - INFO - helpers.response.extractAdsUrls - District: Tempelhof-Schöneberg - Suburb: [('Tempelhof-Schöneberg', 85094)] : Stored 9 new ADs in the CSV.
+2024-03-22 06:20:12,379 - INFO - helpers.response.extractAdsUrls - District: Tempelhof-Schöneberg - Suburb: [('Tempelhof-Schöneberg', 85094)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:20:14,248 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:20:20,099 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:20:21,969 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:20:27,611 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:20:33,109 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:20:38,827 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:20:44,447 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:20:50,061 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:20:55,785 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:21:01,593 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:21:07,213 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:21:12,895 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:21:18,507 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:21:23,999 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:21:29,485 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:21:35,062 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:21:40,906 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:21:46,510 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:21:52,003 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:21:57,522 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:22:02,983 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:22:08,626 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:22:14,118 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:22:19,983 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:22:25,680 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:22:31,361 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:22:33,217 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:22:38,771 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:22:42,075 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:22:43,913 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:22:49,703 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:22:55,427 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:23:01,021 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 9 new ADs in the CSV.
+2024-03-22 06:23:05,375 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Kreuzberg', 151), ('Friedrichshain', 132)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:23:11,050 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Friedrichshain-Kreuzberg', 85079)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:23:12,880 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Friedrichshain-Kreuzberg', 85079)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:23:18,660 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Friedrichshain-Kreuzberg', 85079)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:23:24,267 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Friedrichshain-Kreuzberg', 85079)] : Stored 22 new ADs in the CSV.
+2024-03-22 06:23:28,532 - INFO - helpers.response.extractAdsUrls - District: Friedrichshain-Kreuzberg - Suburb: [('Friedrichshain-Kreuzberg', 85079)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:23:34,251 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Kladow', 148), ('Pichelsdorf', 85088), ('Spandau', 180)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:23:40,016 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Kladow', 148), ('Pichelsdorf', 85088), ('Spandau', 180)] : Stored 18 new ADs in the CSV.
+2024-03-22 06:23:41,864 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Kladow', 148), ('Pichelsdorf', 85088), ('Spandau', 180)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:23:45,074 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Kladow', 148), ('Pichelsdorf', 85088), ('Spandau', 180)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:23:46,848 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Kladow', 148), ('Pichelsdorf', 85088), ('Spandau', 180)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:23:48,692 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Kladow', 148), ('Pichelsdorf', 85088), ('Spandau', 180)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:23:51,947 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Kladow', 148), ('Pichelsdorf', 85088), ('Spandau', 180)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:23:53,748 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Kladow', 148), ('Pichelsdorf', 85088), ('Spandau', 180)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:23:55,516 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Kladow', 148), ('Pichelsdorf', 85088), ('Spandau', 180)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:23:57,284 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Kladow', 148), ('Pichelsdorf', 85088), ('Spandau', 180)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:23:59,074 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Kladow', 148), ('Pichelsdorf', 85088), ('Spandau', 180)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:24:16,661 - INFO - helpers.request.proxy_manager - http://129.80.134.71:3128: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-22 06:24:16,661 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://129.80.134.71:3128
+2024-03-22 06:24:17,817 - INFO - helpers.request.proxy_manager - http://129.80.134.71:3128: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-22 06:24:17,817 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://129.80.134.71:3128
+2024-03-22 06:24:21,083 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Kladow', 148), ('Pichelsdorf', 85088), ('Spandau', 180)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:24:25,581 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Staaken', 85091), ('Hakenfelde', 85082), ('Gatow', 134)] : Stored 14 new ADs in the CSV.
+2024-03-22 06:24:27,517 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Staaken', 85091), ('Hakenfelde', 85082), ('Gatow', 134)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:24:28,646 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Staaken', 85091), ('Hakenfelde', 85082), ('Gatow', 134)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:24:29,778 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Staaken', 85091), ('Hakenfelde', 85082), ('Gatow', 134)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:24:30,913 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Staaken', 85091), ('Hakenfelde', 85082), ('Gatow', 134)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:24:33,834 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Staaken', 85091), ('Hakenfelde', 85082), ('Gatow', 134)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:24:35,004 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Wilhelmstadt', 85096)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:24:39,515 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Wilhelmstadt', 85096)] : Stored 9 new ADs in the CSV.
+2024-03-22 06:24:41,533 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Stadtrandsiedlung Malchow', 85092)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:24:44,708 - INFO - helpers.response.extractAdsUrls - District: Spandau - Suburb: [('Stadtrandsiedlung Malchow', 85092)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:24:46,733 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:24:47,969 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:24:52,537 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:24:54,492 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:24:56,465 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:25:00,871 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:25:01,997 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:25:06,322 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:25:10,719 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:25:15,092 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:25:17,072 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:25:21,465 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:25:25,812 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:25:30,149 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:25:34,506 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:25:38,854 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:25:40,043 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:25:42,020 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:25:46,401 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:25:47,535 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:26:01,808 - INFO - helpers.request.proxy_manager - http://129.80.134.71:3128: Proxy is working for the website https://www.wg-gesucht.de.
+2024-03-22 06:26:01,808 - INFO - helpers.request.proxy_manager - Found a working proxy for WgGesucht: http://129.80.134.71:3128
+2024-03-22 06:26:02,671 - INFO - helpers.request.proxy_manager - http://129.80.134.71:3128: Proxy is working for the website https://www.immobilienscout24.de.
+2024-03-22 06:26:02,671 - INFO - helpers.request.proxy_manager - Proxy already in CSV: http://129.80.134.71:3128
+2024-03-22 06:26:07,194 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:26:11,611 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:26:15,968 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:26:20,404 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:26:24,912 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:26:29,325 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 23 new ADs in the CSV.
+2024-03-22 06:26:32,378 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Wedding', 189), ('Gesundbrunnen', 85080), ('Moabit', 85086)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:26:36,887 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Mitte', 163)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:26:41,242 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Mitte', 163)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:26:45,675 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Mitte', 163)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:26:46,812 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Mitte', 163)] : Stored 0 new ADs in the CSV.
+2024-03-22 06:26:51,196 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Mitte', 163)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:26:55,520 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Mitte', 163)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:26:59,859 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Mitte', 163)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:27:04,219 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Mitte', 163)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:27:08,649 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Mitte', 163)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:27:12,986 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Mitte', 163)] : Stored 26 new ADs in the CSV.
+2024-03-22 06:27:17,291 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Mitte', 163)] : Stored 20 new ADs in the CSV.
+2024-03-22 06:27:20,327 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Mitte', 163)] : Stored 6 new ADs in the CSV.
+2024-03-22 06:27:24,948 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Tiergarten', 184)] : Stored 25 new ADs in the CSV.
+2024-03-22 06:27:27,926 - INFO - helpers.response.extractAdsUrls - District: Mitte - Suburb: [('Tiergarten', 184)] : Stored 6 new ADs in the CSV.
