@@ -1,11 +1,17 @@
-# DO NOT include azure-functions-worker in this file
-# The Python Worker is managed by Azure Functions platform
-# Manually managing azure-functions-worker may cause unexpected issues
+# Dependencies
 
-azure-functions
 free-proxy
 requests
 pandas
 bs4
 openpyxl
 fastparquet
+numpy
+matplotlib
+seaborn
+statsmodels
+openpyxl
+beautifulsoup4
+requests
+fp
+IPython
