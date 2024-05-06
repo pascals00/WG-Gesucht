@@ -1,16 +1,31 @@
-@echo off
+# Set the version and download URL for Python
+$version = "3.11.9"
+$url = "https://www.python.org/ftp/python/$version/python-$version-amd64.exe"
 
-:: Check for Python 3.11 and install if not present
-python --version 2>&1 | find "Python 3.11"
-if %errorlevel% == 1 (
-    echo Installing Python 3.11...
-    powershell -Command "& {Start-Process msiexec -ArgumentList '/i https://www.python.org/ftp/python/3.11.0/python-3.11.0-amd64.exe /quiet InstallAllUsers=1 PrependPath=1' -Wait}"
-) else (
-    echo Python 3.11 is already installed.
-)
+try {
+    # Download and install Python
+    $installPath = "$($env:ProgramFiles)\Python$version"
+    Invoke-WebRequest -Uri $url -OutFile "python-$version.exe" -ErrorAction Stop
+    Start-Process "python-$version.exe" -ArgumentList "/quiet", "TargetDir=$installPath" -Wait -ErrorAction Stop
 
-:: Install required Python packages
-echo Installing required Python packages...
-pip install -r requirements.txt
+    # Add Python to the system PATH
+    $envVariable = [Environment]::GetEnvironmentVariable("Path", "Machine")
+    if ($envVariable -notcontains $installPath) {
+        [Environment]::SetEnvironmentVariable("Path", "$envVariable;$installPath", "Machine")
+        Write-Host "Added Python to PATH."
+    }
 
-echo Setup completed!
+    Write-Host "Python $version installed successfully."
+}
+catch {
+    Write-Host "An error occurred: $_"
+}
+finally {
+    # Clean up
+    if (Test-Path "python-$version.exe") {
+        Remove-Item "python-$version.exe"
+    }
+}
+
+# It may be necessary to restart the system or log off and back on for path changes to take effect
+Write-Host "Please restart your system to ensure Python is available in your PATH."
