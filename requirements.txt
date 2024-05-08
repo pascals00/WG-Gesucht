@@ -1,17 +1,13 @@
 # Dependencies
-
 free-proxy
 requests
 pandas
-bs4
+beautifulsoup4
 openpyxl
 fastparquet
 numpy
 matplotlib
 seaborn
 statsmodels
-openpyxl
-beautifulsoup4
-requests
-fp
 IPython
+ipykernel
