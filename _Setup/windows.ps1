@@ -16,16 +16,30 @@ try {
     }
 
     Write-Host "Python $version installed successfully."
+
+    # Confirm Python installation and add Python and Scripts folder to PATH for current session
+    $pythonExePath = "$installPath\python.exe"
+    $scriptsPath = "$installPath\Scripts"
+    $env:Path += ";$installPath;$scriptsPath"
+
+    # Verify Python installation
+    & $pythonExePath --version
+
+    # Install Python packages from requirements.txt
+    Write-Host "Installing Python packages from requirements.txt..."
+    & "$scriptsPath\pip.exe" install -r ..\requirements.txt
+
+    Write-Host "Python required packages installed successfully."
 }
 catch {
-    Write-Host "An error occurred: $_"
+ Write-Host "An error occurred: $_"
 }
 finally {
-    # Clean up
-    if (Test-Path "python-$version.exe") {
-        Remove-Item "python-$version.exe"
-    }
+ # Clean up
+ if (Test-Path "python-$version.exe") {
+     Remove-Item "python-$version.exe"
+ }
 }
 
 # It may be necessary to restart the system or log off and back on for path changes to take effect
-Write-Host "Please restart your system to ensure Python is available in your PATH."
+Write-Host "Please restart your system to ensure all changes take effect, especially PATH updates."
