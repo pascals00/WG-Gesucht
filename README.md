@@ -7,27 +7,25 @@ Welcome to the WG-Gesucht Web Crawler Project. This repository includes a set of
 This project is organized into several key directories:
 
 - **.setup**: Contains setup scripts for Unix and Windows environments.
-- **.venv**: Directory for the virtual environment.
 - **DataAnalysis**: Jupyter notebooks for data cleaning and analysis.
-- **README.md**: This file, providing an overview and setup instructions.
 - **WebCrawlerApp**: Python scripts for web crawling.
 - **requirements.txt**: Lists all Python libraries that the project depends on.
 
 ### Detailed Directory Contents
 
 - **WebCrawlerApp**
-  - `RoomInfoCrawler.py`: Extracts detailed information about rooms.
-  - `RoomUrlCrawler.py`: Gathers URLs of rooms from WG-Gesucht.
+  - `RoomUrlCrawler.py`: First, Gathers URLs of rooms from WG-Gesucht.
+  - `RoomInfoCrawler.py`: Second, Extracts detailed information about rooms. 
   - `data`: Folder to store output data.
   - `helpers`: Helper scripts and utilities.
 
 - **DataAnalysis**
   - `DataCleaning.ipynb`: Notebook for cleaning the gathered data.
+  - `MakroAnalysis.ipynb`: Macro-level analysis of the WG-Gesucht data. 
   - `PriceAnalysis.ipynb`: Analysis of room prices.
-  - `MakroAnalysis.ipynb`: Macro-level analysis of the housing market.
   - `PriceDeterminantsAnalysis.ipynb`: Investigates what factors influence room prices.
-  - `data`: Data resulting from web crawlers.
-  - `src`: Source files for analysis functions.
+  - `data`: Processed data from web crawlers.
+  - `src`: Additional files for analysis functions.
 
 ## Installation Process
 
@@ -43,21 +41,34 @@ Follow these steps to set up the WG-Gesucht Web Crawler Project environment:
 1. **Clone the Repository**: Start by cloning this repository to your local machine.
 2. **Operating System Specific Setup**:
    - **Unix/Linux/MacOS**:
+     - Open the Terminal in VSCode. 
+     - Now, you should be in the following directory: WG-Gesucht
      - Navigate with the terminal to the `.setup` directory from project root.
-     - Run the setup script:
-       ```bash
+        ```bash
        cd .setup
+       ```
+     - Run the setup script for the installation of Python via HomeBrew and Zsh:
+       ```bash
        ./unix.sh
        ```
    - **Windows**:
-     - Open the `.setup` folder in PowerShell.
-     - Execute the following command:
-       ```powershell 
-        cd .setup
-       ./windows.ps1
-       ```
-3. **Restart IDE**: Once the scripts have completed, restart Visual Studio Code to refresh the environment.
+     - Open Windows Explorer. 
+     - Navigate to the folder where the Repository is installed. 
+     - Open the folder `.setup`. 
+     - Start the `windows.ps1`script by right klicking the mouse and choose start with PowerShell. 
+
+3. **Restart IDE**: Once the scripts have completed, restart Visual Studio Code to refresh the environment. 
 4. **Virtual Environment**: 
-   - Activate the virtual environment located in `.venv`.
-   - Ensure the Python version is set to 3.11 in your IDE.
-5. **Install Dependencies**: Install all required Python libraries by running:
+   - The virtual Environment should be avaiable with Python 3.11.
+   - To run the Crawler, choose the virtual Enviroment. 
+   - To run the Notebooks, choose as a Kernel: WG-Gesucht Project.
+
+## Usage
+
+- Execute the web crawlers to gather data.
+- Analyze the collected data using the provided Jupyter notebooks.
+
+## Contributing
+
+Contributions to this project are welcome. Please create a pull request with your proposed changes.
+
