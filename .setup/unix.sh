@@ -57,6 +57,9 @@ install_configure_python() {
 
 # Function to install Python packages from requirements.txt at the project root
 install_python_packages() {
+
+    pip install ipykernel
+
     # Navigate to the script's directory
     cd "$(dirname "$BASH_SOURCE")"
     
@@ -83,8 +86,6 @@ install_python_packages() {
         # Install packages from requirements.txt
         pip install -r "$requirements_path"
 
-        # Deactivate the virtual environment
-        source "$venv_dir/bin/deactivate"
 
         if ! jupyter kernelspec list | grep -q 'wg_gesucht_project_env'; then
             # Install a new Jupyter kernel associated with this environment
