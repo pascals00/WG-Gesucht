@@ -34,12 +34,11 @@ Follow these steps to set up the WG-Gesucht Web Crawler Project environment:
 ### Prerequisites
 
 - **IDE**: Visual Studio Code is recommended for an optimal development experience.
-- **Python Version**: Ensure Python 3.11 is installed on your system.
 
 ### Setup Instructions
 
 1. **Clone the Repository**: Start by cloning this repository to your local machine.
-2. **Operating System Specific Setup**:
+2. **Operating System Specific Setup, Automated Pyhton Installation**:
    - **Unix/Linux/MacOS**:
      - Open the Terminal in VSCode. 
      - Now, you should be in the following directory: WG-Gesucht
