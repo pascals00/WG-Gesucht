@@ -58,8 +58,6 @@ install_configure_python() {
 # Function to install Python packages from requirements.txt at the project root
 install_python_packages() {
 
-    pip install ipykernel
-
     # Navigate to the script's directory
     cd "$(dirname "$BASH_SOURCE")"
     
